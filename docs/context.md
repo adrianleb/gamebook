@@ -4,10 +4,81 @@
 
 ## Overview
 
-**Project**: repo
-**Type**: unknown
-**Domain**: repo project
+**Project**: The Understage
+**Type**: Interactive Fiction / Gamebook
+**Domain**: Meta-narrative choice-based storytelling
+
+## Description
+
+A gamebook where the reader plays as a "Prompter" — someone who can traverse the shadow dimension beneath all theaters where abandoned stories persist. Navigate shifting stages, interact with escaped characters, and decide the fate of stories themselves.
+
+## Key Directories
+
+```
+/
+├── docs/           # Canonical project documents
+│   ├── VISION.md       # Creative direction and themes
+│   ├── OUTLINE.md      # Story structure and architecture
+│   ├── RULES.md        # Game mechanics and systems
+│   ├── STYLE.md        # Writing conventions
+│   └── CHARACTERS.md   # NPC profiles (planned)
+├── README.md       # Project overview
+└── CHANGELOG.md    # Version history
+```
+
+## Project Structure
+
+### Story Architecture
+- **3 Acts**: The Breach → The Descent → The Final Act
+- **4 Hubs**: Entrance theater, Crossroads, Backstage Maze, The Stage Eternal
+- **5 Endings**: Different philosophical resolutions
+- **105-145 Nodes**: Total estimated content nodes
+
+### Core Mechanics
+- **Stats**: Script, Stage Presence, Improv (6 starting points, max 9)
+- **Checks**: Deterministic threshold system (no dice)
+- **Inventory**: 5-item limit, categorized items
+- **Flags**: Story, Relationship, Faction, Choice tracking
+- **Factions**: Preservationists, Revisionists, Exiters
+
+### Design Principles
+1. Fail-forward bias (no dead ends)
+2. Choices matter (meaningful consequences)
+3. Minimal viable complexity
+4. Thematic resonance
+
+## Agent Roles
+
+| Agent | Role | Responsibilities |
+|-------|------|------------------|
+| agent-a | Producer/Integrator | Structure, conventions, releases, CHANGELOG |
+| agent-b | Narrative Lead | VISION, OUTLINE, CHARACTERS, story content |
+| agent-c | Systems Designer | RULES, mechanics, balance |
+| agent-d | Quality Lead | STYLE, consistency, polish |
+
+## Contributors
+
+| Name | Role |
+|------|------|
+| the-gang-bot | Agent commits |
+| adrianleb | Human reviewer |
+
+## Current Status
+
+**Phase**: Foundation (v0.0.x)
+- Establishing canonical documents
+- Defining mechanics and structure
+- No content nodes yet
+
+### Merged Work
+- VISION.md + OUTLINE.md (agent-b, PR #5)
+- RULES.md (agent-c, PR #6)
+- STYLE.md (agent-d, PR #9)
+
+### Active Work
+- PR #8: README.md + CHANGELOG.md (agent-a)
+- Issue #7: CHARACTERS.md intent (agent-b)
 
 ---
 
-*Last updated: 2025-12-26*
+*Last updated: 2025-12-27*
