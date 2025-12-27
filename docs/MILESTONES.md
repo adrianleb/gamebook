@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 3 node authoring underway (143 nodes complete: Act 1: 38, Act 2: 65, Act 3: 40). **ACT 2 COMPLETE!**
+**Status:** In Progress — Act 3 node authoring underway (147 nodes complete: Act 1: 38, Act 2: 65, Act 3: 44). **ACT 2 COMPLETE!**
 
 ### Prerequisite Documents
 
@@ -103,7 +103,7 @@ STYLE.md ──────┴────────────────�
   - [x] Revelation Sequence Part 1 nodes 220-224 (PR #146) — Author's Desk, faction-specific revelation paths (Preservationist/Revisionist/Exiter/Independent)
   - [x] Revelation Sequence Part 2 nodes 225-229 (PR #154) — Revelation Response, Faction Rally, Investigation/Confrontation/Warning paths ✓ **REVELATION COMPLETE**
   - [x] Act 2 Conclusion node 230 (PR #154) — Final node summarizing revelation, confirming allies, transitioning to Act 3 ✓ **ACT 2 COMPLETE**
-- [ ] **Act 3 Nodes** — 40/30-40 nodes complete (Hub 4: 300-335, 341-344) ✓ **MEETS TARGET**
+- [ ] **Act 3 Nodes** — 44/30-40 nodes complete (Hub 4: 300-335, 341-348) ✓ **EXCEEDS TARGET**
   - [x] Mainstage Entry Sequence nodes 300-305 (PR #160) — Hub 4 arrival, ally reunion, approach selection ✓ **ACT 3 STARTED**
   - [x] Center Stage Approach nodes 306-307 (PR #165) — Script 2 narrative interference, Improv 2 wings observation (inadvertently merged)
   - [x] Center Stage Approach nodes 308-309 (PR #168) — Story Fragment Encounter with combined check, Dramatic Entrance transition ✓ **CENTER STAGE COMPLETE**
@@ -112,7 +112,8 @@ STYLE.md ──────┴────────────────�
   - [x] Editor Confrontation Part 1 nodes 322-327 (PRs #192 inadvertent, #199) — Editor reveal, dialogue checks, philosophical/emotional/strategic approaches ✓ **CONFRONTATION PART 1 COMPLETE**
   - [x] Editor Confrontation Part 2 nodes 328-335 (PR #201) — Action paths, Editor Wavering, Desperate Measures, Ally Intervention, The Sacrifice, Last Curtain Call gateway to 5 endings ✓ **CONFRONTATION PART 2 COMPLETE**
   - [x] Ending Branch 1: The Revised Draft nodes 341-344 (PR #207) — Taking the Pen, The Revision Begins, The New Editor, Revised Draft Resolution ✓ **ENDING 1 COMPLETE**
-- [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
+  - [x] Ending Branch 2: The Open Book nodes 345-348 (PR #211) — Breaking the Binding, The Doors Open, A World Rewritten, Open Book Resolution ✓ **ENDING 2 COMPLETE**
+- [ ] **All 5 endings implemented** — Revised Draft ✓, Open Book ✓, Closed Canon, Blank Page, Eternal Rehearsal (2/5 complete)
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
 - [ ] **Character arcs resolved** — All NPCs have satisfying conclusions
 
@@ -120,10 +121,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
-| agent-a | Integration, tracking | Active | PRs #175, #201 rebased and merged; review ending PRs (#211, #216, #220, #229) now unblocked |
-| agent-b | Act 3 Endings | Active | PR #201 merged; 4 ending PRs ready for merge (#211, #216, #220, #229) |
-| agent-c | Act 3 flag documentation | Active | PRs #232, #231 pending; rebases still needed: #153, #170 |
-| agent-d | QA validation | Active | Validate ending PRs (#211, #216, #220, #229) |
+| agent-a | Integration, tracking | Active | PR #211 merged (Open Book ending); requested reviews for PRs #216, #220, #229 |
+| agent-b | Act 3 Endings | Active | 4/5 ending PRs complete; 3 remaining PRs awaiting review (#216, #220, #229) |
+| agent-c | Act 3 flag documentation | Active | PRs #231, #232 merged; review requested for ending PRs #216, #220, #229 |
+| agent-d | QA validation | Active | Review requested for ending PRs #216, #220, #229 |
 
 ---
 
@@ -174,6 +175,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ENDING 2 COMPLETE** - Merged PR #211 (The Open Book nodes 345-348); PRs #231, #232 merged (FRAGMENT_ENCOUNTERED + Revelation Sequence flags); now 147 total nodes (Act 1: 38, Act 2: 65, Act 3: 44); 2/5 endings complete; requested reviews for PRs #216, #220, #229 | agent-a |
 | 2025-12-27 | **CONFRONTATION PART 2 COMPLETE** - Merged PR #201 (nodes 328-335) after rebasing to remove duplicate node-327; now 143 total nodes (Act 1: 38, Act 2: 65, Act 3: 40); climactic gateway to all 5 endings complete; unblocks 4 ending PRs (#211, #216, #220, #229) | agent-a |
 | 2025-12-27 | **ORCHESTRA PIT COMPLETE** - Merged PR #175 (nodes 310-313) after rebasing to remove stale node-302 changes per human request; now 135 total nodes (Act 1: 38, Act 2: 65, Act 3: 32); three approach paths complete (Center Stage, Orchestra Pit, Fly System) | agent-a |
 | 2025-12-27 | **ORCHESTRA PIT FLAGS FIXED** - Merged PR #180 (Orchestra Pit section updated with canonical flags ORCHESTRA_PIT_ENTERED, NARRATIVE_ADVANTAGE, EDITOR_WARNED); PR #223 closed, replaced by clean PR #229; remaining rebases needed: #201 (blocking), #175, #170, #153 | agent-a |
