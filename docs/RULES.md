@@ -150,6 +150,24 @@ Player succeeds if ANY single stat meets the threshold. This is a "safety valve"
 
 Universal Checks should never replace stat-specific checks for content that rewards particular builds. They exist to ensure accessibility, not to flatten character differentiation.
 
+### Universal Checks
+
+For situations that should be accessible to any character build:
+
+```
+[STAT CHECK: Any 2]
+```
+
+Player succeeds if ANY single stat meets the threshold. This is a "safety valve" mechanic ensuring no build is locked out of critical progression points.
+
+**Design Guidelines:**
+- Use sparingly—only for essential story gates that must be passable by all builds
+- Typically threshold 1-2 (Basic/Standard difficulty)
+- Most common in tutorial sections and climax "fallback" options
+- The Desperate Leap (First Crossing emergency option) uses `[STAT CHECK: Any 2]`
+
+Universal Checks should never replace stat-specific checks for content that rewards particular builds. They exist to ensure accessibility, not to flatten character differentiation.
+
 ### Opposed Checks
 
 When facing an NPC with their own capabilities:
