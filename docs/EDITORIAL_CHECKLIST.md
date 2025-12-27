@@ -476,18 +476,93 @@ Every failed check MUST lead to:
 
 ### Act 2: The Descent (65 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 100-105 | Green Room Entry | 6 | [ ] |
-| 106-114 | Genre Representatives | 9 | [ ] |
-| 115-129 | Faction Quests | 15 | [ ] |
-| 130-133 | Archives Transition | 4 | [ ] |
-| 200-205 | Archives Entry | 6 | [ ] |
-| 206-214 | Investigation | 9 | [ ] |
-| 215-219 | Critic Resolution | 5 | [ ] |
-| 220-230 | Revelation | 11 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 100-105 | Green Room Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 106-114 | Genre Representatives | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 115-129 | Faction Quests | 15 | [x] PASS | agent-d | 2025-12-27 |
+| 130-133 | Archives Transition | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 200-205 | Archives Entry | 6 | [ ] | | |
+| 206-214 | Investigation | 9 | [ ] | | |
+| 215-219 | Critic Resolution | 5 | [ ] | | |
+| 220-230 | Revelation | 11 | [ ] | | |
 
-**Act 2 Total:** 0/65 reviewed
+**Act 2 Total:** 34/65 reviewed (52%)
+
+### Archives Transition Review Notes (130-133)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 130 | Archives Approach | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 131 | Official Access | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 132 | CHORUS Backdoor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 133 | Understudy's Invitation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-130.md through node-133.md)
+- Location tags present throughout (*The Green Room — The Back Passages*, *The Green Room — The Formal Passage*, *The Green Room — The Forgotten Way*, *The Green Room — The Third Corridor*)
+- Three routes to Archives (formal, hidden, partnership); all lead to Node 200
+- Node 133 (Understudy's Invitation) always available as unconditional fallback
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 4 nodes
+- CHORUS voice in nodes 130, 132 matches CHARACTERS.md profile:
+  - Speaks in plural ("We remember," "We have seen")
+  - Overlapping fragments ("—the Director's way is watched—" "—we know passages they've forgotten—")
+  - Different voices for different topics
+- Usher voice in node 131 appropriately formal for Director's domain
+- Understudy voice in node 133 matches CHARACTERS.md profile:
+  - Speaks with hesitation, questioning authenticity
+  - Uses qualifiers ("I think I remember," "I'm not sure I trust myself")
+  - More confident about research than self
+  - Moments of genuine pain when confronting identity questions
+- Tone keywords appropriately distributed: Liminal (passages, thresholds), Theatrical (corridors, observation), Uncanny (shifting lighting, impossible geography)
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific throughout
+
+**Mechanics Findings:**
+- Node 130: Three conditional choices properly formatted with requirements:
+  - `[Requires: DIRECTOR_IMPRESSED OR PRESERVATIONIST >= 3]` → Node 131
+  - `[Requires: CHORUS_ALLY]` → Node 132
+  - Always available: Understudy's invitation → Node 133
+- Node 131: Flags correctly formatted (`ARCHIVES_DISCOVERED`, `OFFICIAL_ENTRY`)
+- Node 132: `[STAT CHECK: Improv 2]` (Standard) - correct for Act 2
+  - Success: `HIDDEN_ENTRY` flag
+  - Failure: `NOTICED_ENTRY` flag (fail-forward: still enters Archives)
+- Node 133: Flags correctly formatted (`ARCHIVES_DISCOVERED`, `UNDERSTUDY_PARTNER`)
+- All flags use UPPERCASE_SNAKE_CASE
+
+**Continuity Findings:**
+- Director's formal passage references Preservationist favor and Director's Sigil correctly
+- CHORUS backdoor consistent with their collective knowledge of forgotten spaces
+- Understudy's identity crisis consistent with CHARACTERS.md backstory (copy/replacement fears)
+- Archives described consistently as repository of unwritten stories and dangerous knowledge
+- Faction requirements match ACT2_MECHANICS.md thresholds
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 2:
+  - Standard (2): 1 check (node 132 Improv check)
+- Fail-forward properly implemented:
+  - Node 132 failure: Still enters Archives but noticed by Lost Pages
+  - Unconditional path always available (Node 133)
+- Choice text accurately reflects outcomes
+- Three distinct entry methods provide meaningful player agency
+- Trade-offs clearly communicated:
+  - Official: visibility/tracking
+  - Hidden: skill check required
+  - Partnership: emotional commitment
+
+**Issues Found:** None requiring revision
 
 ### Act 3: The Final Act (51 nodes)
 
