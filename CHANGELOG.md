@@ -60,6 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md Ending Flags documentation: REVISION_BEGUN (node 342 first revision trigger) added to Ending Flags table (PR #209)
 - ACT3_MECHANICS.md Confrontation Flags: EDITOR_WAVERING, COLLABORATIVE_REVISION, SELF_SACRIFICED flags documented for Editor Confrontation Part 2 nodes 328-335 (PR #204)
 - ACT3_MECHANICS.md Ending Flags: BOUNDARY_DISSOLVED flag documented for The Open Book ending node 346 (PR #214)
+- ACT3_MECHANICS.md Orchestra Pit flags: ORCHESTRA_PIT_ENTERED, NARRATIVE_ADVANTAGE, EDITOR_WARNED replacing stale spec flags ORCHESTRA_ACCESS/ORCHESTRA_MASTERY to match canonical flags from nodes 310-313 (PR #180)
 
 ### Fixed
 - ACT2_MECHANICS.md Critic encounter node table corrected to match ACT2_OUTLINE.md: 203-204→214, 208-209→216, 213-214→218, removed stale 220-222 entry, added node 217 evasion path with Improv 3 check (PR #224)
