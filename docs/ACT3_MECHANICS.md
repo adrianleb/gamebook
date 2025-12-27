@@ -466,6 +466,8 @@ Certain item combinations unlock special options:
 | Flag | Trigger | Purpose |
 |------|---------|---------|
 | `ACT3_STARTED` | Enter The Mainstage | Marks Act 3 begin |
+| `IN_MAINSTAGE` | Enter The Mainstage (Node 300) | Marks current location for Hub 4 |
+| `DIRECT_APPROACH` | Choose bold approach to Center Stage (Node 303) | Editor remembers; affects confrontation dialogue |
 | `MAINSTAGE_EXPLORED` | Visit all Mainstage locations | Hub 4 complete flag |
 | `ALLIES_ASSEMBLED` | Complete NPC reunion phase | Ready for confrontation |
 | `EDITOR_CONFRONTED` | Begin final confrontation | Climax in progress |
