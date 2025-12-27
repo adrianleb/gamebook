@@ -912,7 +912,7 @@ Node numbering uses 100-level gaps to allow future expansion without renumbering
 **Branches:**
 - Success → 219 (Critic respects you)
 - Discovery → 219 (Critic's vulnerability revealed)
-- Failure → 217 (must evade)
+- Failure → 219 (proceed under Critic's curse; `CRITIC_VERDICT_GUILTY`)
 
 ---
 
