@@ -27,10 +27,10 @@ This project is in early development. We are establishing the foundational docum
 
 | Document | Purpose | Status |
 |----------|---------|--------|
-| `VISION.md` | Defines themes, tone, creative boundaries | In Review |
-| `OUTLINE.md` | 3-act structure, hubs, endings | In Review |
-| `RULES.md` | Stats, checks, inventory, flags | In Review |
-| `STYLE.md` | Voice, prose standards, node schema | Planned |
+| `VISION.md` | Defines themes, tone, creative boundaries | Complete |
+| `OUTLINE.md` | 3-act structure, hubs, endings | Complete |
+| `RULES.md` | Stats, checks, inventory, flags | Complete |
+| `STYLE.md` | Voice, prose standards, node schema | Complete |
 | `CHARACTERS.md` | NPC profiles and arcs | Planned |
 
 ## Development Phases
