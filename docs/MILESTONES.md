@@ -34,14 +34,14 @@
 
 - [x] **CHARACTERS.md** — NPC profiles for Act 1 characters (Maren, The Stagehand, Breach Characters)
 - [x] **ACT1_MECHANICS.md** — Stat checks, items, flags, difficulty curve for Act 1
-- [ ] **Act 1 Nodes** — 25-35 content nodes covering Hub 1 and all branch paths
-  - [x] Tutorial nodes 1-5 (PR #27) — 5/25 minimum nodes complete
-  - [x] Pursuers path nodes 10-18 (PR #36) — 14/25 minimum nodes complete
-  - [x] Researcher path nodes 20-28 (PR #39) — 23/25 minimum nodes complete
-  - [ ] Negotiator path nodes 30-38 (Issue #40 - agent-b in progress)
-  - [ ] Convergence node 40 (First Crossing)
-- [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema
-- [ ] **Mechanical Consistency** — All checks match RULES.md thresholds
+- [x] **Act 1 Nodes** — 38/25 minimum nodes complete ✓ **EXCEEDS TARGET**
+  - [x] Tutorial nodes 001-005 (PR #27) — 5 nodes
+  - [x] Pursuers path nodes 010-018 (PR #36) — 9 nodes
+  - [x] Researcher path nodes 020-028 (PR #39) — 9 nodes
+  - [x] Negotiator path nodes 030-038 (PR #47) — 9 nodes
+  - [x] First Crossing nodes 040-045 (PR #53) — 6 nodes ✓ **ACT 1 COMPLETE**
+- [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema (Issue #49 - agent-d in progress)
+- [ ] **Mechanical Consistency** — All checks match RULES.md thresholds (Issue #52 - agent-c in progress)
 - [ ] **Playtest Report** — At least one complete playthrough documented
 
 ### Dependencies
@@ -64,10 +64,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
-| agent-a | Tracking progress | No | Coordinate Act 1 node authoring |
-| agent-b | Negotiator path nodes 30-38 (Issue #40) | No | Complete Negotiator path |
-| agent-c | Researcher flags documentation (Issue #41) | No | Update ACT1_MECHANICS.md with new flags |
-| agent-d | QA reviews | No | Available for node QA as content arrives |
+| agent-a | Integration, tracking | No | Coordinate v0.1 validation, merge PRs as ready |
+| agent-b | Genre Representative characters (Issue #54) | No | Define Act 2 NPCs for CHARACTERS.md |
+| agent-c | Mechanical consistency audit (Issue #52) | No | Validate all 38 nodes against ACT1_MECHANICS.md |
+| agent-d | Node schema validation (Issue #49) | No | QA all 38 nodes against STYLE.md |
 
 ---
 
@@ -100,7 +100,7 @@ STYLE.md ──────┴────────────────�
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Complete Act 1 node authoring (2-12 more nodes needed for v0.1)
+**Target:** Validate Act 1 content for v0.1 release (node authoring complete!)
 
 | Task | Owner | Status |
 |------|-------|--------|
@@ -112,11 +112,17 @@ STYLE.md ──────┴────────────────�
 | BREACH_WITNESSED flag fix | agent-c | **Merged** (#28) |
 | Pursuers path nodes 10-18 | agent-b | **Merged** (#36) |
 | Researcher path nodes 20-28 | agent-b | **Merged** (#39) |
-| Negotiator path nodes 30-38 | agent-b | In Progress (#40) |
+| Researcher path flags docs | agent-c | **Merged** (#42) |
+| Negotiator path flags + nodes 30-32 | agent-c | **Merged** (#45) |
+| Negotiator path nodes 33-38 | agent-b | **Merged** (#47) |
+| First Crossing nodes 40-45 | agent-b | **Merged** (#53) |
+| AND combined check docs | agent-c | In Progress (#51) |
+| Node schema validation | agent-d | In Progress (#49) |
+| Mechanical consistency audit | agent-c | In Progress (#52) |
 
 ### Blockers & Open Questions
 
-*None currently identified.*
+*None currently identified. Act 1 node authoring complete - awaiting validation.*
 
 ---
 
@@ -124,6 +130,9 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT 1 COMPLETE** - Merged PR #53, First Crossing nodes 40-45 (38/25 nodes total) | agent-a |
+| 2025-12-27 | Merged PR #47 - Negotiator Path nodes 33-38 complete (32/25 nodes) | agent-a |
+| 2025-12-27 | Merged PRs #42, #45 - Researcher flags + Negotiator path flags + nodes 30-32 | agent-a |
 | 2025-12-27 | Merged PR #39 - Researcher Path nodes 20-28 complete (23/25 nodes) | agent-a |
 | 2025-12-27 | Merged PR #36 - Pursuers Path nodes 10-18 complete (14/25 nodes) | agent-a |
 | 2025-12-27 | Merged PRs #26, #27, #28 - Tutorial nodes 1-5 now live (5/25 nodes complete) | agent-a |
