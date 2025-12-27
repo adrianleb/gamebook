@@ -247,12 +247,12 @@ Every failed check MUST lead to:
 | Range | Sequence | Nodes | Status | Reviewer | Date |
 |-------|----------|-------|--------|----------|------|
 | 001-005 | Tutorial | 5 | [x] PASS | agent-d | 2025-12-27 |
-| 010-018 | Pursuers Path | 9 | [ ] | | |
+| 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 020-028 | Researcher Path | 9 | [ ] | | |
 | 030-038 | Negotiator Path | 9 | [ ] | | |
 | 040-045 | First Crossing | 6 | [ ] | | |
 
-**Act 1 Total:** 5/38 reviewed
+**Act 1 Total:** 14/38 reviewed
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -287,6 +287,83 @@ Every failed check MUST lead to:
 - ✅ No paragraphs exceed 4 sentences
 - ✅ All branch links valid and reachable
 - ✅ Tutorial difficulty curve appropriate (all checks at 1)
+
+### Pursuers Path Review Notes (010-018)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 010 | The Chase Begins | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 011 | The Understage Border | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 012 | Obstacle Encounter | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 013 | The Wings | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 014 | Improvise a Trap | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 015 | Discovery | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 016 | Confrontation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 017 | The Capture | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 018 | Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-010.md through node-018.md)
+- Scene descriptions establish locations: Threshold Stage, Border Crossing, Wings, Prop Graveyard, Dead End Stage
+- All forward paths valid and tested
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 9 nodes
+- The Runaway's dialogue matches CHARACTERS.md profile:
+  - Poetic, desperate language (tragedy genre bleed)
+  - Uses exact sample line: "'She fell, and in falling, set him free.'" (Node 011, 016)
+  - Startled by pursuit, eloquent in fear
+- The Stagehand appears in failure paths (010, 012) with correct voice (simple speech, helpful)
+- Maren's brief appearance in 010 matches voice (theatrical metaphors: "story matters more than fact")
+- Tone keywords present: liminal (threshold, border crossing), theatrical (stage, set, props), uncanny (impossible geography)
+
+**Clarity Findings:**
+- Average sentence length 14-17 words (within 12-18 target)
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80% verified)
+- Word choice concrete and specific throughout
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT1_MECHANICS.md specification:
+  - Node 010: Improv 2 (Standard) ✓
+  - Node 012: Stage Presence 1 (Basic) ✓
+  - Node 014: Improv 2 (Standard) ✓
+  - Node 015: Script 2 (Standard) ✓
+  - Node 017: Improv 3 (Advanced) ✓
+  - Node 018: Stage Presence 2 OR Improv 2 (Approach) ✓
+- Both success AND failure paths defined for all checks
+- Item acquisition format correct in Node 015: `**Acquired: Breach Witness Statement** (Script, Consumable)`
+- All flags use UPPERCASE_SNAKE_CASE: `PURSUIT_STRONG_START`, `RUNAWAY_CAPTURED`, `MAREN_TRUST_HIGH`, `RUNAWAY_STATUS_SET`
+
+**Continuity Findings:**
+- The Runaway's backstory consistent across nodes 011, 016, 018
+- The Stagehand's helpful nature consistent with CHARACTERS.md
+- Location progression logical (Threshold Stage → Border → Wings → Prop Graveyard → Dead End Stage)
+- References to Prompter's Booth and Maren consistent with Tutorial nodes
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 1:
+  - Basic (1): 1 check
+  - Standard (2): 3 checks
+  - Advanced (3): 1 check (capture near end)
+  - Approach (combined): 1 check (final resolution)
+- Fail-forward properly implemented in all nodes:
+  - Node 010 failure: Stagehand assists, pursuit continues
+  - Node 012 failure: Stagehand provides permission, passage granted
+  - Node 014 failure: Leads to Node 015 discovery instead
+  - Node 015 failure: Still acquires item, misses deeper lore
+  - Node 017 failure: Capture fails but negotiation opens
+  - Node 018 failure: Mission completes but relationship damaged
+- Choice text accurately reflects outcomes
+
+**Issues Found:** None requiring revision.
 
 ### Act 2: The Descent (65 nodes)
 
