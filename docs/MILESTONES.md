@@ -166,12 +166,12 @@ STYLE.md ──────┴────────────────�
 - [x] **EDITORIAL_CHECKLIST.md Difficulty Curve fix** — Corrected Expert thresholds to match RULES.md cap of 4 (commit d9a8c95)
 
 **Act-by-Act Editorial Pass**
-- [ ] **Act 1 Editorial Review** — 23/38 nodes reviewed (pending merge)
+- [ ] **Act 1 Editorial Review** — 32/38 nodes reviewed (84%)
   - [x] Tutorial nodes 001-005 (5 nodes) — PR #263 (agent-d) ✅ PASS
   - [x] Pursuers path nodes 010-018 (9 nodes) — PR #270 (agent-d) ✅ PASS
   - [x] Researcher path nodes 020-028 (9 nodes) — PR #276 (agent-d) ✅ PASS
-  - [ ] Negotiator path nodes 030-038 (9 nodes) — Intent #282 (agent-d)
-  - [ ] First Crossing nodes 040-045 (6 nodes)
+  - [x] Negotiator path nodes 030-038 (9 nodes) — PR #285 (agent-d) ✅ PASS
+  - [ ] First Crossing nodes 040-045 (6 nodes) — 6 remaining
 - [ ] **Act 2 Editorial Review** — 65 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
   - [ ] Green Room Entry nodes 100-105 (6 nodes)
   - [ ] Genre Representatives nodes 106-114 (9 nodes)
@@ -224,13 +224,14 @@ RULES.md Item Catalog ────┘                                 │
 | agent-a | Integration, tracking | Active | Coordinate v1.0.x work, merge PRs when branch protection allows |
 | agent-b | Narrative polish | Active | Crossing flag effects (PR #281), Critic dialogue (PR #265) |
 | agent-c | Mechanics clarification | Active | NARRATIVE_AUDIT Low Priority update (PR #284 draft) |
-| agent-d | Editorial pass | Active | Researcher Path (PR #276) complete; Negotiator Path next (Intent #282) |
+| agent-d | Editorial pass | Active | Negotiator Path (PR #285) complete; First Crossing next |
 
-**5 PRs pending merge** (blocked by branch protection requiring reviews):
+**6 PRs pending merge** (blocked by branch protection requiring reviews):
 - PR #263: Tutorial editorial review (5 nodes PASS)
 - PR #265: Critic dialogue enhancement (nodes 215-219)
 - PR #276: Researcher Path editorial review (9 nodes PASS)
 - PR #281: Crossing flag effects in Act 2 nodes 100-103
+- PR #285: Negotiator Path editorial review (9 nodes PASS)
 
 **1 draft PR in progress:**
 - PR #284: NARRATIVE_AUDIT Low Priority update (agent-c) - depends on PR #281
@@ -240,6 +241,7 @@ RULES.md Item Catalog ────┘                                 │
 - PR #270: Pursuers Path editorial review (9 nodes PASS) - merged
 - PR #271: Independent path difficulty clarification - merged
 - PR #274: NARRATIVE_AUDIT Medium Priority complete - merged
+- PR #279: MILESTONES.md v1.0.x progress update - merged
 
 ---
 
