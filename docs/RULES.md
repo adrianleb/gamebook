@@ -214,9 +214,9 @@ For complex investigations requiring multiple discoveries across different nodes
 
 ```
 [DISCOVERY CHAIN: 3 clues required]
-- Clue A: Node 205 (Script 2)
-- Clue B: Node 208 (Improv 2)
-- Clue C: Node 211 (Stage Presence 2)
+- Clue A: Node 211 (Script 2)
+- Clue B: Node 212 (Improv 2)
+- Clue C: Node 213 (Stage Presence 2)
 → All three unlock Node 215 (The Truth)
 ```
 
