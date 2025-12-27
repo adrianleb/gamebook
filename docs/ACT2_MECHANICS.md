@@ -258,9 +258,13 @@ Some Archive nodes use connected discoveries:
 **The Critic is primarily an obstacle, not an ally. Defeating or evading The Critic is required to reach The Author's Desk.**
 
 **Critic Encounter Flags:**
-- `CRITIC_DEFEATED`: Won argument; Critic respects you
-- `CRITIC_EVADED`: Avoided confrontation; Critic hunts you
-- `CRITIC_WOUNDED`: Discovered Critic's grief; possible redemption path
+- `CRITIC_ENGAGED`: First confrontation succeeded; deeper test awaits (Node 216 success)
+- `CRITIC_DISMISSED`: Failed first argument; -1 penalty to next check (Node 216 failure)
+- `CRITIC_EVADED`: Avoided confrontation; Critic hunts you (Node 217 success)
+- `CRITIC_PURSUING`: Failed evasion; forced into confrontation (Node 217 failure)
+- `CRITIC_DEFEATED`: Won argument; Critic respects you (Node 218 success)
+- `CRITIC_WOUNDED`: Discovered Critic's grief; possible redemption path (Node 218 alternative)
+- `CRITIC_VERDICT_GUILTY`: Failed judgment; curse follows into Act 3 (Node 218 failure)
 
 ### NPC Interactions: Lost Pages
 
