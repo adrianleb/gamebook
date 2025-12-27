@@ -66,6 +66,9 @@ The focal point of the climax. All ending paths converge here.
 **Center Stage Flags:**
 - `CENTER_STAGE_CONTROL`: Player commands the stage; +1 to confrontation checks
 - `FINAL_DRAFT_UNDERSTOOD`: Player knows the Final Draft's mechanisms; tactical advantage
+- `CENTER_STAGE_APPROACH`: Player took measured approach to Center Stage (Node 306)
+- `WINGS_REACHED`: Player reached the wings; observed Editor undetected (Node 307)
+- `DRAMATIC_ENTRANCE`: Player made theatrical entrance to Center Stage (Node 309)
 
 #### The Orchestra Pit
 
