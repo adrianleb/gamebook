@@ -510,6 +510,7 @@ Certain item combinations unlock special options:
 
 | Flag | Trigger | Purpose |
 |------|---------|---------|
+| `REVISION_BEGUN` | Node 342 (first revision) | Tracks start of editorial work |
 | `ENDING_REVISED_DRAFT` | Completed Ending 1 | Track for save |
 | `ENDING_OPEN_BOOK` | Completed Ending 2 | Track for save |
 | `ENDING_CLOSED_CANON` | Completed Ending 3 | Track for save |
