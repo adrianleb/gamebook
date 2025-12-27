@@ -488,6 +488,9 @@ Certain item combinations unlock special options:
 | `EDITOR_REVEALED` | Confronted Editor directly (Node 322) | Marks confrontation started |
 | `EDITOR_MOVED` | Emotional appeal success (Node 326) | Editor emotionally reached; affects ending tone |
 | `COLLABORATION_OFFERED` | Strategic cooperation success (Node 327) | Unlocks collaborative revision path to Node 331 |
+| `EDITOR_WAVERING` | Editor's certainty broken (Node 330) | Editor cooperative or broken; affects ending options |
+| `COLLABORATIVE_REVISION` | Joint editing success (Node 331) | Unlocks unique collaborative resolution |
+| `SELF_SACRIFICED` | Player sacrificed part of identity (Node 334) | Permanent character change; affects ending options |
 | `CONFRONTATION_PRESERVATIONIST` | Chose Preservationist approach | Locks other approaches |
 | `CONFRONTATION_REVISIONIST` | Chose Revisionist approach | Locks other approaches |
 | `CONFRONTATION_EXITER` | Chose Exiter approach | Locks other approaches |
