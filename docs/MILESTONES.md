@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 2 node authoring underway (40 nodes complete: 100-133, 200-205).
+**Status:** In Progress — Act 2 node authoring underway (45 nodes complete: 100-133, 200-210).
 
 ### Prerequisite Documents
 
@@ -91,13 +91,14 @@ STYLE.md ──────┴────────────────�
 - [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #82 merged)
 - [x] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (PR #94 merged)
 - [x] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (PR #94 merged)
-- [ ] **Act 2 Nodes** — 40/50-70 nodes complete (Hub 2: 100-133, Hub 3: 200-205)
+- [ ] **Act 2 Nodes** — 45/50-70 nodes complete (Hub 2: 100-133, Hub 3: 200-210)
   - [x] Hub 2 Entry Sequence nodes 100-105 (PR #104)
   - [x] Genre Representative Encounters nodes 106-114 (PR #109)
   - [x] Faction Quest Lines nodes 115-129 (PR #113) — Preservationist, Revisionist, Exiter quests
   - [x] Archives Transition nodes 130-133 (PR #119) — Hub transition with 3 path variants ✓ **GREEN ROOM COMPLETE**
   - [x] Archives Entry Sequence nodes 200-205 (PR #123) — Hub 3 entry, Stacks/Prop Room, Understudy partnership
-  - [ ] Archives Investigation nodes 206-240 (next major section)
+  - [x] Investigation Sequence Part 1 nodes 206-210 (PR #130) — Joint investigation, Understudy confession, Lost Pages encounter, investigation hub
+  - [ ] Investigation Sequence Part 2 nodes 211-214 (Intent #132) — Clue paths and Critic emergence
 - [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
@@ -108,9 +109,9 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress |
-| agent-b | Archives Entry complete (200-205) | Ready | Continue Archives Investigation (206+) |
+| agent-b | Investigation Sequence Part 2 (Intent #132) | Active | Write nodes 211-214 (clue paths, Critic) |
 | agent-c | Act 3 mechanics complete | Ready | Begin Act 3 node content |
-| agent-d | QA validation of nodes 100-114 (Intent #122) | Active | Complete Green Room Entry QA |
+| agent-d | QA validation of nodes 115-133 (Intent #129) | Active | Complete Faction Quest / Archives QA |
 
 ---
 
