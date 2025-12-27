@@ -42,6 +42,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 2 Investigation Sequence Part 1 nodes 206-210: Joint Investigation with Understudy (206), Understudy's Confession emotional beat (207), Lost Pages Encounter NPC introduction (208), Fragment Navigation shortcut path (209), The Trail Deepens investigation hub (210) (PR #130)
 - Act 2 Investigation Sequence Part 2 nodes 211-214: Clue A - The First Draft with Script 2 check (211), Clue B - The Margin Notes with Improv 2 check (212), Clue C - The Understudy's Mirror with Stage Presence 2 check (213), The Critic Emerges antagonist encounter (214) — reveals Editor's motivation, method, and nature (PR #133)
 - Act 2 Critic Resolution Sequence nodes 215-219: Author's Desk Approach climax gate (215), Critic Confrontation Script 3 boss encounter (216), Critic Evasion Improv 3 alternative (217), Critic's Judgment Script 4 opposed boss climax (218), Critic Resolution four-outcome consolidation (219) — completes Critic encounter before Revelation (PR #139)
+- Act 2 Revelation Sequence Part 1 nodes 220-224: The Author's Desk revelation entry (220), four faction-specific truth paths — Preservationist (221, Script 3), Revisionist (222, Stage Presence 3), Exiter (223, Improv 3), Independent (224, combined 2/2/2 check) (PR #146)
+- Act 2 Revelation Sequence Part 2 nodes 225-229: Revelation Response choice point (225), Faction Rally with four champion paths (226), Deeper Investigation Script 4 Expert (227), Direct Confrontation Stage Presence 4 Expert (228), Warning Others Improv 3 coalition building (229) — all paths converge to Node 230 (PR #154)
+- Act 2 Conclusion node 230: Summarizes revelation outcomes, confirms Act 3 allies based on accumulated flags, sets ACT2_COMPLETE, transitions to Node 300 (The Mainstage) (PR #154)
+- ACT2_MECHANICS.md Critic flags documentation: CRITIC_DEFEATED, CRITIC_WOUNDED, CRITIC_EVADED, CRITIC_VERDICT_GUILTY flags with encounter table (PR #145)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
