@@ -566,8 +566,8 @@ Act 1 is now 38/38 (100%) reviewed:
 | 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
 | 306-309 | Center Stage | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 310-313 | Orchestra Pit | 4 | [x] PASS | agent-d | 2025-12-27 |
-| 314-317 | Fly System | 4 | [ ] | | |
-| 318-321 | Audience | 4 | [ ] | | |
+| 314-317 | Fly System | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 318-321 | Audience | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 322-335 | Editor Confrontation | 14 | [ ] | | |
 | 341-344 | Ending: Revised Draft | 4 | [ ] | | |
 | 345-348 | Ending: Open Book | 4 | [ ] | | |
@@ -575,7 +575,7 @@ Act 1 is now 38/38 (100%) reviewed:
 | 352-353 | Ending: Blank Page | 2 | [ ] | | |
 | 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 14/51 reviewed (27%)
+**Act 3 Total:** 22/51 reviewed (43%)
 
 ### Mainstage Entry Review Notes (300-305)
 
@@ -689,16 +689,111 @@ Act 1 is now 38/38 (100%) reviewed:
 
 **Issues Found:** None requiring revision.
 
+### Fly System Review Notes (314-317)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 314 | Ascend the Fly System | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 315 | The View from Above | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 316 | Tactical Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 317 | Standard Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all 4 nodes
+- Evocative structural metaphor with narrative threads as fly system rigging
+- The Stagehand's voice in Node 317 ally conditional matches CHARACTERS.md: simple speech with insight ("Every story needs a twist")
+- All stat checks use correct notation per RULES.md:
+  - Stage Presence 3 (314), Script 3 (315) - both Advanced tier
+- Check distribution appropriate for Act 3 (all Advanced tier for approach path)
+- Fail-forward properly implemented in all nodes:
+  - Node 314 failure → Node 306 (Center Stage Approach)
+  - Node 315 failure → Node 317 (Standard Descent)
+  - Both paths lead to Node 322 (Editor confrontation)
+- Conditional content uses correct `{IF ALLIES_PRESENT}` syntax in nodes 316, 317
+- All flags use UPPERCASE_SNAKE_CASE: `FLY_SYSTEM_ASCENDED`, `STRUCTURAL_INSIGHT`, `TACTICAL_POSITION`
+- Node 317 explicitly documents fail-forward design in Notes section
+
+**Issues Found:** None requiring revision.
+
+### Audience Review Notes (318-321)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 318 | Face The Audience | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 319 | Audience Acknowledgment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 320 | Audience Judgment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 321 | Reserved (Expansion Buffer) | ✅ | N/A | ✅ | N/A | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-318.md through node-321.md)
+- Location tags present throughout (*The Mainstage — The Auditorium Edge*, *Before The Audience*, *The Audience Watches*)
+- Forward paths valid: 318→319 on success, 318→320 on failure; 319→322; 320→322 (both outcomes)
+- Node 321 is expansion buffer with redirect to Node 301 for safety
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 3 active nodes
+- Evocative meta-narrative prose about The Audience as collective story-consumers
+- The Happy Ending's brief appearance in Node 320 matches CHARACTERS.md: "warm with underlying steel" ("The story doesn't have to love us. We just have to finish it.")
+- `{IF ALLIES_PRESENT}` / `{ELSE}` / `{ENDIF}` conditional content properly structured in nodes 319, 320
+- Tone keywords appropriately distributed: Theatrical ("protagonist," "audience," "hero"), Liminal ("between," "collective gaze"), Uncanny ("weight of expectation")
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice evocative and specific: "the accumulated faith of every reader who ever turned to the next page"
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT3_OUTLINE.md specification:
+  - Node 318: Stage Presence 4 (Expert) ✓
+  - Node 320: Script 2 (Standard recovery) ✓
+- Both success AND failure paths defined for all checks
+- Fail-forward properly implemented:
+  - Node 318 failure → 320 (Audience Judgment) - recovery opportunity
+  - Node 320 failure → 322 (confrontation with doubt) - still progresses
+- Flags use UPPERCASE_SNAKE_CASE: `AUDIENCE_BLESSING`, `AUDIENCE_DOUBT`
+- Mechanical effects documented correctly:
+  - Node 319: "+2 effective Stage Presence until confrontation ends" with cap at 9
+  - Node 320 failure: "-1 effective penalty" on first opposed check
+
+**Continuity Findings:**
+- The Audience concept matches ACT3_OUTLINE.md ("everyone who has ever experienced a story")
+- Ally references in conditional content properly check presence flags
+- Editor foreshadowing appropriate ("The Editor hasn't noticed yet")
+- Node 321 reserved buffer documents design rationale for future expansion
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 3:
+  - Expert (4): 1 check (node 318) - thematically significant challenge
+  - Standard (2): 1 recovery check (node 320) - hope after failure
+- All paths lead to Node 322 (Editor confrontation) - no dead ends
+- Recovery check (Script 2) in Node 320 gives meaningful second chance
+- Consequences are significant (`AUDIENCE_BLESSING` vs `AUDIENCE_DOUBT`) but not game-ending
+- Node 321 expansion buffer ensures room for iteration without blocking current play
+
+**Issues Found:** None requiring revision.
+
 ---
 
 ## Act 3 Editorial Progress
 
-Act 3 is now 14/51 (27%) reviewed:
+Act 3 is now 22/51 (43%) reviewed:
 - ✅ Mainstage Entry (300-305) - 6 nodes PASS
 - ✅ Center Stage (306-309) - 4 nodes PASS
 - ✅ Orchestra Pit (310-313) - 4 nodes PASS
-- ⬜ Fly System (314-317) - 4 nodes pending
-- ⬜ Audience (318-321) - 4 nodes pending
+- ✅ Fly System (314-317) - 4 nodes PASS
+- ✅ Audience (318-321) - 4 nodes PASS
 - ⬜ Editor Confrontation (322-335) - 14 nodes pending
 - ⬜ Ending: Revised Draft (341-344) - 4 nodes pending
 - ⬜ Ending: Open Book (345-348) - 4 nodes pending
@@ -713,8 +808,8 @@ Act 3 is now 14/51 (27%) reviewed:
 Combined progress:
 - **Act 1:** 38/38 (100% COMPLETE)
 - **Act 2:** 65/65 (100% COMPLETE)
-- **Act 3:** 14/51 (27%)
-- **Total:** 117/154 nodes (76%)
+- **Act 3:** 22/51 (43%)
+- **Total:** 125/154 nodes (81%)
 
 ---
 
