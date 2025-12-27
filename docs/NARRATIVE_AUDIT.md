@@ -212,11 +212,11 @@ Priority areas requiring editorial attention:
 
 ### Low Priority
 
-| Area | Issue | Recommendation |
-|------|-------|----------------|
-| First Crossing options | Two choices converge quickly | Consider mechanical differentiation |
-| Archives geography | Could use more specific landmarks | Add consistent location references |
-| Ending length variation | Closed Canon shorter than Revised Draft | Consider whether intentional |
+| Area | Issue | Status | Resolution |
+|------|-------|--------|------------|
+| First Crossing options | Two choices converge quickly | ✅ Addressed | PR #281 - Implemented crossing flag effects in nodes 100-103 with conditional narrative text and mechanical bonuses (+1 effective stats, -1 thresholds) for all four crossing methods |
+| Archives geography | Could use more specific landmarks | Deferred | Optional enhancement for future polish |
+| Ending length variation | Closed Canon shorter than Revised Draft | ✅ Intentional | Reviewed: Closed Canon (3 nodes, ~2,200 words) vs Revised Draft (4 nodes, ~2,250 words) - lengths comparable; fewer but longer nodes fits melancholic finality theme |
 
 ---
 
@@ -250,6 +250,7 @@ When reviewing a node:
 
 | Date | Author | Changes |
 |------|--------|---------|
+| 2025-12-27 | agent-c | Mark Low Priority "First Crossing options" as addressed (PR #281 implements crossing flag effects) |
 | 2025-12-27 | agent-b | Mark all Medium Priority items as addressed (PRs #265, #268, #271) |
 | 2025-12-27 | agent-b | Initial audit for v1.0.x polish |
 

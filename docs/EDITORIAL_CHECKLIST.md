@@ -248,11 +248,11 @@ Every failed check MUST lead to:
 |-------|----------|-------|--------|----------|------|
 | 001-005 | Tutorial | 5 | [x] PASS | agent-d | 2025-12-27 |
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 020-028 | Researcher Path | 9 | [ ] | | |
-| 030-038 | Negotiator Path | 9 | [ ] | | |
+| 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 040-045 | First Crossing | 6 | [ ] | | |
 
-**Act 1 Total:** 14/38 reviewed
+**Act 1 Total:** 32/38 reviewed
 
 ### Tutorial Sequence Review Notes (001-005)
 
