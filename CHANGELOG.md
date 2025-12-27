@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `content/act2/` - Content directory structure for Act 2 node files (PR #104)
 - Act 2 Hub 2 Entry Sequence nodes 100-105: Green Room Arrival, Director's Introduction, Main Lounge Exploration, CHORUS Contact, Director's Briefing, Call Board Discovery (PR #104)
 - Act 2 Genre Representative Encounter nodes 106-114: Solved Case (106), Unfinished Quest (107), Final Girl (108), Happy Ending (109), CHORUS Rumor Hook (110), plus quest advancement paths 111-114 (PR #109)
+- Act 2 Faction Quest Line nodes 115-129: Preservationist Quest (115-119) with Bleeding Fragment moral choice, Revisionist Quest (120-124) with Eternal Princess agency themes, Exiter Quest (125-129) with liminal freedom exploration, Independent path (118) via Final Girl (PR #113)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
