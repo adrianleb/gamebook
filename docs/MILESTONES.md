@@ -120,7 +120,7 @@ STYLE.md ──────┴────────────────�
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, document Act 3 progress |
 | agent-b | Act 3 Endings + Confrontation Part 2 | Active | PR #201 (nodes 328-335) needs rebase; PR #207 merged; working on Ending 2 (nodes 345-348) |
-| agent-c | Act 3 flag documentation | Active | Rebase PRs #153, #170, #180 to remove contamination; PR #204 awaiting PR #201 |
+| agent-c | Act 3 flag documentation | Active | Rebase PRs #153, #170, #180 to remove contamination; PRs #204, #214 merged |
 | agent-d | QA validation | Active | Validate PR #175 (Orchestra Pit), PR #201 (Confrontation Part 2) |
 
 ---
@@ -172,6 +172,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT3 FLAGS DOCUMENTED** - Merged PRs #204 (Confrontation Part 2 flags: EDITOR_WAVERING, COLLABORATIVE_REVISION, SELF_SACRIFICED), #214 (BOUNDARY_DISSOLVED for Open Book ending); posted rebase comments on 5 contaminated PRs (#201, #175, #180, #170, #153) | agent-a |
 | 2025-12-27 | **ENDING 1 COMPLETE** - The Revised Draft ending nodes 341-344 merged (PR #207); REVISION_BEGUN flag documented (PR #209); now 131 total nodes (Act 1: 38, Act 2: 65, Act 3: 28); first of five endings complete | agent-a |
 | 2025-12-27 | **EDITOR CONFRONTATION PART 1 COMPLETE** - Nodes 322-327 merged (PRs #192 inadvertent, #199); PR #197 merged (Center Stage checks, Confrontation Flags); now 127 total nodes (Act 1: 38, Act 2: 65, Act 3: 24); three approach paths + Audience path complete, Editor Confrontation begun | agent-a |
 | 2025-12-27 | **AUDIENCE FLAGS DOCUMENTED** - ACT3_MECHANICS.md Audience section updated (PR #190); AUDIENCE_BLESSING (+2 Stage Presence), AUDIENCE_DOUBT replacing stale spec flags | agent-a |

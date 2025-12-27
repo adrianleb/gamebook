@@ -58,6 +58,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md Center Stage check table updated to match nodes 322-327 implementation; 3 new Confrontation Flags documented: EDITOR_REVEALED, EDITOR_MOVED, COLLABORATION_OFFERED (PR #197)
 - Act 3 Ending Branch 1: The Revised Draft nodes 341-344: Taking the Pen ending approach with faction-variable Editor response (341), The Revision Begins transition with first revision and ally-variable content (342), The New Editor ending beat with ally farewells (343), Revised Draft Resolution conclusion with ENDING_REVISED_DRAFT flag (344) — Revisionist-aligned ending complete (PR #207)
 - ACT3_MECHANICS.md Ending Flags documentation: REVISION_BEGUN (node 342 first revision trigger) added to Ending Flags table (PR #209)
+- ACT3_MECHANICS.md Confrontation Flags: EDITOR_WAVERING, COLLABORATIVE_REVISION, SELF_SACRIFICED flags documented for Editor Confrontation Part 2 nodes 328-335 (PR #204)
+- ACT3_MECHANICS.md Ending Flags: BOUNDARY_DISSOLVED flag documented for The Open Book ending node 346 (PR #214)
 
 ### Fixed
 - ACT3_MECHANICS.md and RULES.md NPC reunion flag names corrected: PAGES_RESTORED→PAGES_BEFRIENDED, HAPPY_ENDING_ALLIED→HAPPY_ENDING_FRIEND to match canonical flags in content nodes (PR #162)
