@@ -930,14 +930,16 @@ Node numbering uses 300-level to maintain consistency with Act 2 (100s for Hub 2
 
 ### Hub 4 Check Distribution
 
-| Difficulty | Threshold | Count | Percentage |
-|------------|-----------|-------|------------|
-| Standard | 2 | 8 | ~25% |
-| Advanced | 3 | 10 | ~32% |
-| Expert | 4 | 8 | ~25% |
-| Opposed/Combined | Special | 6 | ~18% |
+Per RULES.md Act 3 target curve (30% Basic/Standard, 50% Advanced, 20% Expert):
 
-*Hub 4 skews harder due to climactic confrontation focus. Expert checks are more common than previous hubs.*
+| Difficulty | Threshold | Target % | Notes |
+|------------|-----------|----------|-------|
+| Basic | 1 | 15% | Entry-level checks, accessibility gates |
+| Standard | 2 | 15% | Moderate investment checks |
+| Advanced | 3 | 50% | Primary challenge tier for climax |
+| Expert | 4 | 20% | High-stakes pivotal moments |
+
+*Hub 4 skews toward Advanced and Expert checks due to climactic confrontation focus. All Expert checks have alternative paths per RULES.md fail-forward requirement. Opposed and Combined checks are categorized by their effective difficulty threshold.*
 
 ### Ending Distribution
 
