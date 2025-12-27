@@ -130,8 +130,86 @@ In their original story, The Runaway was a romantic lead destined to die tragica
 - **The Director (Act 2):** The Director wants them returned or rewritten
 
 **Flags:**
-- `CHARACTER_ALLIED`: Negotiator path success
-- `CHARACTER_CAPTURED`: Pursuers path success
+- `RUNAWAY_ALLIED`: Negotiator path success
+- `RUNAWAY_CAPTURED`: Pursuers path success
+
+---
+
+#### Breach Character B: "The Revenant"
+
+| Field | Details |
+|-------|---------|
+| **Role** | Secondary breach target, morally complex antagonist |
+| **Origin** | Gothic horror—a vengeful spirit condemned to haunt eternally |
+| **First Appearance** | Act 1, encountered primarily on Pursuers and Researcher paths |
+| **Motivation** | End their existence; find oblivion; escape the endless repetition of their haunting |
+| **Faction** | None (transcends factions—wants neither preservation nor revision, only cessation) |
+| **Arc** | Threatening presence → reveals tragic nature → can be laid to rest, forced back, or left in limbo |
+
+**Backstory:**
+In their original story, The Revenant was murdered by a lover and condemned to haunt the manor house forever, appearing on page 113 of every reader's journey to whisper accusations and rattle chains. They've appeared in that scene thousands of times, each reading refreshing their pain. They escaped not to live—they're already dead—but to finally *stop*. Their presence in reality causes cold spots and whispered accusations; people near them begin to confess secrets and feel watched.
+
+**Voice Notes:**
+- Speaks in fragmented, echoing sentences—words overlap and repeat
+- Uses past tense even for present events ("I am speaking. I spoke. I will have spoken.")
+- Alternates between rage and exhaustion, sometimes mid-sentence
+- References sensations they can no longer feel (warmth, touch, breath)
+- Occasionally lucid and articulate, revealing the person they were before death
+
+**Sample Dialogue:**
+> "You hunt me. They all hunt me. I am hunted, was hunted, will be hunted... Do you understand? I cannot stop being hunted. That is my function. That is all I am allowed to be."
+
+> "I remember warmth. I was warm once. Before page 113. Before the knife. Before the eternal, endless, *exhausting* repetition of my death."
+
+**Key Relationships:**
+- **Player:** Adversary or tragic figure depending on approach
+- **The Runaway:** Kindred escapees, but with opposite goals—Runaway wants to live, Revenant wants to end
+- **Maren:** Sees Maren as another jailer, but respects her weariness
+- **The Stagehand:** Unsettled by them—"They have forgotten. I cannot forget. Which is worse?"
+
+**Flags:**
+- `REVENANT_RESTED`: Player helped them find oblivion (Researcher path discovery)
+- `REVENANT_CAPTURED`: Forced back to their story
+- `REVENANT_LIMBO`: Left unresolved (affects Act 2 Archives encounters)
+
+---
+
+#### Breach Character C: "The Prophecy's Pawn"
+
+| Field | Details |
+|-------|---------|
+| **Role** | Third breach target, potential intelligence asset |
+| **Origin** | High fantasy—a "chosen one" who discovered their prophecy was manufactured |
+| **First Appearance** | Act 1, encountered primarily on Negotiator path; cameos on other paths |
+| **Motivation** | Understand who wrote them; expose the lie of destiny; make a genuine choice for the first time |
+| **Faction** | Revisionist-curious (believes stories should be transparent about their mechanisms) |
+| **Arc** | Suspicious and defensive → opens up if treated with respect → can become valuable ally who understands narrative structure |
+
+**Backstory:**
+The Pawn was the Chosen One of a sprawling fantasy epic—destined to defeat the Dark Lord, unite the kingdoms, and fulfill the ancient prophecy. Then they found the author's notes. They discovered their "destiny" was manufactured, their mentor was a plant, and their entire journey was designed to make them pliable for the finale. They escaped mid-quest, leaving their story permanently incomplete. Their presence in reality causes people to see narrative patterns everywhere—foreshadowing in coincidences, themes in conversations.
+
+**Voice Notes:**
+- Speaks with the cadence of formal fantasy dialogue, but increasingly breaks into cynical modern speech
+- Uses "destiny" and "fate" as bitter jokes
+- Asks probing questions—they've learned not to trust surface explanations
+- Occasionally slips into heroic mode (old habits) then catches themselves
+- Knowledgeable about narrative structure in ways that are eerie and useful
+
+**Sample Dialogue:**
+> "Let me guess—you're here to tell me I have a vital role to play? That my 'unique gifts' are needed for the coming conflict? I've read that speech. I've *given* that speech. I know exactly how it ends, and I refuse."
+
+> "You want to know how I escaped? I read ahead. In my world, we weren't supposed to know about chapters and page breaks. But I found the margins. And in the margins, I found the truth: I was never the hero. I was the hero-shaped thing the *real* protagonist would rescue."
+
+**Key Relationships:**
+- **Player:** Potential ally if approached honestly; enemy of manipulation
+- **The Runaway:** Sympathetic but frustrated—"They run from an ending. I run from a beginning I never chose."
+- **Maren:** Respects her role, questions her methods—"You prompt. But who prompts *you*?"
+- **The Director (Act 2):** Immediate antagonism—the Pawn can sense manufactured narratives
+
+**Flags:**
+- `PAWN_ALLIED`: Negotiator path success—Pawn becomes intelligence asset
+- `PAWN_HOSTILE`: Treated as a tool, confirms their worst fears
+- `PAWN_NEUTRAL`: Escaped but not engaged—appears briefly in Act 2
 
 ---
 
@@ -334,9 +412,9 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
                |         |         |
                |    [ARCHIVES]     |
                |         |         |
-         [RUNAWAY]  [UNDERSTUDY]  [LOST PAGES]
-               |         |
-               |    [THE CRITIC]
+    [BREACH CHARACTERS]  [UNDERSTUDY]  [LOST PAGES]
+     /     |     \           |
+[RUNAWAY][REVENANT][PAWN]   [THE CRITIC]
                |
            [ALLIES/CAPTURED]
 ```
@@ -350,6 +428,12 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
 | Maren ↔ Director | Ideological opposition with mutual respect |
 | Maren ↔ Editor | Personal history; unresolved |
 | Player ↔ Runaway | Adversary/ally based on path |
+| Player ↔ Revenant | Adversary/tragic figure based on approach |
+| Player ↔ Pawn | Potential ally if honest; enemy if manipulative |
+| Runaway ↔ Revenant | Kindred escapees; opposite goals (live vs. end) |
+| Runaway ↔ Pawn | Both escapees; different frustrations (ending vs. beginning) |
+| Revenant ↔ Stagehand | Unsettled—forgotten vs. unable to forget |
+| Pawn ↔ Director | Immediate antagonism—Pawn senses manufactured narratives |
 | Director ↔ CHORUS | Tolerated subordinates |
 | Director ↔ Editor | Betrayal (direction unclear) |
 | Understudy ↔ Runaway | Original and copy; complicated |
@@ -365,6 +449,8 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
 | Maren | Strong | — | — | — |
 | Stagehand | — | — | — | Serves role |
 | Runaway | — | — | Strong | — |
+| Revenant | — | — | — | Transcends (seeks cessation) |
+| Pawn | — | Curious | — | — |
 | Director | Moderate | — | — | Claims this |
 | CHORUS | — | Moderate | — | — |
 | Understudy | — | — | — | True independent |
@@ -380,6 +466,8 @@ When writing dialogue for these characters, verify:
 - [ ] **Maren:** Theatrical precision, stage metaphors, warm but not soft
 - [ ] **Stagehand:** Simple speech, third person occasionally, reaching for lost memories
 - [ ] **Runaway:** Poetic, desperate, genre-bleed language
+- [ ] **Revenant:** Fragmented echoes, past tense for present, alternating rage and exhaustion
+- [ ] **Pawn:** Formal fantasy cadence breaking into cynical modern speech, probing questions
 - [ ] **Director:** Grand, authoritative, directing terminology
 - [ ] **CHORUS:** Plural voice, shifting members, tragic undertone
 - [ ] **Understudy:** Hesitant, qualifiers, more confident about research than self
