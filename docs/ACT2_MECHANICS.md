@@ -118,7 +118,7 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 |------------|-------|------|---------|---------|
 | 103-104 | [STAT CHECK: Improv 1] | Basic | CHORUS welcomes you; share minor information | CHORUS ignores you; must earn attention |
 | 108-109 | [STAT CHECK: Stage Presence 2] | Standard | CHORUS shares useful rumor | Generic information only |
-| 113-114 | [APPROACH CHECK: Improv 3 OR Stage Presence 3] | Combined | CHORUS reveals faction secrets | CHORUS hints cryptically |
+| 113-114 | [APPROACH CHECK: Improv 3 OR Stage Presence 3] | Approach | CHORUS reveals faction secrets | CHORUS hints cryptically |
 | 120-122 | [STAT CHECK: Improv 3] | Advanced | Join CHORUS temporarily; access collective memory | CHORUS amused but unhelpful |
 
 **CHORUS Relationship Flags:**
@@ -160,7 +160,7 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 |------------|-------|------|---------|---------|
 | 108 | [STAT CHECK: Improv 2] | Standard | She shares survival wisdom | Generic advice only |
 | 113 | [STAT CHECK: Script 2] | Standard | Recognize her pattern-breaking | Miss the significance |
-| 118 | [APPROACH CHECK: Improv 3 OR Script 3] | Combined | She reveals the Director's secret | Hints only; must discover independently |
+| 118 | [APPROACH CHECK: Improv 3 OR Script 3] | Approach | She reveals the Director's secret | Hints only; must discover independently |
 
 **Flags:** `FINAL_GIRL_TRUST`, `INDEPENDENT_PATH_OPEN` (if faction scores all low)
 
@@ -270,7 +270,7 @@ Some Archive nodes use connected discoveries:
 |------------|-------|------|---------|---------|
 | 206 | [STAT CHECK: Improv 2] | Standard | Communicate with Lost Pages | Gibberish only |
 | 211 | [STAT CHECK: Script 2] | Standard | Reconstruct useful information | Fragments without context |
-| 216 | [APPROACH CHECK: Improv 3 OR Script 3] | Combined | Lost Pages guide you safely | Navigate alone (harder) |
+| 216 | [APPROACH CHECK: Improv 3 OR Script 3] | Approach | Lost Pages guide you safely | Navigate alone (harder) |
 
 **Flags:** `PAGES_BEFRIENDED`, `PAGES_RESTORED` (helped a Lost Page become whole again)
 
