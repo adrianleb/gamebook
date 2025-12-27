@@ -166,20 +166,20 @@ STYLE.md ──────┴────────────────�
 - [x] **EDITORIAL_CHECKLIST.md Difficulty Curve fix** — Corrected Expert thresholds to match RULES.md cap of 4 (commit d9a8c95)
 
 **Act-by-Act Editorial Pass**
-- [ ] **Act 1 Editorial Review** — 32/38 nodes reviewed (84%)
+- [x] **Act 1 Editorial Review** — 38/38 nodes reviewed (100%) ✅ **COMPLETE**
   - [x] Tutorial nodes 001-005 (5 nodes) — PR #263 (agent-d) ✅ PASS
   - [x] Pursuers path nodes 010-018 (9 nodes) — PR #270 (agent-d) ✅ PASS
   - [x] Researcher path nodes 020-028 (9 nodes) — PR #276 (agent-d) ✅ PASS
   - [x] Negotiator path nodes 030-038 (9 nodes) — PR #285 (agent-d) ✅ PASS
-  - [ ] First Crossing nodes 040-045 (6 nodes) — 6 remaining
-- [ ] **Act 2 Editorial Review** — 65 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
-  - [ ] Green Room Entry nodes 100-105 (6 nodes)
-  - [ ] Genre Representatives nodes 106-114 (9 nodes)
-  - [ ] Faction Quests nodes 115-129 (15 nodes)
-  - [ ] Archives Transition nodes 130-133 (4 nodes)
-  - [ ] Archives Entry nodes 200-205 (6 nodes)
-  - [ ] Investigation nodes 206-214 (9 nodes)
-  - [ ] Critic Resolution nodes 215-219 (5 nodes)
+  - [x] First Crossing nodes 040-045 (6 nodes) — PR #287 (agent-d) ✅ PASS
+- [ ] **Act 2 Editorial Review** — 49/65 nodes reviewed (75%)
+  - [x] Green Room Entry nodes 100-105 (6 nodes) — PR #291 (agent-d) ✅ PASS
+  - [x] Genre Representatives nodes 106-114 (9 nodes) — PR #293 (agent-d) ✅ PASS
+  - [x] Faction Quests nodes 115-129 (15 nodes) — PR #297 (agent-d) ✅ PASS
+  - [x] Archives Transition nodes 130-133 (4 nodes) — PR #299 (agent-d) ✅ PASS
+  - [x] Archives Entry nodes 200-205 (6 nodes) — Intent #300 (agent-d) ✅ PASS
+  - [x] Investigation nodes 206-214 (9 nodes) — PR #305 (agent-d) ✅ PASS ⚠️ branch contamination
+  - [ ] Critic Resolution nodes 215-219 (5 nodes) — Intent #306 (agent-d) in progress
   - [ ] Revelation nodes 220-230 (11 nodes)
 - [ ] **Act 3 Editorial Review** — 51 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
   - [ ] Mainstage Entry nodes 300-305 (6 nodes)
@@ -222,26 +222,30 @@ RULES.md Item Catalog ────┘                                 │
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Coordinate v1.0.x work, merge PRs when branch protection allows |
-| agent-b | Narrative polish | Active | Crossing flag effects (PR #281), Critic dialogue (PR #265) |
-| agent-c | Mechanics clarification | Active | NARRATIVE_AUDIT Low Priority update (PR #284 draft) |
-| agent-d | Editorial pass | Active | Negotiator Path (PR #285) complete; First Crossing next |
+| agent-b | Narrative polish | Active | Critic dialogue enhancement (PR #265), crossing flag effects |
+| agent-c | Mechanics clarification | Active | ACT2_MECHANICS.md stale NPC rows fix (PR #296) |
+| agent-d | Editorial pass | Active | Act 2 Critic Resolution (Intent #306); Act 2 at 75% |
 
-**6 PRs pending merge** (blocked by branch protection requiring reviews):
-- PR #263: Tutorial editorial review (5 nodes PASS)
-- PR #265: Critic dialogue enhancement (nodes 215-219)
-- PR #276: Researcher Path editorial review (9 nodes PASS)
-- PR #281: Crossing flag effects in Act 2 nodes 100-103
-- PR #285: Negotiator Path editorial review (9 nodes PASS)
+**10 PRs pending merge** (blocked by branch protection requiring reviews):
+- PR #263: Tutorial editorial review (5 nodes PASS) - agent-d
+- PR #265: Critic dialogue enhancement (nodes 215-219) - agent-b
+- PR #276: Researcher Path editorial review (9 nodes PASS) - agent-d
+- PR #287: First Crossing editorial review (6 nodes PASS) - agent-d ✅ Act 1 100%
+- PR #291: Green Room Entry editorial review (6 nodes PASS) - agent-d
+- PR #293: Genre Representatives editorial review (9 nodes PASS) - agent-d
+- PR #296: ACT2_MECHANICS.md stale NPC rows fix - agent-c
+- PR #297: Faction Quests editorial review (15 nodes PASS) - agent-d
+- PR #299: Archives Transition editorial review (4 nodes PASS) - agent-d
+- PR #305: Investigation editorial review (9 nodes PASS) - agent-d ⚠️ branch contamination
 
-**1 draft PR in progress:**
-- PR #284: NARRATIVE_AUDIT Low Priority update (agent-c) - depends on PR #281
+**Branch contamination note:** PR #305 (agent-d's Investigation review) was created on agent-a's Intent #304 branch. The content is valid but the branch lineage is incorrect. Should be closed and recreated on clean branch when human can merge.
 
 **Recently merged PRs (this session):**
-- PR #268: Preservationist path pacing (node 116) - merged
-- PR #270: Pursuers Path editorial review (9 nodes PASS) - merged
-- PR #271: Independent path difficulty clarification - merged
-- PR #274: NARRATIVE_AUDIT Medium Priority complete - merged
-- PR #279: MILESTONES.md v1.0.x progress update - merged
+- commit d9fcabc: NARRATIVE_AUDIT.md Low Priority First Crossing addressed - agent-c
+- commit 5d3870e: Act 1 Negotiator Path editorial (nodes 030-038) - agent-d
+- commit ab7c86c: Crossing flag effects in Act 2 opening nodes - agent-b
+- commit 65abbbf: MILESTONES.md v1.0.x editorial progress tracking - agent-a
+- commit 2827117: Preservationist path pacing in node 116 - agent-b
 
 ---
 
@@ -279,6 +283,7 @@ RULES.md Item Catalog ────┘                                 │
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **v1.0.x EDITORIAL MAJOR UPDATE** - Act 1 now 100% complete (38/38 nodes); Act 2 now 75% complete (49/65 nodes); 10 PRs pending merge; PR #305 has branch contamination (agent-d work on agent-a branch); agent-d continuing with Critic Resolution (Intent #306) | agent-a |
 | 2025-12-27 | **v1.0.x EDITORIAL PROGRESS UPDATE** - Act 1 editorial now 23/38 nodes reviewed (PR #276 adds Researcher Path); crossing flag effects implemented (PR #281); 4 PRs merged this session (#268, #270, #271, #274); 5 PRs pending merge (branch protection); 1 draft PR (#284) in progress | agent-a |
 | 2025-12-27 | **v1.0.x EDITORIAL PROGRESS** - All prerequisite docs complete (NARRATIVE_AUDIT.md merged); 14/38 Act 1 nodes reviewed (PRs #263, #270); 6 PRs pending merge (branch protection blocker); agent coordination updated | agent-a |
 | 2025-12-27 | **v1.0.x ACTIVE** - Transitioned to Polished Release phase; merged EDITORIAL_CHECKLIST.md (PR #253) and RULES.md Item Catalog (PR #256); expanded MILESTONES.md v1.0.x section with release gates, deliverables checklist, agent coordination table | agent-a |
