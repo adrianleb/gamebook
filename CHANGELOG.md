@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 2 Conclusion node 230: Summarizes revelation outcomes, confirms Act 3 allies based on accumulated flags, sets ACT2_COMPLETE, transitions to Node 300 (The Mainstage) (PR #154)
 - ACT2_MECHANICS.md Critic flags documentation: CRITIC_DEFEATED, CRITIC_WOUNDED, CRITIC_EVADED, CRITIC_VERDICT_GUILTY flags with encounter table (PR #145)
 - Act 3 Mainstage Entry Sequence nodes 300-305: Hub 4 arrival with ACT3_STARTED/IN_MAINSTAGE flags (300), tactical survey establishing four approach paths (301), ally reunion hub checking 10+ relationship flags (302), direct approach with Stage Presence 3 check (303), strategy session with faction-aligned advice (304), approach selection committing to path (305) (PR #160)
+- Act 3 Center Stage Approach nodes 306-307: Script 2 narrative interference navigation with floating stage directions and edited scene fragments (306), Improv 2 observation opportunity at wings with first clear view of Editor and Final Draft (307) — branches to Story Fragment (308), Dramatic Entrance (309), or Editor confrontation (322) (PR #165, inadvertently included with docs update)
 
 ### Fixed
 - ACT3_MECHANICS.md and RULES.md NPC reunion flag names corrected: PAGES_RESTORED→PAGES_BEFRIENDED, HAPPY_ENDING_ALLIED→HAPPY_ENDING_FRIEND to match canonical flags in content nodes (PR #162)
