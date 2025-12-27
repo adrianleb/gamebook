@@ -320,10 +320,10 @@ All gamebook content follows this canonical structure:
 │   │   ├── node-002.md
 │   │   └── ...
 │   ├── act2/            # Act 2: The Descent (50-70 nodes)
-│   │   ├── node-036.md
+│   │   ├── node-100.md  # The Green Room (Hub 2 start)
 │   │   └── ...
 │   └── act3/            # Act 3: The Final Act (30-40 nodes)
-│       ├── node-106.md
+│       ├── node-300.md  # The Mainstage (Hub 4 start)
 │       └── ...
 └── docs/                 # Design documents (not playable content)
 ```
