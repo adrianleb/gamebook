@@ -491,21 +491,102 @@ Every failed check MUST lead to:
 
 ### Act 3: The Final Act (51 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 300-305 | Mainstage Entry | 6 | [ ] |
-| 306-309 | Center Stage | 4 | [ ] |
-| 310-313 | Orchestra Pit | 4 | [ ] |
-| 314-317 | Fly System | 4 | [ ] |
-| 318-321 | Audience | 4 | [ ] |
-| 322-335 | Editor Confrontation | 14 | [ ] |
-| 341-344 | Ending: Revised Draft | 4 | [ ] |
-| 345-348 | Ending: Open Book | 4 | [ ] |
-| 349-351 | Ending: Closed Canon | 3 | [ ] |
-| 352-353 | Ending: Blank Page | 2 | [ ] |
-| 354-355 | Ending: Eternal Rehearsal | 2 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 306-309 | Center Stage | 4 | [ ] | | |
+| 310-313 | Orchestra Pit | 4 | [ ] | | |
+| 314-317 | Fly System | 4 | [ ] | | |
+| 318-321 | Audience | 4 | [ ] | | |
+| 322-335 | Editor Confrontation | 14 | [ ] | | |
+| 341-344 | Ending: Revised Draft | 4 | [ ] | | |
+| 345-348 | Ending: Open Book | 4 | [ ] | | |
+| 349-351 | Ending: Closed Canon | 3 | [ ] | | |
+| 352-353 | Ending: Blank Page | 2 | [ ] | | |
+| 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 0/51 reviewed
+**Act 3 Total:** 6/51 reviewed
+
+### Mainstage Entry Review Notes (300-305)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 300 | The Mainstage Arrival | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 301 | Survey the Mainstage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 302 | Ally Reunion | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 303 | Direct Approach | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 304 | Strategy Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 305 | Approach Selection | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-300.md through node-305.md)
+- Node 300 establishes Mainstage location with excellent sensory descriptions
+- Forward paths properly branch: 300→301/302/303, 301→306/310/314/318, 302→304/301, 303→322/306, 304→305/301, 305→306/310/314/322
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 6 nodes
+- **The Understudy's** voice matches CHARACTERS.md precisely:
+  - Hesitant with qualifiers ("We made it. We actually—")
+  - More confident about research than self ("Four paths. The Center is the obvious choice")
+  - Emotional anchor throughout ("Whatever you decide, I'm with you")
+- **CHORUS** voice uses plural collective pattern correctly ("—the Prompter has arrived—" "—finally, finally—")
+- **The Editor's** voice (Node 303) uses revision marks as speech pattern ("That tells me something about how this draft is developing")
+- **Node 302 Ally Voices** - All 11 potential allies match CHARACTERS.md profiles:
+  - Maren: theatrical, stage metaphor ("I've never been good at following my own stage directions")
+  - Stagehand: third person self-reference ("The Stagehand... remembers this place. Remembers it wrong.")
+  - Runaway: poetic heightened language ("You gave me a chance to rewrite my ending")
+  - Pawn: formal fantasy breaking to cynical ("I spent my whole story being told what to do. This time, I choose.")
+  - Solved Case: clipped noir style ("I've been tracking the Editor for a long time")
+  - Unfinished Quest: heroic cadence, battle-ready ("Finally! A proper final confrontation!")
+  - Final Girl: practical survival ("Survived three acts of terror... Let's survive this too.")
+  - Happy Ending: warm with complexity ("I don't know if there's a happy ending here")
+  - Lost Pages: fragmented with ellipses ("We came. We think we came. Yes—we're here.")
+- **Node 304 Ally Council** - All faction strategy voices match character profiles
+- Tone keywords appropriately distributed: Theatrical, Liminal, Uncanny
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- Prose quality excellent—evocative descriptions of Mainstage geography
+- Active voice predominates (>80%)
+- Word choice concrete and specific (e.g., "boards worn smooth," "proscenium arch," "footlight troughs")
+
+**Mechanics Findings:**
+- Only one stat check in sequence: [STAT CHECK: Stage Presence 3] in Node 303
+- Check threshold matches ACT3_OUTLINE.md (Advanced)
+- Both success AND failure paths defined in Node 303
+- Fail-forward properly implemented: failure deflects to Node 306 (measured approach)
+- All flags use UPPERCASE_SNAKE_CASE: `ACT3_STARTED`, `IN_MAINSTAGE`, `DIRECT_APPROACH`
+- Reunion flags in Node 302 correctly check all Act 1-2 relationship carryover flags
+
+**Continuity Findings:**
+- Archives reference consistent with Act 2 conclusion
+- Mainstage geography matches ACT3_OUTLINE.md specification (Center Stage, Orchestra Pit, Fly System, Audience)
+- Editor's desk and Final Draft described consistently with CHARACTERS.md Editor profile
+- Ally reunion content references Act 1-2 events accurately (Runaway's ending, Pawn's story discovery, etc.)
+- Faction alignment strategies in Node 304 match ACT3_MECHANICS.md approach categories
+
+**Playability Findings:**
+- No instant death without warning
+- Node 303 stat check at appropriate difficulty (Advanced - threshold 3) for Act 3 opening
+- Fail-forward in Node 303: failure leads to Node 306, not dead end
+- All choices clearly labeled with faction alignments where applicable
+- Node 302 conditional content properly marked for playtest clarity
+- Multiple paths available from each node—player agency respected
+
+**Issues Found:** None requiring revision.
+
+**Validation Criteria Met:**
+- ✅ All 6 nodes pass all 6 editorial criteria categories
+- ✅ Entry sequence properly establishes Act 3 setting and stakes
+- ✅ Ally reunion honors Act 1-2 relationship investment
+- ✅ All 11 potential ally voices match CHARACTERS.md profiles exactly
+- ✅ Four approach paths correctly branch to different Mainstage regions
+- ✅ Single stat check (Node 303) has fail-forward compliance
 
 ---
 
