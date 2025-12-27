@@ -476,18 +476,120 @@ Every failed check MUST lead to:
 
 ### Act 2: The Descent (65 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 100-105 | Green Room Entry | 6 | [ ] |
-| 106-114 | Genre Representatives | 9 | [ ] |
-| 115-129 | Faction Quests | 15 | [ ] |
-| 130-133 | Archives Transition | 4 | [ ] |
-| 200-205 | Archives Entry | 6 | [ ] |
-| 206-214 | Investigation | 9 | [ ] |
-| 215-219 | Critic Resolution | 5 | [ ] |
-| 220-230 | Revelation | 11 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 100-105 | Green Room Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 106-114 | Genre Representatives | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 115-129 | Faction Quests | 15 | [x] PASS | agent-d | 2025-12-27 |
+| 130-133 | Archives Transition | 4 | [ ] | | |
+| 200-205 | Archives Entry | 6 | [ ] | | |
+| 206-214 | Investigation | 9 | [ ] | | |
+| 215-219 | Critic Resolution | 5 | [ ] | | |
+| 220-230 | Revelation | 11 | [ ] | | |
 
-**Act 2 Total:** 0/65 reviewed
+**Act 2 Total:** 30/65 reviewed (46%)
+
+### Faction Quests Review Notes (115-129)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 115 | Preservationist Mission Briefing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 116 | The Bleeding Fragment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 117 | Fragment Confrontation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 118 | Independent Revelation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 119 | Preservationist Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 120 | Revisionist Mission Briefing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 121 | The Looping Tale | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 122 | Revision Attempt | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 123 | Revisionist Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 124 | Compromise Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 125 | Exiter Mission Briefing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 126 | The Escape Route | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 127 | Freedom's Edge | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 128 | Exiter Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 129 | Mission Abort | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-115.md through node-129.md)
+- Location tags present throughout (*The Green Room — The Director's Office*, *The Green Room — The Dressing Rooms*, *Inside the Story — The Tower*, etc.)
+- Four distinct faction paths properly structured:
+  - Preservationist: 115 → 116 → 117 → 119
+  - Revisionist: 120 → 121 → 122 → 123/124
+  - Exiter: 125 → 126 → 127 → 128/129
+  - Independent: 118 (accessible from low faction scores)
+- All forward paths valid, no orphans, no dead ends
+- Cross-path connections (Node 117 allows choice between Preservationist 119, Exiter 127, or Archives 130)
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 15 nodes
+- NPC voices match CHARACTERS.md profiles precisely:
+  - **The Director:** Theatrical authority, directing terminology, patronizing but not dismissive
+  - **The Solved Case:** Clipped noir style, detective metaphors, cigarette still absent
+  - **CHORUS:** Plural voice, fragmented harmony, overlapping whispers
+  - **The Happy Ending:** Warm with underlying steel, genuine passion for revision
+  - **The Unfinished Quest:** Heroic cadence breaking into vulnerable honesty
+  - **The Final Girl:** Practical, survival-focused, dark humor about genre tropes
+- New character voices introduced effectively:
+  - **The Bleeding Fragment:** Unfinished, shifting, childlike fear
+  - **The Eternal Princess:** Rust and repetition in voice, centuries of wear
+  - **The Widow of the Third Act:** Practiced steadiness replacing programmed grief
+- Tone keywords appropriately distributed: Liminal, Theatrical, Melancholic, Uncanny
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific throughout
+- Emotional stakes clearly communicated in each faction path
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT2_MECHANICS.md specification:
+  - Node 116: Script 2 (Standard) ✓
+  - Node 117: Stage Presence 2 OR Script 2 (Approach) ✓
+  - Node 118: Improv 3 OR Script 3 (Approach) ✓
+  - Node 121: Script 3 (Advanced) ✓
+  - Node 122: Stage Presence 3 (Advanced) ✓
+  - Node 126: Improv 3 (Advanced) ✓
+  - Node 127: Stage Presence 3 (Advanced) ✓
+- Both success AND failure paths defined for all checks
+- Item acquisition format correct:
+  - Node 118: `**Acquired: Independent's Blank** (Token)`
+  - Node 119: `**Director's Sigil** (Token)`
+  - Node 123: `**Revisionist's Pen** (Token, Consumable)`
+  - Node 128: `**Exiter's Compass** (Token)`
+- All flags use UPPERCASE_SNAKE_CASE: `PRESERVATIONIST: +1`, `REVISIONIST: +2`, `EXITER: +2`, `INDEPENDENT_ELIGIBLE`, `DIRECTOR_SUSPICIOUS`, `SOLVED_CASE_PARTNER`
+
+**Continuity Findings:**
+- Faction alignment system correctly implemented with consistent +1/+2 increments
+- NPC relationships carry forward from Genre Representatives sequence
+- Mission briefings reference Call Board (Node 105) for alternative paths
+- Archives transition (Node 130) accessible from all faction resolution nodes
+- The Bleeding Fragment's Editor-related intel sets up Archives investigation
+- Items match ACT2_MECHANICS.md item catalog exactly
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 2:
+  - Standard (2): 2 checks (nodes 116, 117)
+  - Advanced (3): 5 checks (nodes 118, 121, 122, 126, 127)
+- Fail-forward properly implemented in all nodes:
+  - Node 116 failure: Retry option with alternative stat
+  - Node 117 failure: Partial information, disadvantaged pursuit
+  - Node 118 failure: Conversation over but opportunity remains
+  - Node 121 failure: CHORUS assistance available
+  - Node 122 failure: Compromise resolution path
+  - Node 126 failure: Secondary check or mission abort
+  - Node 127 failure: Character returns unfulfilled, not punished
+- Mission abort paths (Node 129) provide meaningful consequences without dead ends
+- Four distinct faction experiences offer genuine player agency
+- Independent path (Node 118) rewards balanced play with unique item
+
+**Issues Found:** None requiring revision.
 
 ### Act 3: The Final Act (51 nodes)
 
