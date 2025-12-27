@@ -4,9 +4,17 @@
 
 You step toward the edges of the room, where CHORUS flows like a current through the space. They're harder to look at directly than other characters—not because they're indistinct, but because they're too many. Faces flicker and change. A concerned bystander becomes a cheering crowd member becomes a dying soldier becomes a background extra at a party. They are everyone who was never given a name.
 
+**[IF CROSSING_STEALTH]:**
+Before you even finish approaching, they find you. CHORUS doesn't approach so much as *coalesce*—faces turning your way, bodies flowing toward you from a dozen different directions, converging on your position like they knew exactly where you'd be.
+
+**CHORUS:** "Ah. The shadow-walker. We felt you slip through the margins. You understand already—the important things happen in the background. In the corners. In the spaces between the scenes." Their collective voice carries warmth, the recognition of a kindred spirit. "We have been waiting to speak with you. The Director notices those who walk in light. We notice those who don't."
+
+**[ELSE]:**
 As you approach, they slow. Faces turn toward you—all of them, simultaneously, then looking away in waves like ripples in a pond.
 
 **CHORUS:** "We see you, Prompter-touched. We have seen many of your kind. You come, you go, you try to fix things. We are always here. We are the ones who watch the heroes from the crowd."
+
+**[END IF]**
 
 Their voice is a chorus in truth—multiple tones speaking in near-unison, occasionally harmonizing, occasionally discordant.
 
@@ -15,6 +23,7 @@ Their voice is a chorus in truth—multiple tones speaking in near-unison, occas
 You sense an opportunity. CHORUS knows things. The question is whether they'll share.
 
 **[STAT CHECK: Improv 1]**
+*[IF CROSSING_STEALTH: CHORUS's recognition of your margin-walking grants effective +1 Improv for this check]*
 
 **Success:** You match their energy—fragmentary, collective, willing to play along. You speak in questions that aren't quite questions, and they respond in answers that aren't quite answers, and somehow meaning flows between you.
 

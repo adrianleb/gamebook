@@ -2,7 +2,21 @@
 
 *The Green Room — Threshold*
 
-The stairs down from the First Crossing end at a door that shouldn't exist. It's painted a shade of green that shifts when you look at it directly—forest, then jade, then something that isn't quite a color at all. A brass plaque reads: THE GREEN ROOM. Beneath it, in smaller letters: ALL STORIES WELCOME. NONE REQUIRED.
+**[IF CROSSING_DIRECT]:**
+The stairs you descended—openly, boldly, refusing to sneak—end at a door that shouldn't exist. You can still feel the weight of that choice: to walk the most visible path, to announce yourself to whatever waited below. The Understage noticed. It always notices those who refuse to hide.
+
+**[IF CROSSING_STEALTH]:**
+The hidden passage you discovered closes silently behind you, leaving you at a door that shouldn't exist. No one saw you come. No one knows you're here yet—and in a place built from stories, being an unknown quantity is its own kind of power. The shadows that guided you down seem to linger at the edges of your vision.
+
+**[IF CROSSING_NEGOTIATED]:**
+The Guide who led you down has vanished, but you can still feel the echo of their presence—part of you now, a passenger who chose to help rather than hinder. You arrive at a door that shouldn't exist, but you don't arrive alone. The Understage has already been told about you. The introductions have been made.
+
+**[IF CROSSING_DESPERATE]:**
+You barely made it. The desperate leap, the impossible improvisation, the moment where everything could have gone wrong but didn't—quite—leave you shaking as you face a door that shouldn't exist. You have no reputation down here, no connections, no plan. Only survival and whatever wild luck carried you this far.
+
+**[END IF]**
+
+The door is painted a shade of green that shifts when you look at it directly—forest, then jade, then something that isn't quite a color at all. A brass plaque reads: THE GREEN ROOM. Beneath it, in smaller letters: ALL STORIES WELCOME. NONE REQUIRED.
 
 You push the door open.
 
