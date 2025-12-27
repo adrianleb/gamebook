@@ -12,9 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `CHANGELOG.md` - Version tracking
 - `docs/MILESTONES.md` - Release gate tracking for v0.1 Prototype (PR #12)
 - `docs/CHARACTERS.md` - NPC profiles for 8 major characters (PR #15)
+  - Breach Characters B (The Revenant) and C (The Prophecy's Pawn) profiles (PR #30)
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
 - `content/act1/` - Content directory structure for node files (PR #24)
 - Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
+- Act 1 Pursuers Path nodes 010-018: The chase, confrontation, and resolution with The Runaway (PR #36)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
