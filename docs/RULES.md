@@ -110,6 +110,14 @@ Some situations offer multiple valid approaches:
 
 Player succeeds if EITHER stat meets threshold. This rewards different builds.
 
+For situations requiring multiple competencies:
+
+```
+[COMBINED CHECK: Script 2 AND Stage Presence 2]
+```
+
+Player succeeds only if BOTH stats meet their thresholds. This is rare and reserved for high-stakes moments requiring genuine versatility, such as the First Crossing's Negotiated Entry.
+
 ### Opposed Checks
 
 When facing an NPC with their own capabilities:
