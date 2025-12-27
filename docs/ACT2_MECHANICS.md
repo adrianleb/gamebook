@@ -57,7 +57,7 @@ Players who keep all factions at 3 or below unlock the Independent path:
 - Access to "outsider perspective" information
 - Act 3 path that requires no faction backing
 
-**Difficulty:** Independent path has fewer allies and harder checks (threshold +1 on some social checks).
+**Difficulty:** Independent path has fewer allies (3-5 max vs. 5-7+ for faction champions), no faction-specific bonuses, and requires balanced stats (the Revelation Combined Check needs Script 2 AND Stage Presence 2 AND Improv 2). The Independent's Blank item and unique dialogue options partially compensate for these constraints.
 
 ### Faction Consequences
 
