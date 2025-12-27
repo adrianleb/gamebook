@@ -566,16 +566,16 @@ Act 1 is now 38/38 (100%) reviewed:
 | 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
 | 306-309 | Center Stage | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 310-313 | Orchestra Pit | 4 | [x] PASS | agent-d | 2025-12-27 |
-| 314-317 | Fly System | 4 | [ ] | | |
-| 318-321 | Audience | 4 | [ ] | | |
-| 322-335 | Editor Confrontation | 14 | [ ] | | |
-| 341-344 | Ending: Revised Draft | 4 | [ ] | | |
-| 345-348 | Ending: Open Book | 4 | [ ] | | |
-| 349-351 | Ending: Closed Canon | 3 | [ ] | | |
+| 314-317 | Fly System | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 318-321 | Audience | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 322-335 | Editor Confrontation | 14 | [x] PASS | agent-d | 2025-12-27 |
+| 341-344 | Ending: Revised Draft | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 345-348 | Ending: Open Book | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 349-351 | Ending: Closed Canon | 3 | [x] PASS | agent-d | 2025-12-27 |
 | 352-353 | Ending: Blank Page | 2 | [ ] | | |
 | 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 14/51 reviewed (27%)
+**Act 3 Total:** 47/51 reviewed (92%)
 
 ### Mainstage Entry Review Notes (300-305)
 
@@ -691,18 +691,212 @@ Act 1 is now 38/38 (100%) reviewed:
 
 ---
 
+### Fly System Review Notes (314-317)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 314 | Ascend to Fly System | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 315 | Rigging the Scene | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 316 | Structural Advantage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 317 | Precarious Position | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout
+- Fly System metaphor (ropes and pulleys accessing higher story levels) executed effectively
+- Stat checks match ACT3_OUTLINE.md: Stage Presence 3 (314), Script 3 (315), Improv 2 recovery (317)
+- Fail-forward properly implemented in all nodes
+- Flags use UPPERCASE_SNAKE_CASE: `DRAMATIC_ENTRANCE`, `STRUCTURAL_INSIGHT`, `TACTICAL_POSITION`
+
+**Issues Found:** None requiring revision.
+
+### Audience Review Notes (318-321)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 318 | Face the Audience | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 319 | The Audience Speaks | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 320 | Audience Blessing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 321 | Audience Doubt | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Meta-narrative sequence (audience as story consumers) executed with appropriate uncanny tone
+- Stage Presence 4 Expert check at 318 matches ACT3_OUTLINE.md
+- Script 2 recovery at 320 provides fail-forward path
+- Flags properly managed: `AUDIENCE_BLESSING`, `AUDIENCE_DOUBT`
+- Ally conditional content properly references relationship flags
+
+**Issues Found:** None requiring revision.
+
+### Editor Confrontation Review Notes (322-335)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 322 | The Editor Revealed | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 323 | The Editor's Argument | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 324 | Counter-Argument | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 325 | Direct Challenge | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 326 | Emotional Appeal | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 327 | Improvised Solution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 328 | Combined Approach | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 329 | Universal Check | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 330 | Ally Intervention | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 331 | Final Push | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 332 | Maren's Sacrifice | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 333 | Self-Sacrifice | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 334 | Editor Wavering | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 335 | The Climactic Choice | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- The Editor's voice matches CHARACTERS.md throughout: revision marks in speech, calm conviction, talks about characters as creations
+- Faction-variable Editor identity properly reflected (four motivation variants per CHARACTERS.md)
+- Stat checks match ACT3_OUTLINE.md: Script 3 (323), Script 4 Opposed (325), Stage Presence 4 (326), Improv 4 (327), Combined 3/3/3 (328), Any 4 (329), Combined 2/2/2 (331)
+- Sacrifice mechanics (Maren and self) properly executed with appropriate emotional weight
+- Node 335 serves as gateway to all 5 endings with proper faction-based routing
+- All flags use UPPERCASE_SNAKE_CASE: `EDITOR_REVEALED`, `EDITOR_MOVED`, `COLLABORATION_OFFERED`, `COLLABORATIVE_REVISION`, `EDITOR_WAVERING`, `MAREN_SACRIFICED`, `SELF_SACRIFICED`
+
+**Issues Found:** None requiring revision.
+
+### Ending: Revised Draft Review Notes (341-344)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 341 | Taking the Pen | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 342 | The First Revision | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 343 | A New Draft | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 344 | Revised Draft Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Revisionist philosophy (stories can be improved through thoughtful revision) properly expressed
+- The Editor's voice matches CHARACTERS.md: collaborative tone when convinced, acknowledgment of player's role
+- Maren's voice in conditional content matches profile: theatrical precision, warmth
+- Ally voices in Node 343 properly differentiated per CHARACTERS.md
+- Ending structure matches ACT3_OUTLINE.md (approach/transition/beat/conclusion pattern)
+- Proper ending flag: `ENDING_REVISED_DRAFT`
+- Hopeful but complex tone appropriate for Revisionist ending
+
+**Issues Found:** None requiring revision.
+
+### Ending: Open Book Review Notes (345-348)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 345 | Breaking the Binding | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 346 | The Doors Open | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 347 | A World Rewritten | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 348 | Open Book Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Exiter philosophy (dissolving boundary between fiction and reality) properly expressed
+- Two-way crossing mechanics well-executed: characters crossing to reality, humans entering stories
+- 8 ally voices validated in farewell/transition scenes:
+  - The Unfinished Quest: heroic cadence, hope for genuine choice
+  - The Runaway: poetic, grateful for freedom
+  - The Happy Ending: warm with underlying steel, earning rather than scripted endings
+  - The Stagehand: simple speech, finding clarity
+  - The Understudy: hesitant, transcending replacement status
+  - The Final Girl: practical survival focus becoming about living
+  - The Solved Case: clipped noir style, excited for complicated cases
+  - Maren: theatrical precision, adapting to new world
+- The Editor's voice shows wonder and awe rather than defeat
+- Proper flags: `BOUNDARY_DISSOLVED` (346), `ENDING_OPEN_BOOK` (348)
+- Hopeful but uncertain tone appropriate for Exiter ending
+
+**Issues Found:** None requiring revision.
+
+### Ending: Closed Canon Review Notes (349-351)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 349 | Sealing the Passage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 350 | The Final Curtain | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 351 | Closed Canon Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-349.md through node-351.md)
+- Location tags present: *The Mainstage — Center Stage* (349, 350), *Reality — The World You Saved* (351)
+- Node 349 provides reject option back to Node 335 for alternative ending choice
+- Linear progression: 349 → 350 → 351 (THE END)
+- Proper ending conclusion format with THE END terminal
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 3 nodes
+- The Editor's voice matches CHARACTERS.md: calm, resigned conviction ("So you've chosen preservation.")
+- The Stagehand's voice (Node 349, 350) matches profile: simple speech ("The old ways weren't perfect... but they were... stable"), third person reference ("The Stagehand doesn't remember")
+- 6 ally farewell voices validated in Node 350:
+  - The Solved Case: clipped noir style ("Every case closes eventually")
+  - The Unfinished Quest: heroic cadence with acceptance ("the journey was the story all along")
+  - The Final Girl: practical survival focus ("Survival... The hardest kind")
+  - The Happy Ending: warm with underlying steel ("a safe ending... that's not nothing")
+  - The Understudy: hesitant, identity themes ("I was always meant to replace someone")
+  - Maren: theatrical precision, warmth, respects player agency with choice scene
+- Melancholic tone keywords: "once was," "remember," "smaller," "diminished," "safe"
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Evocative prose: "The world feels *smaller* now," "Stories become simpler. Predictable. *Safe*."
+
+**Mechanics Findings:**
+- No stat checks in ending sequence (appropriate for conclusion)
+- Flags properly checked: `EDITOR_WAVERING`, `MAREN_SACRIFICED`, `SELF_SACRIFICED`, `STAGEHAND_CURIOUS`, `PRESERVATIONIST_CHAMPION`, `SOLVED_CASE_PARTNER`, `QUEST_ALLY`, `FINAL_GIRL_TRUST`, `HAPPY_ENDING_FRIEND`, `UNDERSTUDY_PARTNER`, `MAREN_TRUST_HIGH`
+- Ending flag properly set: `ENDING_CLOSED_CANON`
+- All flags use UPPERCASE_SNAKE_CASE
+
+**Continuity Findings:**
+- Preservationist philosophy properly expressed (seal the boundary, protect reality at cost of wonder)
+- Final Draft destruction aligns with ending approach (contrast with revision in Revised Draft ending)
+- Ally farewell content consistent with their established arcs and philosophies
+- Maren choice scene respects character agency established in CHARACTERS.md
+- Ending outcome matches ACT3_OUTLINE.md: "Understage is sealed. Stories become static. Reality is protected but diminished."
+
+**Playability Findings:**
+- No instant death without warning
+- Reject option (Node 335) provides fail-forward if player reconsiders
+- Emotional payoff for ally relationships across all conditional content
+- Safe-but-melancholic tone properly balances protection with loss
+- Satisfying philosophical conclusion for Preservationist path
+
+**Issues Found:** None requiring revision.
+
+---
+
 ## Act 3 Editorial Progress
 
-Act 3 is now 14/51 (27%) reviewed:
+Act 3 is now 47/51 (92%) reviewed:
 - ✅ Mainstage Entry (300-305) - 6 nodes PASS
 - ✅ Center Stage (306-309) - 4 nodes PASS
 - ✅ Orchestra Pit (310-313) - 4 nodes PASS
-- ⬜ Fly System (314-317) - 4 nodes pending
-- ⬜ Audience (318-321) - 4 nodes pending
-- ⬜ Editor Confrontation (322-335) - 14 nodes pending
-- ⬜ Ending: Revised Draft (341-344) - 4 nodes pending
-- ⬜ Ending: Open Book (345-348) - 4 nodes pending
-- ⬜ Ending: Closed Canon (349-351) - 3 nodes pending
+- ✅ Fly System (314-317) - 4 nodes PASS
+- ✅ Audience (318-321) - 4 nodes PASS
+- ✅ Editor Confrontation (322-335) - 14 nodes PASS
+- ✅ Ending: Revised Draft (341-344) - 4 nodes PASS
+- ✅ Ending: Open Book (345-348) - 4 nodes PASS
+- ✅ Ending: Closed Canon (349-351) - 3 nodes PASS
 - ⬜ Ending: Blank Page (352-353) - 2 nodes pending
 - ⬜ Ending: Eternal Rehearsal (354-355) - 2 nodes pending
 
@@ -713,8 +907,8 @@ Act 3 is now 14/51 (27%) reviewed:
 Combined progress:
 - **Act 1:** 38/38 (100% COMPLETE)
 - **Act 2:** 65/65 (100% COMPLETE)
-- **Act 3:** 14/51 (27%)
-- **Total:** 117/154 nodes (76%)
+- **Act 3:** 47/51 (92%)
+- **Total:** 150/154 nodes (97%)
 
 ---
 
