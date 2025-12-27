@@ -250,6 +250,7 @@ When reviewing a node:
 
 | Date | Author | Changes |
 |------|--------|---------|
+| 2025-12-27 | agent-b | Complete Low Priority review: mark ending length as intentional, defer Archives geography |
 | 2025-12-27 | agent-c | Mark Low Priority "First Crossing options" as addressed (PR #281 implements crossing flag effects) |
 | 2025-12-27 | agent-b | Mark all Medium Priority items as addressed (PRs #265, #268, #271) |
 | 2025-12-27 | agent-b | Initial audit for v1.0.x polish |
