@@ -250,9 +250,9 @@ Every failed check MUST lead to:
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 040-045 | First Crossing | 6 | [ ] | | |
+| 040-045 | First Crossing | 6 | [x] PASS | agent-d | 2025-12-27 |
 
-**Act 1 Total:** 32/38 reviewed
+**Act 1 Total:** 38/38 reviewed (100% COMPLETE)
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -476,18 +476,100 @@ Every failed check MUST lead to:
 
 ### Act 2: The Descent (65 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 100-105 | Green Room Entry | 6 | [ ] |
-| 106-114 | Genre Representatives | 9 | [ ] |
-| 115-129 | Faction Quests | 15 | [ ] |
-| 130-133 | Archives Transition | 4 | [ ] |
-| 200-205 | Archives Entry | 6 | [ ] |
-| 206-214 | Investigation | 9 | [ ] |
-| 215-219 | Critic Resolution | 5 | [ ] |
-| 220-230 | Revelation | 11 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 100-105 | Green Room Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 106-114 | Genre Representatives | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 115-129 | Faction Quests | 15 | [x] PASS | agent-d | 2025-12-27 |
+| 130-133 | Archives Transition | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 200-205 | Archives Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 206-214 | Investigation | 9 | [ ] | | |
+| 215-219 | Critic Resolution | 5 | [ ] | | |
+| 220-230 | Revelation | 11 | [ ] | | |
 
-**Act 2 Total:** 0/65 reviewed
+**Act 2 Total:** 40/65 reviewed (62%)
+
+### Archives Entry Review Notes (200-205)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 200 | Archives Entry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 201 | The Stacks | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 202 | The Prop Room | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 203 | Understudy Partnership | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 204 | Stacks Discovery | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 205 | Prop Acquisition | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All 6 node IDs match filenames (node-200.md through node-205.md)
+- Location tags present throughout (*The Archives — Entry Hall*, *The Archives — The Stacks*, *The Archives — The Prop Room*, *The Archives — A Quiet Alcove*, *The Archives — Among the Shelves*)
+- All forward paths valid and tested (200→201/202/203, 201→204/200, 202→205, 203→206/201, 204→200/210, 205→200/210)
+- No orphan nodes, no dead ends
+- Three exploration branches from entry hall offer meaningful player choice
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 6 nodes
+- The Understudy's voice matches CHARACTERS.md profile precisely:
+  - Speaks with hesitation, questioning authenticity ("I think I remember," "According to my... their memories")
+  - More confident about research than self
+  - Uses qualifiers constantly in node 203
+  - Moments of genuine pain when confronting their nature
+- CHORUS voice in node 200 uses plural speech with overlapping fragments ("—the new Prompter, yes, the new—" "—the Understudy brought one, finally—")
+- The Critic foreshadowed appropriately (severity, judgment) in node 200
+- Tone keywords appropriately distributed: Liminal (threshold, impossible geometry), Uncanny (space unfolds wrong, stairs descend upward), Theatrical (props, narrative weight, scripts)
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific throughout
+- Evocative descriptions of impossible Archives geometry
+
+**Mechanics Findings:**
+- Node 201: `[ARCHIVE SEARCH: Script 2]` - matches RULES.md Archive Search format exactly with tiered outcomes:
+  - Deep Find (Script 3+): Complete information + bonus discovery
+  - Standard Find (Script 2): Information sought
+  - Partial Find (Script 1): Clue pointing to information
+  - Lost (Script 0): Time passes, return to entry
+- Node 202: `[STAT CHECK: Script 2]` - Standard check per ACT2_MECHANICS.md
+- Node 203: `[STAT CHECK: Script 2]` - Standard check for understanding Understudy's manuscript
+- All checks at Standard (2) difficulty appropriate for Archives Entry sequence
+- Both success AND failure paths defined for all checks
+- Item acquisition formats correct in Node 205:
+  - First Draft Fragment (Artifact, Plot-Critical) → `HAS_FIRST_DRAFT`
+  - Shadow Key (Tool, one-time use) → `HAS_SHADOW_KEY`
+  - Understudy's Mirror (Artifact, shared) → `UNDERSTUDY_HAS_MIRROR`
+  - Blank Pages (Script, consumable) → `HAS_BLANK_PAGES`
+  - Candle of Continuity (Tool) → `HAS_CONTINUITY_CANDLE`
+  - Healing Bandages (one-time use) → `HAS_HEALER_BANDAGES`
+- All flags use UPPERCASE_SNAKE_CASE
+
+**Continuity Findings:**
+- Understudy voice consistent with CHARACTERS.md profile
+- CHORUS voice consistent with CHARACTERS.md profile (plural speech, overlapping fragments)
+- Archives geography consistent (Entry Hall → Stacks/Prop Room/Partnership → Discovery/Acquisition)
+- Faction-variable content in Node 204 properly references faction thresholds (PRESERVATIONIST >= 3, REVISIONIST >= 3, EXITER >= 3, Independent)
+- References to Editor and red ink align with broader narrative
+- `AUTHOR_DESK_KNOWN` and `AUTHOR_DESK_HINTED` flags properly set based on discovery tier
+
+**Playability Findings:**
+- No instant death without warning
+- All checks at Standard (2) difficulty appropriate for Archives Entry
+- Fail-forward properly implemented throughout:
+  - Node 201: Lost result returns to Node 200 for retry
+  - Node 202: Failure leads to Node 205 with Understudy redirect to safer items
+  - Node 203: Failure leads to Node 201 with provisional partnership
+  - Node 204: All discovery tiers lead forward with appropriate flags
+  - Node 205: Both PROP_SAFE_CHOICE and PROP_REDIRECTED paths offer meaningful item selection
+- Choice text accurately reflects outcomes
+- Three exploration branches from entry hall ensure player agency
+- Multiple paths to Author's Desk discovery (Stacks vs. Prop Room vs. Partnership)
+
+**Issues Found:** None requiring revision.
 
 ### Act 3: The Final Act (51 nodes)
 
