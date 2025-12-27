@@ -53,6 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md Fly System flags documentation: STRUCTURAL_INSIGHT (node 315 success), TACTICAL_POSITION (node 316) replacing stale spec flags FLY_SYSTEM_EXPLORED/STORY_DEPTH_REVEALED; check table corrected for outcome nodes 316-317 (PR #182)
 - ACT3_MECHANICS.md Entry Sequence flags documentation: IN_MAINSTAGE, DIRECT_APPROACH flags for nodes 300-303 (PR #174)
 - RULES.md Effective Bonus mechanic documentation: format specification (`+N effective to [stat] for [scope]`), duration types (single check, until event, situational), stacking rules (max +3), design guidelines for node authors (PR #186)
+- ACT3_MECHANICS.md Audience flags documentation: AUDIENCE_BLESSING (+2 effective Stage Presence), AUDIENCE_DOUBT (recovery failure penalty) replacing stale spec flags AUDIENCE_AWARE/AUDIENCE_ENGAGED; check table corrected for nodes 319-320 (PR #190)
 
 ### Fixed
 - ACT3_MECHANICS.md and RULES.md NPC reunion flag names corrected: PAGES_RESTORED→PAGES_BEFRIENDED, HAPPY_ENDING_ALLIED→HAPPY_ENDING_FRIEND to match canonical flags in content nodes (PR #162)
