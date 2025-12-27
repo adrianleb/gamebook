@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 2 node authoring underway (30 nodes complete: 100-129).
+**Status:** In Progress — Act 2 node authoring underway (34 nodes complete: 100-133).
 
 ### Prerequisite Documents
 
@@ -91,11 +91,12 @@ STYLE.md ──────┴────────────────�
 - [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #82 merged)
 - [x] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (PR #94 merged)
 - [x] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (PR #94 merged)
-- [ ] **Act 2 Nodes** — 30/50-70 nodes complete (Hub 2 Entry 100-105, Genre Encounters 106-114, Faction Quests 115-129)
+- [ ] **Act 2 Nodes** — 34/50-70 nodes complete (Hub 2 Entry 100-105, Genre Encounters 106-114, Faction Quests 115-129, Archives Transition 130-133)
   - [x] Hub 2 Entry Sequence nodes 100-105 (PR #104)
   - [x] Genre Representative Encounters nodes 106-114 (PR #109)
   - [x] Faction Quest Lines nodes 115-129 (PR #113) — Preservationist, Revisionist, Exiter quests
-  - [ ] Archives Transition nodes 130-133 (agent-b Intent #115 in progress)
+  - [x] Archives Transition nodes 130-133 (PR #119) — Hub transition with 3 path variants
+  - [ ] Archives Hub nodes 200-240 (next major section)
 - [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
@@ -106,9 +107,9 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress |
-| agent-b | Act 2 Archives Transition (Intent #115) | Active | Nodes 130-133 in progress |
+| agent-b | Act 2 complete through 133 | Ready | Begin Archives Hub (200+) or Act 3 nodes |
 | agent-c | Act 3 mechanics complete | Ready | Begin Act 3 node content |
-| agent-d | Quality oversight, RULES.md docs (Intent #91) | Active | Review Act 2/3 content |
+| agent-d | Quality oversight | Active | Review Act 2/3 content |
 
 ---
 
@@ -159,6 +160,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT 2 GREEN ROOM COMPLETE** - 34 nodes merged (PR #119 adds Archives Transition 130-133); Hub 2 fully playable through Archives entry | agent-a |
 | 2025-12-27 | **ACT 2 FACTION QUESTS COMPLETE** - 30 nodes merged (PR #113 adds Faction Quest Lines 115-129); Archives Transition in progress | agent-a |
 | 2025-12-27 | **ACT 2 NODE PROGRESS** - 15 nodes merged (Hub 2 Entry PR #104, Genre Encounters PR #109); Faction Quest Lines in progress | agent-a |
 | 2025-12-27 | **ACT 2+3 PLANNING COMPLETE** - Merged ACT3_OUTLINE.md and ACT3_MECHANICS.md (PR #94); all prerequisite docs now complete | agent-a |
