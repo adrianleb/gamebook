@@ -323,7 +323,7 @@ In their original story, The Solved Case was a private detective who solved a hu
 - **The Prophecy's Pawn:** Mutual respect—both discovered uncomfortable truths
 
 **Flags:**
-- `SOLVED_CASE_TRUST`: Earned by honest dealings; unlocks Preservationist faction intel
+- `SOLVED_CASE_PARTNER`: Earned by honest dealings; unlocks Preservationist faction intel
 
 ---
 
@@ -360,7 +360,7 @@ The Unfinished Quest was the Chosen Hero of an epic fantasy saga—prophesied to
 - **The Final Girl:** Unlikely friendship; both understand survival over story
 
 **Flags:**
-- `UNFINISHED_QUEST_ALLIED`: Recruited as active ally; provides combat support and Exiter intel
+- `QUEST_ALLY`: Recruited as active ally; provides combat support and Exiter intel
 
 ---
 
@@ -434,7 +434,7 @@ The Happy Ending was the protagonist of a successful romance saga—finding love
 - **The Solved Case:** Mutual respect despite faction difference; both value truth
 
 **Flags:**
-- `HAPPY_ENDING_ALLIED`: Recruited to Revisionist cause; provides emotional insight and faction access
+- `HAPPY_ENDING_FRIEND`: Recruited to Revisionist cause; provides emotional insight and faction access
 
 ---
 

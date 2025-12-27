@@ -23,7 +23,7 @@ Your allies exchange glances. Each carries their own perspective, shaped by thei
 
 ---
 
-*[If `SOLVED_CASE_TRUST`]*
+*[If `SOLVED_CASE_PARTNER`]*
 **The Solved Case** produces a worn notebook, pages covered in their cramped observations.
 
 **The Solved Case:** "I've been tracking the Editor's patterns. They edit in phases—observation, judgment, revision, execution. Interrupt any phase, the whole process stalls. The Final Draft is their tool, but it's also their weakness. Destroy the Draft, destroy their power."
@@ -32,7 +32,7 @@ Your allies exchange glances. Each carries their own perspective, shaped by thei
 
 ---
 
-*[If `HAPPY_ENDING_ALLIED`]*
+*[If `HAPPY_ENDING_FRIEND`]*
 **The Happy Ending's** gentle voice cuts through the tactical discussion.
 
 **The Happy Ending:** "The Editor was a person once. They made choices that led here, but choices can be unmade. If we could reach the person inside—remind them why stories matter, why endings matter—perhaps we could convince them to stop. Perhaps the Final Draft doesn't need to be destroyed. Perhaps it needs to be *completed*... differently."
@@ -59,7 +59,7 @@ Your allies exchange glances. Each carries their own perspective, shaped by thei
 
 ---
 
-*[If `UNFINISHED_QUEST_ALLIED`]*
+*[If `QUEST_ALLY`]*
 **The Unfinished Quest** grins with battle-ready energy.
 
 **The Unfinished Quest:** "My story never got a proper final battle. This is my chance. I say we hit the Editor directly—make it a contest of narrative will. Who has more right to determine how stories end: the one who writes them, or the ones who live them?"

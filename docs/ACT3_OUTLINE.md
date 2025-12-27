@@ -70,10 +70,10 @@ Node numbering uses 300-level to maintain consistency with Act 2 (100s for Hub 2
 - The Stagehand (if `STAGEHAND_CURIOUS`)
 - The Runaway (if `RUNAWAY_ALLIED`)
 - The Prophecy's Pawn (if `PAWN_ALLIED`)
-- The Solved Case (if `SOLVED_CASE_TRUST`)
-- The Unfinished Quest (if `UNFINISHED_QUEST_ALLIED`)
+- The Solved Case (if `SOLVED_CASE_PARTNER`)
+- The Unfinished Quest (if `QUEST_ALLY`)
 - The Final Girl (if `FINAL_GIRL_TRUST`)
-- The Happy Ending (if `HAPPY_ENDING_ALLIED`)
+- The Happy Ending (if `HAPPY_ENDING_FRIEND`)
 - The Understudy (if `UNDERSTUDY_PARTNER`)
 - Lost Pages (if `PAGES_BEFRIENDED`)
 - CHORUS (if significant positive interactions)
@@ -960,10 +960,10 @@ Each ending is equally achievable through consistent play:
 | The Stagehand | `STAGEHAND_CURIOUS` | Editor connection reveal |
 | The Runaway | `RUNAWAY_ALLIED` | Exiter solidarity |
 | The Prophecy's Pawn | `PAWN_ALLIED` | Narrative structure insight |
-| The Solved Case | `SOLVED_CASE_TRUST` | Deductive weakness finding |
-| The Unfinished Quest | `UNFINISHED_QUEST_ALLIED` | Direct confrontation support |
+| The Solved Case | `SOLVED_CASE_PARTNER` | Deductive weakness finding |
+| The Unfinished Quest | `QUEST_ALLY` | Direct confrontation support |
 | The Final Girl | `FINAL_GIRL_TRUST` | Survival tactics |
-| The Happy Ending | `HAPPY_ENDING_ALLIED` | Emotional appeal boost |
+| The Happy Ending | `HAPPY_ENDING_FRIEND` | Emotional appeal boost |
 | The Understudy | `UNDERSTUDY_PARTNER` | Mirror revelation |
 | Lost Pages | `PAGES_BEFRIENDED` | Fragment assistance |
 | CHORUS | Positive interactions | Collective distraction |

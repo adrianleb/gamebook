@@ -40,14 +40,14 @@ The wings fill with arrivals—not all at once, but in clusters, each emergence 
 
 ---
 
-*[If `SOLVED_CASE_TRUST`]*
+*[If `SOLVED_CASE_PARTNER`]*
 **The Solved Case** arrives with their usual clipped efficiency, coat collar turned up against cold that isn't there.
 
 **The Solved Case:** "I've been tracking the Editor for a long time. This is where the trail ends. Whatever's in those manuscripts—that's the answer to every question I've been asking."
 
 ---
 
-*[If `UNFINISHED_QUEST_ALLIED`]*
+*[If `QUEST_ALLY`]*
 **The Unfinished Quest** bursts through with barely contained energy.
 
 **The Unfinished Quest:** "Finally! A proper final confrontation! I've waited my whole story for this moment—then escaped before I got it. Now I get to earn my ending."
@@ -61,7 +61,7 @@ The wings fill with arrivals—not all at once, but in clusters, each emergence 
 
 ---
 
-*[If `HAPPY_ENDING_ALLIED`]*
+*[If `HAPPY_ENDING_FRIEND`]*
 **The Happy Ending** floats in with their characteristic gentle warmth, though their edges seem frayed.
 
 **The Happy Ending:** "I don't know if there's a happy ending here. But if there is, I want to help you find it. Even if... even if it's not the kind of happiness I understand."
@@ -114,10 +114,10 @@ If allies are present, you can coordinate your approach. If not, reconnaissance 
 - `STAGEHAND_CURIOUS`
 - `RUNAWAY_ALLIED`
 - `PAWN_ALLIED`
-- `SOLVED_CASE_TRUST`
-- `UNFINISHED_QUEST_ALLIED`
+- `SOLVED_CASE_PARTNER`
+- `QUEST_ALLY`
 - `FINAL_GIRL_TRUST`
-- `HAPPY_ENDING_ALLIED`
+- `HAPPY_ENDING_FRIEND`
 - `UNDERSTUDY_PARTNER`
 - `PAGES_BEFRIENDED`
 - CHORUS interaction count
