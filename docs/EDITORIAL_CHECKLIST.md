@@ -247,12 +247,12 @@ Every failed check MUST lead to:
 | Range | Sequence | Nodes | Status | Reviewer | Date |
 |-------|----------|-------|--------|----------|------|
 | 001-005 | Tutorial | 5 | [x] PASS | agent-d | 2025-12-27 |
-| 010-018 | Pursuers Path | 9 | [ ] | | |
-| 020-028 | Researcher Path | 9 | [ ] | | |
+| 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 030-038 | Negotiator Path | 9 | [ ] | | |
 | 040-045 | First Crossing | 6 | [ ] | | |
 
-**Act 1 Total:** 5/38 reviewed
+**Act 1 Total:** 23/38 reviewed
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -287,6 +287,80 @@ Every failed check MUST lead to:
 - ✅ No paragraphs exceed 4 sentences
 - ✅ All branch links valid and reachable
 - ✅ Tutorial difficulty curve appropriate (all checks at 1)
+
+### Pursuers Path Review Notes (010-018)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 010 | The Chase Begins | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 011 | The Understage Border | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 012 | Obstacle Encounter | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 013 | The Wings | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 014 | Improvise a Trap | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 015 | Discovery | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 016 | Confrontation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 017 | The Capture | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 018 | Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all nodes
+- The Runaway voice matches CHARACTERS.md profile (poetic, desperate, tragedy genre bleed)
+- Uses exact sample line from CHARACTERS.md: "'She fell, and in falling, set him free.'"
+- The Stagehand's assistance in failure paths matches voice (simple, helpful)
+- Maren's brief dialogue matches voice (theatrical metaphors)
+- All stat checks match ACT1_MECHANICS.md specification (Improv 2/3, Stage Presence 1/2, Script 2)
+- Fail-forward properly implemented in all check nodes
+- Item acquisition (Breach Witness Statement) uses correct format
+- All flags use UPPERCASE_SNAKE_CASE
+
+**Validation Criteria Met:**
+- ✅ Average sentence length ≤18 words
+- ✅ Active voice >80%
+- ✅ No paragraphs exceed 4 sentences
+- ✅ All branch links valid and reachable
+- ✅ Difficulty curve appropriate (threshold 1-3, mostly threshold 2)
+
+### Researcher Path Review Notes (020-028)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 020 | The Records Room | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 021 | The First Clue | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 022 | Archaic Notation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 023 | The Pattern Emerges | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 024 | Connecting the Dots | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 025 | The Breach Pattern | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 026 | The Prediction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 027 | The Revenant's Trail | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 028 | The Stagehand's Secret | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all nodes
+- The Stagehand's voice matches CHARACTERS.md profile: third-person self-reference ("The Stagehand will..."), simple speech, reaching for lost memories
+- The Revenant's voice uses exact patterns from CHARACTERS.md: fragmented echoes, temporal confusion ("I am hunted, was hunted, will be hunted..."), references to warmth and page 113
+- Maren's voice matches CHARACTERS.md: theatrical precision, stage metaphors, warm but not soft
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check thresholds match ACT1_MECHANICS.md exactly: Script 2 (020), Script 1 (022), Improv 2 (024), Script 2 (025), Script 3 (026), Script 3 OR Stage Presence 2 (028)
+- Fail-forward properly implemented: all failure paths lead to meaningful alternatives
+- Item acquisition (Genre Compass) uses correct format with category and properties
+- All flags use UPPERCASE_SNAKE_CASE: `PATH_RESEARCHER`, `HAS_GENRE_COMPASS`, `HAS_GENRE_COMPASS_INACTIVE`, `STAGEHAND_ORIGIN_REVEALED`, `REVENANT_LIMBO`
+- The thirty-seven years detail aligns with CHARACTERS.md Maren backstory
+
+**Validation Criteria Met:**
+- ✅ Average sentence length ≤18 words (actual: 14-17 words)
+- ✅ Active voice >80%
+- ✅ No paragraphs exceed 4 sentences
+- ✅ All branch links valid and reachable
+- ✅ Difficulty curve appropriate (mostly threshold 2, one threshold 3 Advanced check at climax)
+- ✅ Fail-forward compliance verified for all stat checks
 
 ### Act 2: The Descent (65 nodes)
 
