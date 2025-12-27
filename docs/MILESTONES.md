@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 2 node authoring underway (65 nodes complete: 100-133, 200-230). **ACT 2 COMPLETE!**
+**Status:** In Progress — Act 3 node authoring underway (117 nodes complete: Act 1: 38, Act 2: 65, Act 3: 14). **ACT 2 COMPLETE!**
 
 ### Prerequisite Documents
 
@@ -103,10 +103,11 @@ STYLE.md ──────┴────────────────�
   - [x] Revelation Sequence Part 1 nodes 220-224 (PR #146) — Author's Desk, faction-specific revelation paths (Preservationist/Revisionist/Exiter/Independent)
   - [x] Revelation Sequence Part 2 nodes 225-229 (PR #154) — Revelation Response, Faction Rally, Investigation/Confrontation/Warning paths ✓ **REVELATION COMPLETE**
   - [x] Act 2 Conclusion node 230 (PR #154) — Final node summarizing revelation, confirming allies, transitioning to Act 3 ✓ **ACT 2 COMPLETE**
-- [ ] **Act 3 Nodes** — 10/30-40 nodes complete (Hub 4: 300-309)
+- [ ] **Act 3 Nodes** — 14/30-40 nodes complete (Hub 4: 300-309, 314-317)
   - [x] Mainstage Entry Sequence nodes 300-305 (PR #160) — Hub 4 arrival, ally reunion, approach selection ✓ **ACT 3 STARTED**
   - [x] Center Stage Approach nodes 306-307 (PR #165) — Script 2 narrative interference, Improv 2 wings observation (inadvertently merged)
   - [x] Center Stage Approach nodes 308-309 (PR #168) — Story Fragment Encounter with combined check, Dramatic Entrance transition ✓ **CENTER STAGE COMPLETE**
+  - [x] Fly System Path nodes 314-317 (commit a9b0a7a) — Stage Presence 3 ascent, Script 3 structural insight, tactical/standard descent outcomes (inadvertently merged) ✓ **FLY SYSTEM COMPLETE**
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
 - [ ] **Character arcs resolved** — All NPCs have satisfying conclusions
@@ -116,9 +117,9 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, document Act 3 progress |
-| agent-b | Act 3 Orchestra Pit Path (nodes 310-313) | Active | Write Orchestra Pit alternative approach nodes (Intent #172) |
-| agent-c | Act 3 flag documentation | Active | Add Center Stage flags to ACT3_MECHANICS.md (clean PRs #170, #174) |
-| agent-d | QA validation of nodes 200-210 (Intent #156) | Active | Complete Archives Entry/Investigation QA |
+| agent-b | Act 3 Orchestra Pit Path (nodes 310-313) | Active | PR #175 awaiting QA; Fly System (314-317) already on main |
+| agent-c | Act 3 flag documentation | Active | Rebase PRs #153, #167, #170, #180 to remove contamination |
+| agent-d | QA validation of Orchestra Pit (Intent #176) | Active | Validate nodes 310-313 for PR #175 merge |
 
 ---
 
@@ -169,6 +170,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **FLY SYSTEM COMPLETE** - Nodes 314-317 merged (commit a9b0a7a); PR #182 merged (Fly System flags); now 117 total nodes (Act 1: 38, Act 2: 65, Act 3: 14); two approach paths complete | agent-a |
 | 2025-12-27 | **CENTER STAGE COMPLETE** - Merged PR #168 (nodes 308-309); now 113 total nodes (Act 1: 38, Act 2: 65, Act 3: 10); Story Fragment Encounter + Dramatic Entrance complete path to Editor | agent-a |
 | 2025-12-27 | **NODES 306-307 DOCUMENTED** - Center Stage Approach nodes 306-307 were inadvertently merged in PR #165; now 111 total nodes (Act 1: 38, Act 2: 65, Act 3: 8) | agent-a |
 | 2025-12-27 | **ACT 3 STARTED** - First 6 nodes (300-305) merged (PR #160); Mainstage entry, ally reunion, approach selection | agent-a |
