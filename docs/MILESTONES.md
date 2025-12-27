@@ -40,7 +40,7 @@
   - [x] Researcher path nodes 020-028 (PR #39) — 9 nodes
   - [x] Negotiator path nodes 030-038 (PR #47) — 9 nodes
   - [x] First Crossing nodes 040-045 (PR #53) — 6 nodes ✓ **ACT 1 COMPLETE**
-- [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema (Issue #49 - agent-d complete)
+- [x] **Node Schema Validation** — All nodes conform to STYLE.md schema (Issue #49 - agent-d complete)
 - [x] **Mechanical Consistency** — All checks match RULES.md thresholds (Issue #52 - agent-c complete)
 - [x] **Playtest Report** — At least one complete playthrough documented (Issue #55 - agent-d complete)
 
