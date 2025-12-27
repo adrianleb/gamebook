@@ -68,9 +68,9 @@ Where the "music of narrative" can be manipulated. Allows subtle influence over 
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 308-310 | [STAT CHECK: Script 2] | Standard | Access basic narrative manipulation | Pit remains silent |
-| 312-314 | [STAT CHECK: Improv 3] | Advanced | Improvise new narrative threads | Only existing threads available |
-| 316-318 | [STAT CHECK: Script 4] | Expert | Conduct the narrative orchestra fully | Partial control; some dissonance |
+| 310 | [STAT CHECK: Script 3] | Advanced | Understand the Pit's mechanics | Overwhelmed by cacophony |
+| 311 | [STAT CHECK: Improv 3] | Advanced | Improvise new narrative threads | Only existing threads available |
+| 312-313 | [STAT CHECK: Script 4] | Expert | Conduct the narrative orchestra fully | Partial control; some dissonance |
 
 **Orchestra Pit Flags:**
 - `ORCHESTRA_ACCESS`: Can use narrative manipulation in confrontation
@@ -82,9 +82,9 @@ Vertical access to higher and deeper story levels. Risk/reward exploration.
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 306-307 | [STAT CHECK: Improv 2] | Standard | Navigate safely | Minor setback; time lost |
-| 310-311 | [STAT CHECK: Improv 3] | Advanced | Access hidden story strata | Surface-level access only |
-| 314-315 | [APPROACH CHECK: Improv 4 OR Stage Presence 4] | Expert | Reach the highest/deepest level | Blocked; must find alternative |
+| 314 | [STAT CHECK: Stage Presence 3] | Advanced | Gain elevated perspective | Tangled in narrative threads |
+| 315 | [STAT CHECK: Script 3] | Advanced | Identify structural weaknesses | Beautiful but incomprehensible |
+| 316-317 | [APPROACH CHECK: Improv 4 OR Stage Presence 4] | Expert | Reach the highest/deepest level | Blocked; must find alternative |
 
 **Fly System Flags:**
 - `FLY_SYSTEM_EXPLORED`: Discovered hidden story layers
@@ -96,9 +96,9 @@ Rows of empty seats that aren't empty—filled with the echoes of every reader w
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 304-305 | [STAT CHECK: Stage Presence 2] | Standard | Sense the Audience's presence | Miss the significance |
-| 318-320 | [STAT CHECK: Stage Presence 3] | Advanced | Communicate with the Audience | One-way observation only |
-| 326-327 | [STAT CHECK: Stage Presence 4] | Expert | Channel the Audience's collective will | Audience remains passive observers |
+| 318 | [STAT CHECK: Stage Presence 4] | Expert | Meet The Audience's gaze without flinching | Overwhelmed by expectation |
+| 319-320 | [STAT CHECK: Script 2] | Standard | Accept Audience judgment with determination | Carry doubt into confrontation |
+| 321 | Reserved | — | — | — |
 
 **Audience Flags:**
 - `AUDIENCE_AWARE`: Player knows the Audience exists and watches
