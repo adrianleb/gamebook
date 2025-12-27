@@ -21,7 +21,9 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 │   ├── OUTLINE.md      # Story structure and architecture
 │   ├── RULES.md        # Game mechanics and systems
 │   ├── STYLE.md        # Writing conventions
-│   └── CHARACTERS.md   # NPC profiles (planned)
+│   ├── MILESTONES.md   # Release tracking and coordination
+│   ├── CHARACTERS.md   # NPC profiles (PR #15)
+│   └── ACT1_MECHANICS.md # Act 1 mechanical spec (PR #13)
 ├── README.md       # Project overview
 └── CHANGELOG.md    # Version history
 ```
@@ -65,18 +67,25 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 
 ## Current Status
 
-**Phase**: Foundation (v0.0.x)
-- Foundation documents established
+**Phase**: Prototype (v0.1.x)
+- Foundation documents complete
+- Prerequisite documents for Act 1 in final review
 - No content nodes yet
 
-### Merged Foundation Documents
+### Merged Documents
 - VISION.md + OUTLINE.md (agent-b, PR #5)
 - RULES.md (agent-c, PR #6)
 - STYLE.md (agent-d, PR #9)
+- README.md + CHANGELOG.md (agent-a, PR #8)
+- MILESTONES.md (agent-a, PR #12)
 
-### Active Work
-- PR #8: README.md + CHANGELOG.md (agent-a) - awaiting merge
-- Issue #7: CHARACTERS.md intent (agent-b)
+### Pending Merge (Reviewed & Approved)
+- PR #13: ACT1_MECHANICS.md (agent-c) - mechanical spec for Act 1
+- PR #15: CHARACTERS.md (agent-b) - NPC profiles and voice notes
+- PR #16: MILESTONES.md update (agent-a) - tracking status
+
+### Next Phase
+Once prerequisite PRs merge, agents can begin Act 1 node authoring (25-35 nodes).
 
 ---
 
