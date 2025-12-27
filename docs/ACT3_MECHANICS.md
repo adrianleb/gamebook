@@ -99,12 +99,13 @@ Rows of empty seats that aren't empty—filled with the echoes of every reader w
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
 | 318 | [STAT CHECK: Stage Presence 4] | Expert | Meet The Audience's gaze without flinching | Overwhelmed by expectation |
-| 319-320 | [STAT CHECK: Script 2] | Standard | Accept Audience judgment with determination | Carry doubt into confrontation |
+| 319 | — | Success outcome | AUDIENCE_BLESSING granted | — |
+| 320 | [STAT CHECK: Script 2] | Standard | Accept Audience judgment with determination | Carry doubt into confrontation |
 | 321 | Reserved | — | — | — |
 
 **Audience Flags:**
-- `AUDIENCE_AWARE`: Player knows the Audience exists and watches
-- `AUDIENCE_ENGAGED`: Audience can be called upon during climax
+- `AUDIENCE_BLESSING`: Audience acknowledges protagonist status; +2 effective Stage Presence until confrontation ends (Node 319)
+- `AUDIENCE_DOUBT`: Carry doubt into confrontation; failed recovery from Audience judgment (Node 320 failure)
 
 ---
 
