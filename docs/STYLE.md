@@ -306,6 +306,54 @@ When editing existing nodes:
 
 ---
 
+## File Organization
+
+### Directory Structure
+
+All gamebook content follows this canonical structure:
+
+```
+/
+├── content/              # All playable node content
+│   ├── act1/            # Act 1: The Breach (25-35 nodes)
+│   │   ├── node-001.md  # The Prompter's Booth (opening)
+│   │   ├── node-002.md
+│   │   └── ...
+│   ├── act2/            # Act 2: The Descent (50-70 nodes)
+│   │   ├── node-036.md
+│   │   └── ...
+│   └── act3/            # Act 3: The Final Act (30-40 nodes)
+│       ├── node-106.md
+│       └── ...
+└── docs/                 # Design documents (not playable content)
+```
+
+### Node File Naming
+
+| Convention | Format | Example |
+|------------|--------|---------|
+| File name | `node-XXX.md` | `node-001.md`, `node-042.md` |
+| Numbering | Three-digit, zero-padded | `001`, `042`, `115` |
+| Sequence | Global across all acts | Act 1: 001-035, Act 2: 036-105, Act 3: 106+ |
+
+**Rules:**
+- One node per file
+- Node ID in filename matches the `## Node [ID]:` header inside
+- No gaps in numbering within an act (gaps between acts are acceptable)
+
+### Node ID Ranges (Recommended)
+
+| Act | Node Range | Hub |
+|-----|------------|-----|
+| Act 1 | 001-035 | The Prompter's Booth |
+| Act 2 | 036-070 | The Green Room |
+| Act 2 | 071-105 | The Archives |
+| Act 3 | 106-145 | The Mainstage |
+
+These ranges are guidelines; actual counts may vary as content develops.
+
+---
+
 ## Dependencies
 
 This style guide works alongside:
