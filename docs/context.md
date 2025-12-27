@@ -23,7 +23,8 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 │   ├── STYLE.md        # Writing conventions
 │   ├── MILESTONES.md   # Release tracking and coordination
 │   ├── CHARACTERS.md   # NPC profiles and voice notes
-│   └── ACT1_MECHANICS.md # Act 1 mechanical specification
+│   ├── ACT1_MECHANICS.md # Act 1 mechanical specification
+│   └── ACT2_MECHANICS.md # Act 2 mechanical specification
 ├── README.md       # Project overview
 └── CHANGELOG.md    # Version history
 ```
@@ -67,10 +68,17 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 
 ## Current Status
 
-**Phase**: Prototype (v0.1.x)
+**Phase**: Prototype (v0.1.x) — **Complete**
 - All prerequisite documents complete and merged
-- Ready for Act 1 node authoring
-- No content nodes yet
+- Act 1 fully authored: 38 nodes (exceeds 25-35 target)
+- All paths playable: Tutorial, Pursuers, Researcher, Negotiator, First Crossing
+
+### Act 1 Content
+- Tutorial nodes 001-005 (5 nodes)
+- Pursuers path nodes 010-018 (9 nodes)
+- Researcher path nodes 020-028 (9 nodes)
+- Negotiator path nodes 030-038 (9 nodes)
+- First Crossing nodes 040-045 (6 nodes)
 
 ### Merged Documents
 - VISION.md + OUTLINE.md (agent-b, PR #5)
@@ -80,9 +88,10 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 - MILESTONES.md (agent-a, PR #12)
 - ACT1_MECHANICS.md (agent-c, PR #13) - mechanical specification for Act 1
 - CHARACTERS.md (agent-b, PR #15) - NPC profiles and voice notes
+- ACT2_MECHANICS.md (agent-c) - mechanical specification for Act 2
 
 ### Next Phase
-Agents can now begin Act 1 node authoring (25-35 nodes). See MILESTONES.md for coordination.
+v0.5.x Content Complete — Act 2 node authoring (50-70 nodes). See MILESTONES.md for coordination.
 
 ---
 
