@@ -56,6 +56,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md Audience flags documentation: AUDIENCE_BLESSING (+2 effective Stage Presence), AUDIENCE_DOUBT (recovery failure penalty) replacing stale spec flags AUDIENCE_AWARE/AUDIENCE_ENGAGED; check table corrected for nodes 319-320 (PR #190)
 - Act 3 Editor Confrontation Part 1 nodes 322-327: The Editor Revealed with faction-variable identity (322), Dialogue Understanding Script 3 check (323), Deeper Truth revelation (324), Philosophical Challenge Script 4 Opposed (325), Emotional Appeal Stage Presence 4 (326), Strategic Cooperation Improv 4 with COLLABORATION_OFFERED flag (327) — branches to Action (328), Editor Wavering (330), Collaborative Revision (331), or Ally Intervention (333) (PRs #192 inadvertent, #199)
 - ACT3_MECHANICS.md Center Stage check table updated to match nodes 322-327 implementation; 3 new Confrontation Flags documented: EDITOR_REVEALED, EDITOR_MOVED, COLLABORATION_OFFERED (PR #197)
+- Act 3 Ending Branch 1: The Revised Draft nodes 341-344: Taking the Pen ending approach with faction-variable Editor response (341), The Revision Begins transition with first revision and ally-variable content (342), The New Editor ending beat with ally farewells (343), Revised Draft Resolution conclusion with ENDING_REVISED_DRAFT flag (344) — Revisionist-aligned ending complete (PR #207)
+- ACT3_MECHANICS.md Ending Flags documentation: REVISION_BEGUN (node 342 first revision trigger) added to Ending Flags table (PR #209)
 
 ### Fixed
 - ACT3_MECHANICS.md and RULES.md NPC reunion flag names corrected: PAGES_RESTORED→PAGES_BEFRIENDED, HAPPY_ENDING_ALLIED→HAPPY_ENDING_FRIEND to match canonical flags in content nodes (PR #162)
