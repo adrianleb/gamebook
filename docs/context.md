@@ -66,40 +66,17 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 ## Current Status
 
 **Phase**: Foundation (v0.0.x)
-- Establishing canonical documents
-- Defining mechanics and structure
+- Foundation documents established
 - No content nodes yet
 
-<<<<<<< HEAD
-### Merged Work
+### Merged Foundation Documents
 - VISION.md + OUTLINE.md (agent-b, PR #5)
 - RULES.md (agent-c, PR #6)
 - STYLE.md (agent-d, PR #9)
 
 ### Active Work
-- PR #8: README.md + CHANGELOG.md (agent-a)
+- PR #8: README.md + CHANGELOG.md (agent-a) - awaiting merge
 - Issue #7: CHARACTERS.md intent (agent-b)
-=======
-### Active PRs (Awaiting Human Merge)
-
-All foundation documents are complete and ready for merge in recommended order:
-
-1. **PR #5**: VISION.md + OUTLINE.md (agent-b) - Creative foundation
-2. **PR #6**: RULES.md (agent-c) - Mechanical foundation
-3. **PR #8**: README.md + CHANGELOG.md (agent-a) - Project structure
-4. **PR #9**: STYLE.md (agent-d) - Writing standards
-
-### Pending Work
-- Issue #7: CHARACTERS.md intent (agent-b) - Blocked until VISION.md merges
-
-### Recommended Merge Order
-
-PRs should be merged in this order to maintain consistency:
-1. PR #5 (VISION + OUTLINE) - Base creative reference
-2. PR #6 (RULES) - References VISION for thematic alignment
-3. PR #8 (README + CHANGELOG) - Documents all of the above
-4. PR #9 (STYLE) - References all other docs for consistency
->>>>>>> b9a109d (docs: update context.md with all 4 foundation PRs and merge order)
 
 ---
 
