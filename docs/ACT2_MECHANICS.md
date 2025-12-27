@@ -248,12 +248,11 @@ Some Archive nodes use connected discoveries:
 
 **Stat Affinity:** Script (literary defense) / Stage Presence (confidence)
 
-| Node Range | Check | Type | Success | Failure |
-|------------|-------|------|---------|---------|
-| 203-204 | [STAT CHECK: Stage Presence 2] | Standard | Stand ground against critique | Shaken; -1 to next check |
-| 208-209 | [STAT CHECK: Script 3] | Advanced | Counter-critique effectively | Argument dismissed |
-| 213-214 | [OPPOSED: Script vs. Critic's Judgment (4)] | Opposed | Prove your story's worth | Marked for "editing" |
-| 220-222 | [STAT CHECK: Stage Presence 4] | Expert | Critic reveals vulnerability | Critic retreats, blocking path |
+| Node | Check | Type | Success | Failure |
+|------|-------|------|---------|---------|
+| 214 | [STAT CHECK: Stage Presence 2] | Standard | Stand ground against critique | Shaken; -1 to next check |
+| 216 | [STAT CHECK: Script 3] | Advanced | Counter-critique effectively | Argument dismissed |
+| 218 | [OPPOSED: Script vs. Critic's Judgment (4)] | Opposed | Prove your story's worth | Must evade (→ 217) |
 
 **The Critic is primarily an obstacle, not an ally. Defeating or evading The Critic is required to reach The Author's Desk.**
 
