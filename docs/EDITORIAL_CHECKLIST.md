@@ -213,11 +213,18 @@ For each node, verify:
 
 #### Difficulty Curve
 
+Per RULES.md, check thresholds are capped at 4 (Expert). The table below shows expected threshold ranges by act:
+
 | Act | Standard Check | Advanced Check | Expert Check |
 |-----|---------------|----------------|--------------|
 | Act 1 | 2 | 3 | 4 |
-| Act 2 | 2-3 | 3-4 | 4-5 |
-| Act 3 | 3 | 4 | 5 |
+| Act 2 | 2 | 3 | 4 |
+| Act 3 | 2 | 3 | 4 |
+
+**Note:** The difficulty curve manifests through *frequency* of check tiers, not higher thresholds:
+- Act 1: 80% Basic/Standard, 20% Advanced
+- Act 2: 50% Basic/Standard, 40% Advanced, 10% Expert
+- Act 3: 30% Basic/Standard, 50% Advanced, 20% Expert
 
 #### Fail-Forward Compliance
 
