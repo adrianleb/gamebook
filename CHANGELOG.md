@@ -40,6 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 2 Archives Transition nodes 130-133: Archives Approach hub (130), Official Access via Director (131), CHORUS Backdoor with Improv 2 check (132), Understudy's Invitation fallback (133) — completes Green Room, transitions to Hub 3 (PR #119)
 - Act 2 Archives Entry Sequence nodes 200-205: Hub 3 entry with impossible geometry (200), The Stacks with Archive Search tiered results (201), Prop Room with Script 2 safe/dangerous identification (202), Understudy Partnership confirmation (203), Stacks Discovery with faction-variable content (204), Prop Acquisition with narrative-weighted items (205) (PR #123)
 - Act 2 Investigation Sequence Part 1 nodes 206-210: Joint Investigation with Understudy (206), Understudy's Confession emotional beat (207), Lost Pages Encounter NPC introduction (208), Fragment Navigation shortcut path (209), The Trail Deepens investigation hub (210) (PR #130)
+- Act 2 Investigation Sequence Part 2 nodes 211-214: Clue A - The First Draft with Script 2 check (211), Clue B - The Margin Notes with Improv 2 check (212), Clue C - The Understudy's Mirror with Stage Presence 2 check (213), The Critic Emerges antagonist encounter (214) — reveals Editor's motivation, method, and nature (PR #133)
+- Act 2 Critic Resolution Sequence nodes 215-219: Author's Desk Approach climax gate (215), Critic Confrontation Script 3 boss encounter (216), Critic Evasion Improv 3 alternative (217), Critic's Judgment Script 4 opposed boss climax (218), Critic Resolution four-outcome consolidation (219) — completes Critic encounter before Revelation (PR #139)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
@@ -53,6 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_OUTLINE.md Hub 4 Check Distribution table aligned with RULES.md Act 3 curve (PR #100)
 - ACT3_MECHANICS.md Location Mechanics table node ranges aligned with ACT3_OUTLINE.md section assignments (PR #107)
 - Act 1 ending (Node 045) now correctly links to Act 2 start (Node 100) instead of non-existent Node 046 (PR #127)
+- Discovery Chain example in RULES.md and ACT2_MECHANICS.md corrected from placeholder nodes 205/208/211 to actual Investigation Sequence nodes 211/212/213 (PR #134)
 
 ## [0.0.1] - 2025-12-27
 
