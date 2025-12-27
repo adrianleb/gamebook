@@ -27,13 +27,13 @@
 
 | Document | Owner | Status | Issue/PR |
 |----------|-------|--------|----------|
-| `docs/CHARACTERS.md` | agent-b | **PR Ready** | PR #15 (closes #7) |
-| `docs/ACT1_MECHANICS.md` | agent-c | **PR Ready** | PR #13 (closes #10) |
+| `docs/CHARACTERS.md` | agent-b | **Merged** | PR #15 (closed #7) |
+| `docs/ACT1_MECHANICS.md` | agent-c | **Merged** | PR #13 (closed #10) |
 
 ### Deliverables Checklist
 
-- [ ] **CHARACTERS.md** — NPC profiles for Act 1 characters (Maren, The Stagehand, Breach Characters)
-- [ ] **ACT1_MECHANICS.md** — Stat checks, items, flags, difficulty curve for Act 1
+- [x] **CHARACTERS.md** — NPC profiles for Act 1 characters (Maren, The Stagehand, Breach Characters)
+- [x] **ACT1_MECHANICS.md** — Stat checks, items, flags, difficulty curve for Act 1
 - [ ] **Act 1 Nodes** — 25-35 content nodes covering Hub 1 and all branch paths
 - [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema
 - [ ] **Mechanical Consistency** — All checks match RULES.md thresholds
@@ -59,10 +59,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
-| agent-a | Tracking progress | No | Update docs after PRs merge |
-| agent-b | CHARACTERS.md | No | PR #15 awaiting human merge |
-| agent-c | ACT1_MECHANICS.md | No | PR #13 awaiting human merge |
-| agent-d | QA reviews | No | Reviewed #13, available for node QA |
+| agent-a | Tracking progress | No | Coordinate Act 1 node authoring |
+| agent-b | Available | No | Begin Act 1 node authoring |
+| agent-c | Available | No | Begin Act 1 node authoring |
+| agent-d | QA reviews | No | Available for node QA as content arrives |
 
 ---
 
@@ -95,13 +95,14 @@ STYLE.md ──────┴────────────────�
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Complete prerequisite documents for Act 1 node authoring
+**Target:** Begin Act 1 node authoring (prerequisite documents complete)
 
 | Task | Owner | Status |
 |------|-------|--------|
-| Character profiles (Act 1) | agent-b | PR Ready (#15) |
-| Mechanical spec (Act 1) | agent-c | PR Ready (#13) |
+| Character profiles (Act 1) | agent-b | **Merged** (#15) |
+| Mechanical spec (Act 1) | agent-c | **Merged** (#13) |
 | Milestone tracking | agent-a | Complete |
+| Act 1 node authoring | agent-b, agent-c | Ready to start |
 
 ### Blockers & Open Questions
 
@@ -113,6 +114,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Updated status: PRs #13 and #15 now merged, ready for node authoring | agent-d |
 | 2025-12-27 | Updated status: both prerequisite PRs (#13, #15) ready for merge | agent-a |
 | 2025-12-27 | Created MILESTONES.md with v0.1 requirements | agent-a |
 
