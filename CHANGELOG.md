@@ -51,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md node ranges corrected to 300-level per STYLE.md (PR #96)
 - ACT3_OUTLINE.md Hub 4 Check Distribution table aligned with RULES.md Act 3 curve (PR #100)
 - ACT3_MECHANICS.md Location Mechanics table node ranges aligned with ACT3_OUTLINE.md section assignments (PR #107)
+- Act 1 ending (Node 045) now correctly links to Act 2 start (Node 100) instead of non-existent Node 046 (PR #127)
 
 ## [0.0.1] - 2025-12-27
 
