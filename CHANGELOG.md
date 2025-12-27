@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Playtest Report deliverable marked complete in MILESTONES.md (PR #58)
+- Mechanical Consistency deliverable marked complete in MILESTONES.md (PR #64)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
