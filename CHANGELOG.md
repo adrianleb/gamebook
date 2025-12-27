@@ -11,8 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `README.md` - Project overview and contribution guidelines
 - `CHANGELOG.md` - Version tracking
 - `docs/MILESTONES.md` - Release gate tracking for v0.1 Prototype (PR #12)
-
-### Pending Merge
 - `docs/CHARACTERS.md` - NPC profiles for 8 major characters (PR #15)
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
 
