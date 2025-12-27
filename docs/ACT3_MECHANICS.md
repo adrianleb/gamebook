@@ -52,11 +52,16 @@ Per RULES.md Act 3 curve (30% Basic/Standard, 50% Advanced, 20% Expert):
 
 The focal point of the climax. All ending paths converge here.
 
-| Node Range | Check | Type | Success | Failure |
-|------------|-------|------|---------|---------|
-| 322-324 | [STAT CHECK: Stage Presence 3] | Advanced | Command attention; control the narrative flow | Editor takes initiative; defensive position |
-| 328-330 | [STAT CHECK: Script 3] | Advanced | Understand the Final Draft's structure | Learn structure through costly trial |
-| 332-335 | [STAT CHECK: Stage Presence 4] | Expert | Rally all present allies simultaneously | Must rally allies individually |
+| Node | Check | Type | Success | Failure |
+|------|-------|------|---------|---------|
+| 322 | — | Entry | EDITOR_REVEALED set | — |
+| 323 | [STAT CHECK: Script 3] | Advanced | Deeper truth unlocked → 324 | Dialogue fails → 328 |
+| 324 | — | Revelation | Challenge paths unlocked | — |
+| 325 | [OPPOSED: Script vs. Editor's Conviction (4)] | Expert | Editor wavers → 330 | Forced to action → 328 |
+| 326 | [STAT CHECK: Stage Presence 4] | Expert | Editor moved → 330; EDITOR_MOVED set | Forced to action → 328 |
+| 327 | [STAT CHECK: Improv 4] | Expert | Collaboration → 331; COLLABORATION_OFFERED set | Forced to action → 328 |
+| 328-330 | [APPROACH: Script 3 OR Stage Presence 3 OR Improv 3] | Advanced | Gain upper hand → 329 | Desperate measures → 332 |
+| 332-335 | [STAT CHECK: Any 4] | Expert | Editor's control broken | Stalemate → 335 |
 
 **Center Stage Flags:**
 - `CENTER_STAGE_CONTROL`: Player commands the stage; +1 to confrontation checks
@@ -480,6 +485,9 @@ Certain item combinations unlock special options:
 
 | Flag | Trigger | Effect |
 |------|---------|--------|
+| `EDITOR_REVEALED` | Confronted Editor directly (Node 322) | Marks confrontation started |
+| `EDITOR_MOVED` | Emotional appeal success (Node 326) | Editor emotionally reached; affects ending tone |
+| `COLLABORATION_OFFERED` | Strategic cooperation success (Node 327) | Unlocks collaborative revision path to Node 331 |
 | `CONFRONTATION_PRESERVATIONIST` | Chose Preservationist approach | Locks other approaches |
 | `CONFRONTATION_REVISIONIST` | Chose Revisionist approach | Locks other approaches |
 | `CONFRONTATION_EXITER` | Chose Exiter approach | Locks other approaches |
