@@ -169,7 +169,7 @@ Track total allies present. Affects certain climax options:
 
 | Allies | Effect |
 |--------|--------|
-| 0-2 | Solo confrontation; harder checks (+1 threshold on some) |
+| 0-2 | Solo confrontation; no ally bonuses, no faction-specific tactical options |
 | 3-4 | Balanced support; standard thresholds |
 | 5-6 | Strong support; unlock group tactics options |
 | 7+ | Army of allies; unique ending considerations |
@@ -552,10 +552,10 @@ Certain item combinations unlock special options:
 
 - Independent players can recruit individual NPCs regardless of faction (based on relationship flags)
 - Independent players cannot gain faction-specific bonuses
-- Independent players face +1 threshold on some social checks (fewer political allies)
+- Independent players have fewer automatic allies (3-5 max vs. 5-7+ for faction champions)
 - Independent players unlock unique dialogue and the Blank Page ending
 
-**The tradeoff:** Independence is harder (higher thresholds, fewer automatic allies) but more flexible (any NPC can be recruited, greater threat understood, unique ending).
+**The tradeoff:** Independence is harder (no faction bonuses, fewer automatic allies, balanced stat requirements) but more flexible (any NPC can be recruited, greater threat understood, unique ending).
 
 **Ally Count:** Independent players typically have 3-5 allies max (based purely on relationships) vs. faction champions who may have 5-7+ (faction members + relationships).
 
