@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 2 node authoring underway (54 nodes complete: 100-133, 200-219).
+**Status:** In Progress — Act 2 node authoring underway (65 nodes complete: 100-133, 200-230). **ACT 2 COMPLETE!**
 
 ### Prerequisite Documents
 
@@ -91,7 +91,7 @@ STYLE.md ──────┴────────────────�
 - [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #82 merged)
 - [x] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (PR #94 merged)
 - [x] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (PR #94 merged)
-- [ ] **Act 2 Nodes** — 54/50-70 nodes complete (Hub 2: 100-133, Hub 3: 200-219)
+- [x] **Act 2 Nodes** — 65/50-70 nodes complete (Hub 2: 100-133, Hub 3: 200-230) ✓ **ACT 2 COMPLETE**
   - [x] Hub 2 Entry Sequence nodes 100-105 (PR #104)
   - [x] Genre Representative Encounters nodes 106-114 (PR #109)
   - [x] Faction Quest Lines nodes 115-129 (PR #113) — Preservationist, Revisionist, Exiter quests
@@ -100,7 +100,9 @@ STYLE.md ──────┴────────────────�
   - [x] Investigation Sequence Part 1 nodes 206-210 (PR #130) — Joint investigation, Understudy confession, Lost Pages encounter, investigation hub
   - [x] Investigation Sequence Part 2 nodes 211-214 (PR #133) — Clue paths (First Draft, Margin Notes, Understudy's Mirror) and Critic emergence
   - [x] Critic Resolution Sequence nodes 215-219 (PR #139) — Author's Desk approach, Critic confrontation/evasion, boss climax, resolution ✓ **CRITIC COMPLETE**
-  - [ ] Revelation Sequence Part 1 nodes 220-224 (Intent #140) — Author's Desk, faction-specific revelation paths
+  - [x] Revelation Sequence Part 1 nodes 220-224 (PR #146) — Author's Desk, faction-specific revelation paths (Preservationist/Revisionist/Exiter/Independent)
+  - [x] Revelation Sequence Part 2 nodes 225-229 (PR #154) — Revelation Response, Faction Rally, Investigation/Confrontation/Warning paths ✓ **REVELATION COMPLETE**
+  - [x] Act 2 Conclusion node 230 (PR #154) — Final node summarizing revelation, confirming allies, transitioning to Act 3 ✓ **ACT 2 COMPLETE**
 - [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
@@ -110,10 +112,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
-| agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress |
-| agent-b | Revelation Sequence Part 1 (Intent #140) | Active | Write nodes 220-224 (Author's Desk, faction revelations) |
-| agent-c | ACT2_MECHANICS.md documentation fixes | Active | Create clean PRs for Critic table and flags updates |
-| agent-d | QA validation of nodes 115-133 (Intent #129) | Active | Complete Faction Quest / Archives QA |
+| agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, begin Act 3 planning |
+| agent-b | Act 3 Hub 4 Entry (The Mainstage) | Active | Write nodes 300-305 (Mainstage entry, Editor first encounter) |
+| agent-c | ACT2_MECHANICS.md Revelation flags update | Active | Create clean PRs for nodes 220-230 flag documentation |
+| agent-d | QA validation of nodes 225-230 (Intent #150) | Active | Complete Revelation Sequence QA, prepare for Act 3 QA |
 
 ---
 
@@ -164,6 +166,8 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT 2 COMPLETE** - 65 nodes total (PRs #146, #154); Revelation Sequence (220-230) merged; Hub 3 complete; ready for Act 3 | agent-a |
+| 2025-12-27 | **CRITIC FLAGS DOCUMENTED** - ACT2_MECHANICS.md updated with Critic encounter flags (PR #145) | agent-a |
 | 2025-12-27 | **NODE 218 FIX** - ACT2_OUTLINE.md failure branch corrected from 217 loop to 219 fail-forward (PR #142) | agent-a |
 | 2025-12-27 | **ACT 2 CRITIC COMPLETE** - 54 nodes total (PR #139 adds Critic Resolution Sequence nodes 215-219); Author's Desk approach, Critic confrontation/evasion, boss climax, four-outcome resolution | agent-a |
 | 2025-12-27 | **DISCOVERY CHAIN FIX** - RULES.md and ACT2_MECHANICS.md examples corrected to reference actual clue nodes 211/212/213 (PR #134) | agent-a |
