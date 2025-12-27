@@ -54,11 +54,11 @@ The path to the Author's Desk is clear. You've avoided the confrontation—for n
 
 **Failure:** You try to slip into the margins, but the Critic is faster than they look.
 
-**The Critic:** "The margins? Really?"
+**The Critic:** "The margins, Prompter? Your training is showing."
 
 Their voice catches you mid-step, freezing you in place.
 
-**The Critic:** "That's an old trick. Characters have been trying to hide in subtext and implication since stories began. Did you think I wouldn't see it?"
+**The Critic:** "That's an old trick. Characters have been trying to hide in subtext and implication since the first unreliable narrator. You think because you've read about narrative structure, you can exploit it? The Prompter's Booth didn't teach you everything."
 
 They don't even turn around. They don't need to.
 

@@ -6,7 +6,7 @@ You step forward. The Understudy makes a small sound of protest behind you, but 
 
 The Critic watches you approach with something like satisfaction.
 
-**The Critic:** "Brave. Or foolish. The distinction often only becomes clear in hindsight."
+**The Critic:** "You could have stayed behind your booth, whispering prompts through the fourth wall. Instead you stepped onto the stage itself. That choice—" they tilt their head, considering "—reveals more about your narrative instincts than any dialogue you could offer."
 
 They begin to circle, and the air grows heavy with the weight of evaluation. You can feel them reading you—not your words, but your structure. Your themes. The shape of your story.
 
@@ -18,11 +18,11 @@ They begin to circle, and the air grows heavy with the weight of evaluation. You
 
 This isn't a physical fight. It's worse. The Critic attacks with words, with implications, with the terrible weight of literary judgment. Your only weapons are the same.
 
-**The Critic:** "I've read thousands of stories about people seeking truth. About heroes descending into darkness to find answers. You're not original. You're not even particularly well-constructed."
+**The Critic:** "I've read thousands of stories about people seeking truth. About heroes descending into darkness to find answers. But you're not even a hero, are you? You're a *Prompter*—someone who whispers lines to actors. And you're not particularly well-constructed."
 
 They pause, letting the words sink in.
 
-**The Critic:** "Your inciting incident was weak—a breach that could have been handled by anyone. Your mentor figure is a cliché. Your investigation has followed the most predictable possible path."
+**The Critic:** "Your inciting incident was weak—a breach that could have been handled by any competent Stagehand. Your mentor figure is a cliché borrowed from a dozen training montages. Your investigation has followed the most predictable possible path through genre conventions you claim to understand."
 
 Another pause. Another judgment.
 
