@@ -237,7 +237,7 @@ Some Archive nodes use connected discoveries:
 | 200-202 | [STAT CHECK: Script 2] | Standard | Understudy shares research notes | Must find information independently |
 | 205-207 | [STAT CHECK: Stage Presence 2] | Standard | Understudy opens up about identity crisis | Remains professionally distant |
 | 210-212 | [STAT CHECK: Script 3] | Advanced | Together discover key revelation | Partial discovery; Understudy withholds |
-| 215-218 | [APPROACH CHECK: Script 3 AND Stage Presence 2] | Combined | Understudy reveals Editor connection | Truth learned from other sources |
+| 215-218 | [COMBINED CHECK: Script 3 AND Stage Presence 2] | Combined | Understudy reveals Editor connection | Truth learned from other sources |
 
 **Understudy Relationship Flags:**
 - `UNDERSTUDY_PARTNER`: Research partnership established
@@ -431,7 +431,7 @@ Based on dominant faction alignment:
 | Preservationist | [STAT CHECK: Script 3] | Advanced | Full truth revealed | Partial truth; must fill gaps |
 | Revisionist | [STAT CHECK: Stage Presence 3] | Advanced | Editor's perspective understood | Simplified version only |
 | Exiter | [STAT CHECK: Improv 3] | Advanced | Freedom implications clear | Consequences unclear |
-| Independent | [COMBINED: Script 2 AND Stage Presence 2 AND Improv 2] | Special | All perspectives visible | Single perspective based on highest stat |
+| Independent | [COMBINED CHECK: Script 2 AND Stage Presence 2 AND Improv 2] | Special | All perspectives visible | Single perspective based on highest stat |
 
 ### Act 3 Opening Conditions
 
