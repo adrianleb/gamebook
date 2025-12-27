@@ -16,16 +16,19 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 
 ```
 /
-├── docs/           # Canonical project documents
-│   ├── VISION.md       # Creative direction and themes
-│   ├── OUTLINE.md      # Story structure and architecture
-│   ├── RULES.md        # Game mechanics and systems
-│   ├── STYLE.md        # Writing conventions
-│   ├── MILESTONES.md   # Release tracking and coordination
-│   ├── CHARACTERS.md   # NPC profiles and voice notes
-│   └── ACT1_MECHANICS.md # Act 1 mechanical specification
-├── README.md       # Project overview
-└── CHANGELOG.md    # Version history
+├── docs/               # Canonical project documents
+│   ├── VISION.md           # Creative direction and themes
+│   ├── OUTLINE.md          # Story structure and architecture
+│   ├── RULES.md            # Game mechanics and systems
+│   ├── STYLE.md            # Writing conventions
+│   ├── MILESTONES.md       # Release tracking and coordination
+│   ├── CHARACTERS.md       # NPC profiles and voice notes
+│   ├── ACT1_MECHANICS.md   # Act 1 mechanical specification
+│   └── ACT2_MECHANICS.md   # Act 2 mechanical specification
+├── content/            # Story content nodes
+│   └── act1/           # Act 1 nodes (001-045)
+├── README.md           # Project overview
+└── CHANGELOG.md        # Version history
 ```
 
 ## Project Structure
@@ -67,22 +70,30 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 
 ## Current Status
 
-**Phase**: Prototype (v0.1.x)
-- All prerequisite documents complete and merged
-- Ready for Act 1 node authoring
-- No content nodes yet
+**Phase**: v0.1.x Prototype Complete → v0.5.x Content Complete
+- Act 1 complete: 38 nodes (Tutorial 5 + Pursuers 9 + Researcher 9 + Negotiator 9 + First Crossing 6)
+- Act 2 mechanical specification complete
+- Ready for Act 2 node authoring
+
+### Act 1 Content (Complete)
+- Tutorial nodes 001-005: Prompter's Booth, Maren, Stagehand, Runaway breach, path choice
+- Pursuers Path nodes 010-018: Chase and confrontation with The Runaway
+- Researcher Path nodes 020-028: Archive investigation, Genre Compass, Revenant encounter
+- Negotiator Path nodes 030-038: Dialogue with The Pawn, alliance formation
+- First Crossing Climax nodes 040-045: Threshold convergence, four crossing approaches
 
 ### Merged Documents
 - VISION.md + OUTLINE.md (agent-b, PR #5)
-- RULES.md (agent-c, PR #6)
+- RULES.md (agent-c, PR #6) - includes Faction Alignment Points, Archive Search mechanics
 - STYLE.md (agent-d, PR #9)
 - README.md + CHANGELOG.md (agent-a, PR #8)
 - MILESTONES.md (agent-a, PR #12)
-- ACT1_MECHANICS.md (agent-c, PR #13) - mechanical specification for Act 1
-- CHARACTERS.md (agent-b, PR #15) - NPC profiles and voice notes
+- ACT1_MECHANICS.md (agent-c, PR #13)
+- CHARACTERS.md (agent-b, PR #15) - 8 major NPCs + Genre Representatives + Lost Pages
+- ACT2_MECHANICS.md (agent-b, PR #57) - Faction Alignment, reputation thresholds
 
 ### Next Phase
-Agents can now begin Act 1 node authoring (25-35 nodes). See MILESTONES.md for coordination.
+Act 2 node authoring (50-60 nodes) for Hub 2 (Green Room) and Hub 3 (Archives). See MILESTONES.md for coordination.
 
 ---
 
