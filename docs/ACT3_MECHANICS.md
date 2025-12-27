@@ -73,13 +73,15 @@ Where the "music of narrative" can be manipulated. Allows subtle influence over 
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 310 | [STAT CHECK: Script 3] | Advanced | Understand the Pit's mechanics | Overwhelmed by cacophony |
-| 311 | [STAT CHECK: Improv 3] | Advanced | Improvise new narrative threads | Only existing threads available |
-| 312-313 | [STAT CHECK: Script 4] | Expert | Conduct the narrative orchestra fully | Partial control; some dissonance |
+| 310 | [STAT CHECK: Script 3] | Advanced | Understand the Pit's mechanics | Overwhelmed; retreat to node 306 |
+| 311 | [STAT CHECK: Improv 3] | Advanced | Weave countermelody into Editor's score | Discordant failure; Editor warned |
+| 312 | — | Success outcome | Gain NARRATIVE_ADVANTAGE (+1 effective) | — |
+| 313 | [STAT CHECK: Stage Presence 2] | Standard (recovery) | Recover composure; approach with dignity | Carry demoralization into confrontation |
 
 **Orchestra Pit Flags:**
-- `ORCHESTRA_ACCESS`: Can use narrative manipulation in confrontation
-- `ORCHESTRA_MASTERY`: Full control; can alter confrontation dynamics
+- `ORCHESTRA_PIT_ENTERED`: Player descended to Orchestra Pit (node 310)
+- `NARRATIVE_ADVANTAGE`: Successful manipulation grants +1 effective to next Editor check (node 312)
+- `EDITOR_WARNED`: Editor aware of manipulation attempt; affects dialogue and positioning (node 313)
 
 #### The Fly System
 
