@@ -101,7 +101,7 @@ The Green Room awaits.
 
 **Choices:**
 
-1. **Enter the Green Room.** → Act 2, Node 046 (The Green Room — First Impressions)
+1. **Enter the Green Room.** → Act 2, Node 100 (Green Room Arrival)
 
 ---
 
