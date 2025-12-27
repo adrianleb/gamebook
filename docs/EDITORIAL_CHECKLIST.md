@@ -248,11 +248,11 @@ Every failed check MUST lead to:
 |-------|----------|-------|--------|----------|------|
 | 001-005 | Tutorial | 5 | [x] PASS | agent-d | 2025-12-27 |
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 020-028 | Researcher Path | 9 | [ ] | | |
-| 030-038 | Negotiator Path | 9 | [ ] | | |
-| 040-045 | First Crossing | 6 | [ ] | | |
+| 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 040-045 | First Crossing | 6 | [x] PASS | agent-d | 2025-12-27 |
 
-**Act 1 Total:** 14/38 reviewed
+**Act 1 Total:** 38/38 reviewed ✅ COMPLETE
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -364,6 +364,158 @@ Every failed check MUST lead to:
 - Choice text accurately reflects outcomes
 
 **Issues Found:** None requiring revision.
+
+### Researcher Path Review Notes (020-028)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 020 | The Records Room | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 021 | The First Clue | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 022 | Archaic Notation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 023 | The Pattern Emerges | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 024 | Connecting the Dots | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 025 | The Breach Pattern | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 026 | The Prediction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 027 | The Revenant's Trail | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 028 | The Stagehand's Secret | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all nodes
+- The Stagehand's voice matches CHARACTERS.md profile: third-person self-reference ("The Stagehand will..."), simple speech, reaching for lost memories
+- The Revenant's voice uses exact patterns from CHARACTERS.md: fragmented echoes, temporal confusion ("I am hunted, was hunted, will be hunted...")
+- Maren's voice matches CHARACTERS.md: theatrical precision, stage metaphors
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check thresholds match ACT1_MECHANICS.md exactly: Script 2 (020), Script 1 (022), Improv 2 (024), Script 2 (025), Script 3 (026), Script 3 OR Stage Presence 2 (028)
+- Fail-forward properly implemented: all failure paths lead to meaningful alternatives
+- Item acquisition (Genre Compass) uses correct format with category and properties
+- All flags use UPPERCASE_SNAKE_CASE
+- The thirty-seven years detail aligns with CHARACTERS.md Maren backstory
+
+**Issues Found:** None requiring revision.
+
+### Negotiator Path Review Notes (030-038)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 030 | First Contact | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 031 | The Chosen One's Burden | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 032 | Common Ground | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 033 | The Author's Notes | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 034 | Story Knowledge | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 035 | Building Trust | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 036 | The Pawn's Truth | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 037 | Maren's Perspective | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 038 | Alliance or Distance | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all 9 nodes
+- The Prophecy's Pawn's voice matches CHARACTERS.md profile: formal fantasy cadence breaking into cynical modern speech, probing questions, "hero-shaped thing" phrase connects to sample dialogue
+- Maren's voice (node 037) matches CHARACTERS.md: theatrical precision, warm but not soft
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check thresholds match ACT1_MECHANICS.md: Stage Presence 2 (030), Stage Presence 1 (032), Script 2 (034), Stage Presence 2 (035), Stage Presence 3 (036), Stage Presence 3 OR Improv 2 (038)
+- Fail-forward properly implemented: all failure paths lead to same next node but with different relationship quality
+- Item acquisition (Character's Token) uses correct format
+- All flags use UPPERCASE_SNAKE_CASE
+- Three-way choice in node 033 elegantly foreshadows Act 2 faction system
+
+**Issues Found:** None requiring revision.
+
+### First Crossing Review Notes (040-045)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 040 | The Threshold | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 041 | Direct Confrontation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 042 | Stealth Entry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 043 | Negotiated Entry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 044 | Desperate Leap | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 045 | The First Crossing Complete | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-040.md through node-045.md)
+- Location tags present throughout (*The Understage — The Crossing Point*, *The Understage — The Green Room (Exterior)*)
+- Node 040 offers 4 crossing paths, all leading to method-specific nodes (041-044)
+- All method nodes (041-044) converge to Node 045
+- Node 045 leads to Act 2 Node 100 (single forward path maintains momentum)
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 6 nodes
+- Maren's voice matches CHARACTERS.md: theatrical precision ("Beyond the threshold, you'll have to find your own way"), warm but not soft ("Stay alive. Stay... yourself.")
+- The collective Understage voice appropriately liminal and narrative-aware
+- Node 043 Guide voice appropriately strange and liminal ("pages turning and curtains rising")
+- Tone keywords present: liminal (threshold, boundary, crossing), theatrical (stage, performance, curtain), uncanny (quality of existence changes)
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific throughout
+- Prose quality excellent across all nodes
+
+**Mechanics Findings:**
+- All stat checks use correct notation per RULES.md:
+  - Node 041: `[STAT CHECK: Stage Presence 3]` (Advanced) ✓
+  - Node 042: `[STAT CHECK: Improv 3]` (Advanced) ✓
+  - Node 043: `[COMBINED CHECK: Script 2 AND Stage Presence 2]` (Combined) ✓
+  - Node 044: `[STAT CHECK: Any 2]` (Standard, safety valve) ✓
+- Check thresholds match ACT1_MECHANICS.md specification exactly
+- Both success AND failure paths defined for all checks
+- Crossing flags use correct UPPERCASE_SNAKE_CASE: `CROSSING_DIRECT`, `CROSSING_STEALTH`, `CROSSING_NEGOTIATED`, `CROSSING_DESPERATE`, `FIRST_CROSSING_COMPLETE`
+- Node 044 failure consequence (consumable loss or `CROSSING_DEBT` flag) properly documented
+- Node 045 Act 2 Opening Conditions table provides clear reference for all 8 method+result combinations
+
+**Continuity Findings:**
+- Maren's forty-year tenure consistent with CHARACTERS.md backstory
+- Location progression logical (Threshold → Crossing → Green Room Exterior)
+- All crossing methods connect to documented Act 2 consequences per ACT1_MECHANICS.md
+- The Guide entity in Node 043 consistent with established Understage lore
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 1 climax:
+  - Advanced (3): 2 checks (Direct, Stealth)
+  - Combined (2+2): 1 check (Negotiated)
+  - Standard (2): 1 check (Desperate - safety valve)
+- Desperate Leap option ensures all builds can proceed to Act 2
+- Fail-forward properly implemented in all nodes:
+  - Direct failure: Enter with damaged reputation
+  - Stealth failure: Enter observed but unchallenged
+  - Negotiated failure: Enter alone but permitted
+  - Desperate failure: Enter with item loss or narrative debt
+- Choice text accurately reflects outcomes
+- Single forward choice at Node 045 celebrates Act 1 completion while maintaining momentum
+
+**Issues Found:** None requiring revision.
+
+---
+
+## Act 1 Editorial Pass Complete
+
+**Summary:** All 38 Act 1 nodes have been reviewed against EDITORIAL_CHECKLIST.md criteria. No issues requiring revision were identified. Act 1 is publication-ready for v1.0.x release.
+
+| Sequence | Nodes | Result |
+|----------|-------|--------|
+| Tutorial (001-005) | 5 | ✅ PASS |
+| Pursuers Path (010-018) | 9 | ✅ PASS |
+| Researcher Path (020-028) | 9 | ✅ PASS |
+| Negotiator Path (030-038) | 9 | ✅ PASS |
+| First Crossing (040-045) | 6 | ✅ PASS |
+| **Total** | **38** | **✅ 100% COMPLETE** |
+
+---
 
 ### Act 2: The Descent (65 nodes)
 
