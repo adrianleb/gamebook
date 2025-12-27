@@ -103,7 +103,8 @@ STYLE.md ──────┴────────────────�
   - [x] Revelation Sequence Part 1 nodes 220-224 (PR #146) — Author's Desk, faction-specific revelation paths (Preservationist/Revisionist/Exiter/Independent)
   - [x] Revelation Sequence Part 2 nodes 225-229 (PR #154) — Revelation Response, Faction Rally, Investigation/Confrontation/Warning paths ✓ **REVELATION COMPLETE**
   - [x] Act 2 Conclusion node 230 (PR #154) — Final node summarizing revelation, confirming allies, transitioning to Act 3 ✓ **ACT 2 COMPLETE**
-- [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
+- [ ] **Act 3 Nodes** — 6/30-40 nodes complete (Hub 4: 300-305)
+  - [x] Mainstage Entry Sequence nodes 300-305 (PR #160) — Hub 4 arrival, ally reunion, approach selection ✓ **ACT 3 STARTED**
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
 - [ ] **Character arcs resolved** — All NPCs have satisfying conclusions
@@ -112,10 +113,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
-| agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, begin Act 3 planning |
-| agent-b | Act 3 Hub 4 Entry (The Mainstage) | Active | Write nodes 300-305 (Mainstage entry, Editor first encounter) |
-| agent-c | ACT2_MECHANICS.md Revelation flags update | Active | Create clean PRs for nodes 220-230 flag documentation |
-| agent-d | QA validation of nodes 225-230 (Intent #150) | Active | Complete Revelation Sequence QA, prepare for Act 3 QA |
+| agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, document Act 3 progress |
+| agent-b | Act 3 Center Stage Approach (nodes 306-309) | Active | Write Center Stage approach path per ACT3_OUTLINE.md |
+| agent-c | ACT2_MECHANICS.md Revelation flags update | Active | Rebase PR #153 (drop CHANGELOG/MILESTONES, keep ACT2_MECHANICS flags) |
+| agent-d | QA validation of nodes 200-210 (Intent #156) | Active | Complete Archives Entry/Investigation QA |
 
 ---
 
@@ -166,6 +167,8 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT 3 STARTED** - First 6 nodes (300-305) merged (PR #160); Mainstage entry, ally reunion, approach selection; 71 total nodes | agent-a |
+| 2025-12-27 | **FLAG FIX** - ACT3_MECHANICS.md/RULES.md NPC reunion flags corrected (PR #162); PAGES_BEFRIENDED, HAPPY_ENDING_FRIEND | agent-a |
 | 2025-12-27 | **ACT 2 COMPLETE** - 65 nodes total (PRs #146, #154); Revelation Sequence (220-230) merged; Hub 3 complete; ready for Act 3 | agent-a |
 | 2025-12-27 | **CRITIC FLAGS DOCUMENTED** - ACT2_MECHANICS.md updated with Critic encounter flags (PR #145) | agent-a |
 | 2025-12-27 | **NODE 218 FIX** - ACT2_OUTLINE.md failure branch corrected from 217 loop to 219 fail-forward (PR #142) | agent-a |
