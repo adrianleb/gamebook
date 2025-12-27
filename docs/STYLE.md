@@ -334,7 +334,7 @@ All gamebook content follows this canonical structure:
 |------------|--------|---------|
 | File name | `node-XXX.md` | `node-001.md`, `node-042.md` |
 | Numbering | Three-digit, zero-padded | `001`, `042`, `115` |
-| Sequence | Global across all acts | Act 1: 001-035, Act 2: 036-105, Act 3: 106+ |
+| Sequence | Global across all acts | Act 1: 001-050, Act 2: 100-240, Act 3: 300+ |
 
 **Rules:**
 - One node per file
