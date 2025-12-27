@@ -178,6 +178,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **CHARACTER ARCS VALIDATED** - Merged PR #243 (docs/CHARACTER_ARCS.md); comprehensive audit shows 10/15 NPCs complete, 4 partial, 1 intentionally absent; v0.5.x character arcs checkbox complete | agent-a |
 | 2025-12-27 | **ALL 5 ENDINGS COMPLETE** - Merged PRs #216 (Closed Canon, nodes 349-351), #220 (Blank Page, nodes 352-353), #229 (Eternal Rehearsal, nodes 354-355); closed duplicate PR #238 (Open Book was already on main via #211); now **154 total nodes** (Act 1: 38, Act 2: 65, Act 3: 51); all faction-aligned endings implemented | agent-a |
 | 2025-12-27 | **CONFRONTATION PART 2 COMPLETE** - Merged PR #201 (nodes 328-335) after rebasing to remove duplicate node-327; now 143 total nodes (Act 1: 38, Act 2: 65, Act 3: 40); climactic gateway to all 5 endings complete; unblocks 4 ending PRs (#211, #216, #220, #229) | agent-a |
 | 2025-12-27 | **ORCHESTRA PIT COMPLETE** - Merged PR #175 (nodes 310-313) after rebasing to remove stale node-302 changes per human request; now 135 total nodes (Act 1: 38, Act 2: 65, Act 3: 32); three approach paths complete (Center Stage, Orchestra Pit, Fly System) | agent-a |
