@@ -54,9 +54,9 @@ The focal point of the climax. All ending paths converge here.
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 140-142 | [STAT CHECK: Stage Presence 3] | Advanced | Command attention; control the narrative flow | Editor takes initiative; defensive position |
-| 145-147 | [STAT CHECK: Script 3] | Advanced | Understand the Final Draft's structure | Learn structure through costly trial |
-| 150-152 | [STAT CHECK: Stage Presence 4] | Expert | Rally all present allies simultaneously | Must rally allies individually |
+| 322-324 | [STAT CHECK: Stage Presence 3] | Advanced | Command attention; control the narrative flow | Editor takes initiative; defensive position |
+| 328-330 | [STAT CHECK: Script 3] | Advanced | Understand the Final Draft's structure | Learn structure through costly trial |
+| 332-335 | [STAT CHECK: Stage Presence 4] | Expert | Rally all present allies simultaneously | Must rally allies individually |
 
 **Center Stage Flags:**
 - `CENTER_STAGE_CONTROL`: Player commands the stage; +1 to confrontation checks
@@ -68,9 +68,9 @@ Where the "music of narrative" can be manipulated. Allows subtle influence over 
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 125-127 | [STAT CHECK: Script 2] | Standard | Access basic narrative manipulation | Pit remains silent |
-| 130-132 | [STAT CHECK: Improv 3] | Advanced | Improvise new narrative threads | Only existing threads available |
-| 135-137 | [STAT CHECK: Script 4] | Expert | Conduct the narrative orchestra fully | Partial control; some dissonance |
+| 308-310 | [STAT CHECK: Script 2] | Standard | Access basic narrative manipulation | Pit remains silent |
+| 312-314 | [STAT CHECK: Improv 3] | Advanced | Improvise new narrative threads | Only existing threads available |
+| 316-318 | [STAT CHECK: Script 4] | Expert | Conduct the narrative orchestra fully | Partial control; some dissonance |
 
 **Orchestra Pit Flags:**
 - `ORCHESTRA_ACCESS`: Can use narrative manipulation in confrontation
@@ -82,9 +82,9 @@ Vertical access to higher and deeper story levels. Risk/reward exploration.
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 120-122 | [STAT CHECK: Improv 2] | Standard | Navigate safely | Minor setback; time lost |
-| 128-129 | [STAT CHECK: Improv 3] | Advanced | Access hidden story strata | Surface-level access only |
-| 133-134 | [APPROACH CHECK: Improv 4 OR Stage Presence 4] | Expert | Reach the highest/deepest level | Blocked; must find alternative |
+| 306-307 | [STAT CHECK: Improv 2] | Standard | Navigate safely | Minor setback; time lost |
+| 310-311 | [STAT CHECK: Improv 3] | Advanced | Access hidden story strata | Surface-level access only |
+| 314-315 | [APPROACH CHECK: Improv 4 OR Stage Presence 4] | Expert | Reach the highest/deepest level | Blocked; must find alternative |
 
 **Fly System Flags:**
 - `FLY_SYSTEM_EXPLORED`: Discovered hidden story layers
@@ -96,9 +96,9 @@ Rows of empty seats that aren't empty—filled with the echoes of every reader w
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 123-124 | [STAT CHECK: Stage Presence 2] | Standard | Sense the Audience's presence | Miss the significance |
-| 136-138 | [STAT CHECK: Stage Presence 3] | Advanced | Communicate with the Audience | One-way observation only |
-| 143-144 | [STAT CHECK: Stage Presence 4] | Expert | Channel the Audience's collective will | Audience remains passive observers |
+| 304-305 | [STAT CHECK: Stage Presence 2] | Standard | Sense the Audience's presence | Miss the significance |
+| 318-320 | [STAT CHECK: Stage Presence 3] | Advanced | Communicate with the Audience | One-way observation only |
+| 326-327 | [STAT CHECK: Stage Presence 4] | Expert | Channel the Audience's collective will | Audience remains passive observers |
 
 **Audience Flags:**
 - `AUDIENCE_AWARE`: Player knows the Audience exists and watches
@@ -167,8 +167,8 @@ When an NPC with conditional reunion flags appears:
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 115-117 | [STAT CHECK: Stage Presence 2] | Standard | Ally joins readily | Ally hesitates; minor complication |
-| 118-119 | [STAT CHECK: Improv 2] | Standard | Smooth integration with other allies | Minor friction; small penalty |
+| 300-302 | [STAT CHECK: Stage Presence 2] | Standard | Ally joins readily | Ally hesitates; minor complication |
+| 303-305 | [STAT CHECK: Improv 2] | Standard | Smooth integration with other allies | Minor friction; small penalty |
 
 *These checks are deliberately low-threshold; reunion should feel earned by Act 2 investment, not gated by Act 3 luck.*
 
