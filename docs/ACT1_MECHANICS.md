@@ -160,6 +160,7 @@ The climax presents a convergence point with method-specific checks:
 | `PATH_PURSUERS` | Chose Pursuers at Node 5 | Track path choice |
 | `PATH_RESEARCHER` | Chose Researcher at Node 5 | Track path choice |
 | `PATH_NEGOTIATOR` | Chose Negotiator at Node 5 | Track path choice |
+| `REVENANT_LIMBO` | Node 28 (Researcher path) | Revenant encounter unresolved, awaits Act 2 |
 | `FIRST_CROSSING_COMPLETE` | Node 45 complete | Act 1 complete |
 
 ### Relationship Flags
@@ -169,8 +170,16 @@ The climax presents a convergence point with method-specific checks:
 | `MAREN_TRUST_HIGH` | 2+ successful interactions with Maren | Unlocks Maren's Signet, additional dialogue |
 | `MAREN_TRUST_LOW` | Failed Maren interactions or dismissed advice | Reduced Act 2 support |
 | `STAGEHAND_CURIOUS` | Asked about Stagehand's origin | Opens later revelation |
+| `STAGEHAND_ORIGIN_REVEALED` | Node 28 success (Researcher path) | Learned Stagehand's connection to Revenant |
 | `RUNAWAY_ALLIED` | Negotiator path success (Node 38) | Runaway appears as ally in Act 2 |
 | `RUNAWAY_CAPTURED` | Pursuers path success (Node 17) | Runaway in custody, different Act 2 state |
+
+### Item Acquisition Flags
+
+| Flag | Trigger | Effect |
+|------|---------|--------|
+| `HAS_GENRE_COMPASS` | Node 26 success (Researcher path) | Genre Compass active, indicates dominant genre |
+| `HAS_GENRE_COMPASS_INACTIVE` | Node 26 failure (Researcher path) | Genre Compass inactive, activates in Act 2 |
 
 ### Faction Flags
 
