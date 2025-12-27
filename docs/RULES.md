@@ -116,7 +116,21 @@ For situations requiring multiple competencies:
 [COMBINED CHECK: Script 2 AND Stage Presence 2]
 ```
 
-Player succeeds only if BOTH stats meet their thresholds. This is rare and reserved for high-stakes moments requiring genuine versatility, such as the First Crossing's Negotiated Entry.
+Player succeeds only if ALL stats meet their thresholds. Combined checks can involve two or more stats:
+
+**Two-Stat Combined Check:**
+```
+[COMBINED CHECK: Script 2 AND Stage Presence 2]
+```
+Used for moments requiring dual competency, such as the First Crossing's Negotiated Entry.
+
+**Three-Stat Combined Check:**
+```
+[COMBINED CHECK: Script 2 AND Stage Presence 2 AND Improv 2]
+```
+Reserved for rare, pivotal moments requiring true versatility across all abilities, such as the Independent Revelation path in Act 2.
+
+Combined checks are rare and reserved for high-stakes moments. They should always have fail-forward alternatives.
 
 ### Universal Checks
 
