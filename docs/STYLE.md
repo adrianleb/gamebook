@@ -345,12 +345,12 @@ All gamebook content follows this canonical structure:
 
 | Act | Node Range | Hub |
 |-----|------------|-----|
-| Act 1 | 001-035 | The Prompter's Booth |
-| Act 2 | 036-070 | The Green Room |
-| Act 2 | 071-105 | The Archives |
-| Act 3 | 106-145 | The Mainstage |
+| Act 1 | 001-050 | The Prompter's Booth |
+| Act 2 | 100-140 | The Green Room |
+| Act 2 | 200-240 | The Archives |
+| Act 3 | 300-350 | The Mainstage |
 
-These ranges are guidelines; actual counts may vary as content develops.
+These ranges provide clear separation between acts and hubs. The 100-level gaps between ranges allow for future node insertions without renumbering.
 
 ---
 
