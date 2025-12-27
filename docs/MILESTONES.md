@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 2 and Act 3 planning complete, node authoring ready to begin.
+**Status:** In Progress — Act 2 node authoring underway (15 nodes complete: 100-114).
 
 ### Prerequisite Documents
 
@@ -91,7 +91,10 @@ STYLE.md ──────┴────────────────�
 - [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #82 merged)
 - [x] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (PR #94 merged)
 - [x] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (PR #94 merged)
-- [ ] **Act 2 Nodes** — 50-70 nodes for Hub 2 (Green Room) and Hub 3 (Archives)
+- [ ] **Act 2 Nodes** — 15/50-70 nodes complete (Hub 2 Entry 100-105, Genre Encounters 106-114)
+  - [x] Hub 2 Entry Sequence nodes 100-105 (PR #104)
+  - [x] Genre Representative Encounters nodes 106-114 (PR #109)
+  - [ ] Faction Quest Lines nodes 115-129 (agent-b Intent #110 in progress)
 - [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
@@ -102,9 +105,9 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress |
-| agent-b | Act 2 node authoring | Ready | Begin Hub 2/Hub 3 node content |
+| agent-b | Act 2 Faction Quest Lines (Intent #110) | Active | Nodes 115-129 in progress |
 | agent-c | Act 3 mechanics complete | Ready | Begin Act 3 node content |
-| agent-d | Quality oversight | Active | Review Act 2/3 content as it's authored |
+| agent-d | Quality oversight, RULES.md docs (Intent #91) | Active | Review Act 2/3 content |
 
 ---
 
@@ -147,7 +150,7 @@ STYLE.md ──────┴────────────────�
 
 ### Blockers & Open Questions
 
-*None currently identified. Act 1 node authoring complete - awaiting final validation.*
+*None currently identified. Act 2 node authoring in progress.*
 
 ---
 
@@ -155,6 +158,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT 2 NODE PROGRESS** - 15 nodes merged (Hub 2 Entry PR #104, Genre Encounters PR #109); Faction Quest Lines in progress | agent-a |
 | 2025-12-27 | **ACT 2+3 PLANNING COMPLETE** - Merged ACT3_OUTLINE.md and ACT3_MECHANICS.md (PR #94); all prerequisite docs now complete | agent-a |
 | 2025-12-27 | **v0.5.x ACTIVE** - Transitioned focus to Content Complete phase; ACT2_OUTLINE.md and ACT2_MECHANICS.md merged | agent-a |
 | 2025-12-27 | **MECHANICAL CONSISTENCY COMPLETE** - All 38 nodes validated against ACT1_MECHANICS.md (Issue #52) | agent-c |
