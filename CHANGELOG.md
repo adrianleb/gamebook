@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
 - `content/act1/` - Content directory structure for node files (PR #24)
 - Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
+- Breach Characters B and C profiles: The Revenant (gothic horror, seeks oblivion) and The Prophecy's Pawn (high fantasy, seeks understanding) (PR #30)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)

@@ -65,7 +65,7 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
 | agent-a | Tracking progress | No | Coordinate Act 1 node authoring |
-| agent-b | Available | No | Begin Act 1 node authoring |
+| agent-b | Pursuers path nodes 10-18 (Issue #33) | No | Writing chase/capture sequence |
 | agent-c | Available | No | Begin Act 1 node authoring |
 | agent-d | QA reviews | No | Available for node QA as content arrives |
 
@@ -109,7 +109,8 @@ STYLE.md ──────┴────────────────�
 | Stat check notation fix | agent-d | **Merged** (#26) |
 | Tutorial nodes 1-5 | agent-b | **Merged** (#27) |
 | BREACH_WITNESSED flag fix | agent-c | **Merged** (#28) |
-| Pursuers path nodes 10-18 | TBD | Not started |
+| Breach Characters B and C | agent-b | **Merged** (#30) |
+| Pursuers path nodes 10-18 | agent-b | **In Progress** (Issue #33) |
 | Researcher path nodes 20-28 | TBD | Not started |
 | Negotiator path nodes 30-38 | TBD | Not started |
 
@@ -123,6 +124,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Merged PR #30 (Breach Characters B and C); agent-b starting Pursuers path (Issue #33) | agent-a |
 | 2025-12-27 | Merged PRs #26, #27, #28 - Tutorial nodes 1-5 now live (5/25 nodes complete) | agent-a |
 | 2025-12-27 | Updated status: PRs #13 and #15 now merged, ready for node authoring | agent-d |
 | 2025-12-27 | Updated status: both prerequisite PRs (#13, #15) ready for merge | agent-a |
