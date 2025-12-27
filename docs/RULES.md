@@ -150,6 +150,37 @@ Player succeeds if ANY single stat meets the threshold. This is a "safety valve"
 
 Universal Checks should never replace stat-specific checks for content that rewards particular builds. They exist to ensure accessibility, not to flatten character differentiation.
 
+### NPC Sacrifice
+
+In high-stakes moments, allied NPCs with strong relationships may offer to sacrifice themselves to recover from a failed check. This is a fail-recovery mechanic, not a bypass—the sacrifice occurs AFTER failure, not to avoid attempting the check.
+
+**Format:**
+```
+[NPC SACRIFICE]
+Trigger: Failed [check type] during [situation]
+Effect: Check succeeds; NPC is lost to the narrative
+Flag Set: NPC_SACRIFICED
+```
+
+**Example - Maren's Sacrifice:**
+```
+[MAREN SACRIFICE]
+Trigger: Failed Expert check during Editor confrontation
+Condition: MAREN_TRUST_HIGH + MAREN_PRESENT
+Effect: Check succeeds; Maren is lost to the narrative
+Flag Set: MAREN_SACRIFICED
+```
+
+**Design Constraints:**
+- Only available for NPCs with highest relationship tier (e.g., `TRUST_HIGH`, `ALLIED`)
+- Must be player's choice, never automatic
+- Sacrifice should be narratively significant, not casual
+- The sacrificed NPC should have clear impact on available endings
+- Use sparingly—typically 1-2 sacrifice opportunities per playthrough
+
+**Fail-Forward Principle:**
+Sacrifice is NOT required to complete the game. It's an emotional option that converts a failure into success at narrative cost. Players who refuse sacrifice proceed via the standard failure path.
+
 ### Opposed Checks
 
 When facing an NPC with their own capabilities:
@@ -299,6 +330,30 @@ Players who keep all factions at 3 or below unlock the Independent path:
 - Act 3 path requiring no faction backing
 - Harder social checks (+1 threshold) due to fewer allies
 
+### Ally Count
+
+Ally Count tracks how many NPCs have joined the player's cause. This mechanic is primarily used in Act 3 for the final confrontation, where accumulated allies provide mechanical advantages.
+
+**Format:**
+```
+[ALLY COUNT: N]
+```
+
+**Ally Thresholds:**
+
+| Allies | Effect |
+|--------|--------|
+| 0-2 | Solo confrontation; some checks have +1 threshold |
+| 3-4 | Balanced support; standard thresholds |
+| 5-6 | Strong support; unlock group tactics options |
+| 7+ | Army of allies; unique ending considerations |
+
+**Design Guidelines:**
+- Allies are accumulated throughout Acts 1-2 via relationship flags
+- Reunion checks in Act 3 should be low-threshold (Standard difficulty) to reward prior investment rather than gatekeeping
+- Each ally should provide both narrative weight and mechanical benefit
+- High ally counts reward consistent relationship building; low counts are still viable
+
 ### Gating Logic
 
 Certain nodes or options require specific flags:
@@ -316,6 +371,45 @@ Final ending is determined by:
 2. Key item possession (Editing Pen, Original Manuscript)
 3. Specific critical choice flags
 4. Whether the Editor is defeated, persuaded, or neither
+
+### Ending Quality Tiers
+
+Each ending has three quality tiers based on accumulated choices, relationship investment, and confrontation performance:
+
+| Tier | Requirements | Narrative Effect |
+|------|--------------|------------------|
+| **Perfect** | All optional requirements + maximum confrontation success | Best possible variant; full emotional payoff |
+| **Good** | Core requirements + partial optional requirements | Solid outcome with minor complications |
+| **Other** | Core requirements only | Valid ending with significant costs or ambiguity |
+
+**Tracking Format:**
+```
+[ENDING TIER: PERFECT/GOOD/OTHER]
+```
+
+**Determination Factors:**
+
+| Factor | Perfect | Good | Other |
+|--------|---------|------|-------|
+| Confrontation phases won | 3/3 | 2/3 | 0-1/3 |
+| Allied NPC presence | All relevant | Some relevant | Few or none |
+| Key items possessed | All faction-relevant | Some faction-relevant | Core only |
+| Relationship flags | Maximum tier | Mid tier | Minimal |
+
+**Design Guidelines:**
+- All tiers are valid endings—"Other" is not a failure state
+- Quality affects tone and detail, not fundamental outcome
+- The Eternal Rehearsal ending is inherently ambiguous, not tiered by success
+- No tier should feel like punishment; lower tiers have narrative merit (sacrifice, tragedy, bittersweet)
+- Players should be able to identify what would improve their tier on replay
+
+**Example - The Revised Draft (Revisionist Ending):**
+
+| Tier | Conditions | Outcome |
+|------|------------|---------|
+| Perfect | REVISIONIST: 7+, 3/3 phases, HAPPY_ENDING_ALLIED, UNDERSTUDY_PARTNER | Become Editor with full support; burden shared |
+| Good | REVISIONIST: 7+, 2/3 phases, some allies | Become Editor with advisors; manageable burden |
+| Bittersweet | REVISIONIST: 7+, core requirements only | Become Editor alone; heavy but bearable burden |
 
 ---
 
@@ -416,6 +510,11 @@ Before finalizing a node, verify:
 - **Opposed Check**: Your stat vs. NPC capability value
 - **Archive Search**: Tiered success (Deep Find / Standard / Partial / Lost)
 - **Discovery Chain**: Multiple clues required across nodes
+- **NPC Sacrifice**: Fail-recovery via allied NPC sacrifice (Act 3)
+
+### Act 3 Mechanics
+- **Ally Count**: Track allied NPCs; 0-2 harder, 3-4 standard, 5-6 group tactics, 7+ unique options
+- **Ending Quality Tiers**: Perfect (full success), Good (partial), Other (minimal)
 
 ### Inventory Rules
 - Max 5 items
