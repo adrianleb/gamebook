@@ -191,6 +191,40 @@ When facing an NPC with their own capabilities:
 
 Your stat must exceed the opposition value. These are rare and always high-stakes.
 
+### Effective Bonuses
+
+Certain flags, items, or NPC relationships grant temporary stat bonuses for specific checks. These are "effective" bonuses—they modify the stat value used for threshold comparison without permanently changing the stat.
+
+**Format:**
+```
++N effective to [stat] for [scope]
+```
+
+**Examples from Act 3:**
+- `NARRATIVE_ADVANTAGE`: +1 effective to next check against the Editor
+- `AUDIENCE_BLESSING`: +2 effective to Stage Presence until confrontation ends
+- `TACTICAL_POSITION`: +1 effective to first confrontation check
+- First Draft Fragment (item): +1 effective to Script during confrontation
+
+**Duration Types:**
+
+| Duration | Description | Example |
+|----------|-------------|---------|
+| Single check | Bonus applies to one check, then expires | "next check against the Editor" |
+| Until event | Bonus persists until a narrative milestone | "until confrontation ends" |
+| Situational | Bonus applies whenever condition is met | "vs. manufactured narratives" |
+
+**Stacking Rules:**
+- Multiple bonuses from different sources stack additively
+- Same-source bonuses do not stack (use highest)
+- Maximum effective bonus: +3 to any single check (prevents trivializing Expert checks)
+
+**Design Guidelines:**
+- Effective bonuses reward thorough exploration and relationship investment
+- +1 bonuses are common (items, NPC relationships, location advantages)
+- +2 bonuses are rare (major achievements like AUDIENCE_BLESSING)
+- Bonuses should be narratively justified, not arbitrary stat inflation
+
 ### Archive Search Checks
 
 A specialized check type for finding information in The Archives (Hub 3). Functions like a stat check but has multiple tiers of success:
@@ -515,6 +549,7 @@ Before finalizing a node, verify:
 ### Act 3 Mechanics
 - **Ally Count**: Track allied NPCs; 0-2 harder, 3-4 standard, 5-6 group tactics, 7+ unique options
 - **Ending Quality Tiers**: Perfect (full success), Good (partial), Other (minimal)
+- **Effective Bonuses**: Temporary +N to stat from flags/items/NPCs; max +3 per check
 
 ### Inventory Rules
 - Max 5 items
