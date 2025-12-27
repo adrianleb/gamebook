@@ -6,7 +6,13 @@ You cross the lounge floor toward the elevated platform where The Director holds
 
 The nervous figure with the papers scurries away as you approach, leaving The Director alone. Up close, they're harder to look at directly. Their features seem borrowed from a dozen different authority figures—studio executive, theater impresario, benevolent dictator. They wear a costume that shifts subtly depending on the angle: sometimes a tailored suit, sometimes elaborate robes, sometimes something simpler. Their eyes don't shift. Their eyes are fixed on you.
 
+**[IF CROSSING_DIRECT]:**
+**The Director:** "Ah. The one who walked the lit path." Their eyes gleam with something between approval and amusement. "I heard you coming, you know. Every step. Most sneak or bargain their way down here. You simply... descended. Like you belonged." They lean forward. "I appreciate boldness. This place has too many shadows already."
+
+**[ELSE]:**
 **The Director:** "Another one from above. You have the look of a Prompter about you—that particular weariness around the edges. Maren's work, I assume?"
+
+**[END IF]**
 
 They don't wait for confirmation. They already know.
 
@@ -19,6 +25,7 @@ Their smile doesn't quite reach their eyes.
 You sense this is a test. The Director is measuring you—not just your words, but how you hold yourself. Whether you flinch.
 
 **[STAT CHECK: Stage Presence 2]**
+*[IF CROSSING_DIRECT: The Director's appreciation for your boldness grants effective +1 Stage Presence for this check]*
 
 **Success:** You meet The Director's gaze without flinching. You've faced enough drama—real and fictional—to know when someone is testing you. You hold your ground.
 
