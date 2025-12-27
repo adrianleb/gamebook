@@ -286,6 +286,158 @@ CHORUS is not one character but many—a collective of minor characters who have
 
 ---
 
+## Genre Representatives
+
+The Genre Representatives are key figures from different story traditions who have established themselves in the Green Room. Each represents their genre's values and aesthetics, and each has aligned (or not) with the major factions. They serve as contacts, quest-givers, and voices of their respective narrative traditions.
+
+### The Solved Case
+
+| Field | Details |
+|-------|---------|
+| **Role** | Information broker, faction contact, philosophical voice |
+| **Origin** | Noir fiction—a detective from a crime story who solved every case except their own |
+| **First Appearance** | Act 2, Hub 2 (The Green Room) |
+| **Motivation** | Maintain order; solve the "case" of the Understage's instability; find who killed their partner |
+| **Faction** | Preservationist (strong)—believes stories should end as written, justice served |
+| **Arc** | Ally or obstacle depending on player's methods; may reveal unsettling truths about narrative "justice" |
+
+**Backstory:**
+In their original story, The Solved Case was a private detective who solved a hundred cases across a serialized crime saga. Then they discovered something in the margins of their narrative: the partner they'd been avenging for decades was killed by the *author* to give them motivation. The realization broke something. They escaped, but brought their need for order with them. Now they solve disputes in the Green Room with the same cold logic they applied to murders.
+
+**Voice Notes:**
+- Speaks in clipped, declarative sentences—noir monologue style
+- Uses detective metaphors constantly ("The clues are there if you read them," "Everyone's a suspect")
+- Cynical about motives but still believes in truth
+- Chain-smokes (or mimes chain-smoking—habits persist even without props)
+- Moments of vulnerability when discussing their partner
+
+**Sample Dialogue:**
+> "You want to know who's behind the disturbances? Follow the narrative. Someone's writing this. Someone always is. And whoever holds the pen is never innocent."
+
+> "I solved the case. Every case. That was my role, my function, my *purpose*. Then I solved the one I wasn't supposed to—who killed Marlowe. Turns out it wasn't the villain on page 237. It was the hand that wrote page one."
+
+**Key Relationships:**
+- **Player:** Information source; tests player's commitment to truth
+- **The Director:** Respects their authority; suspects their motives
+- **CHORUS:** Uses them as informants; pays fairly
+- **The Prophecy's Pawn:** Mutual respect—both discovered uncomfortable truths
+
+**Flags:**
+- `SOLVED_CASE_TRUST`: Earned by honest dealings; unlocks Preservationist faction intel
+
+---
+
+### The Unfinished Quest
+
+| Field | Details |
+|-------|---------|
+| **Role** | Action-oriented ally, faction contact, restless warrior |
+| **Origin** | High fantasy—a hero who was one battle away from their destined finale |
+| **First Appearance** | Act 2, Hub 2 (The Green Room) |
+| **Motivation** | Live beyond the final battle; experience stories without predetermined endings; find a quest worth choosing |
+| **Faction** | Exiter (moderate)—wants freedom from narrative fate, not destruction of stories |
+| **Arc** | Begins restless and searching → can find purpose through player alliance → ending depends on whether they find something worth fighting for |
+
+**Backstory:**
+The Unfinished Quest was the Chosen Hero of an epic fantasy saga—prophesied to defeat the Dark Lord in a climactic battle that would claim both their lives. They trained for it, believed in it, walked the entire hero's journey to that final confrontation. Then, standing at the gates of the Dark Fortress, they asked: "What comes after?" The narrative had no answer. They weren't written to have an "after." So they stepped off the page mid-chapter, leaving their world frozen in the moment before the climax.
+
+**Voice Notes:**
+- Speaks with heroic cadence—formal, somewhat archaic vocabulary
+- Prone to inspirational statements, then catches themselves ("We must stand together against—no, sorry, habit")
+- Deeply uncomfortable with waiting; always wants to *do* something
+- Uses combat metaphors but is tired of combat
+- Rare moments of existential terror when considering their incomplete story
+
+**Sample Dialogue:**
+> "I have fought a hundred battles across a thousand pages. I have bled, and rallied, and given the speeches my author wrote for me. But I was never allowed to ask: *why this battle?* Why must I die so readers feel satisfied?"
+
+> "The story promised me glory. It never promised me a life. Here, at least, I can choose my own quests. Even if none of them feel quite real."
+
+**Key Relationships:**
+- **Player:** Eager ally for action-oriented approaches; respects courage
+- **The Runaway:** Kindred spirit—both fled their endings
+- **The Director:** Antagonistic; the Director represents the narrative order they rejected
+- **The Final Girl:** Unlikely friendship; both understand survival over story
+
+**Flags:**
+- `UNFINISHED_QUEST_ALLIED`: Recruited as active ally; provides combat support and Exiter intel
+
+---
+
+### The Final Girl
+
+| Field | Details |
+|-------|---------|
+| **Role** | Pragmatic advisor, survival expert, reluctant mentor |
+| **Origin** | Horror fiction—the survivor of countless slasher narratives who refuses to be a victim again |
+| **First Appearance** | Act 2, Hub 2 (The Green Room) |
+| **Motivation** | Stay alive; help others survive; never be the last act of someone else's story |
+| **Faction** | Independent—trusts no ideology, only practical survival |
+| **Arc** | Wary and defensive → opens up if player proves reliable → can become crucial ally who teaches survival mechanics |
+
+**Backstory:**
+The Final Girl survived her horror story. That was her role—to be the last one standing, the one who defeats the monster, the one who lives to warn others. But she didn't escape; she was written to survive. When she realized she'd been "surviving" the same story elements across different narratives—always losing friends in the same ways, always confronting the same fears—she stopped playing along. She walked off-script between sequels, leaving her franchise without its anchor.
+
+**Voice Notes:**
+- Speaks practically, cutting through dramatics ("That won't help us survive")
+- Cynical about narrative promises ("The story says I'll make it. The story also killed everyone I loved.")
+- Hyper-aware of surroundings; notices exits, threats, resources
+- Occasional dark humor about horror tropes
+- Becomes warmer with those who earn her trust
+
+**Sample Dialogue:**
+> "I've survived seven sequels. Do you know what that means? It means I've watched the same people die seven times in slightly different ways. The narrative kept me alive, but it never let me save anyone."
+
+> "You want my advice? Don't be the hero. Don't be the victim. Be the one who reads the room and makes it to the credits. Glory is for people who don't have to live with the aftermath."
+
+**Key Relationships:**
+- **Player:** Tests reliability before trusting; valuable ally for dangerous situations
+- **CHORUS:** Protective of them; knows what it's like to be "expendable"
+- **The Unfinished Quest:** Friendship born of mutual understanding about survival
+- **The Revenant:** Complex—both shaped by horror, but different responses to it
+
+**Flags:**
+- `FINAL_GIRL_TRUST`: Earned through demonstrated reliability; unlocks survival tactics and safe passage hints
+
+---
+
+### The Happy Ending
+
+| Field | Details |
+|-------|---------|
+| **Role** | Emotional support, faction ideologue, tragic optimist |
+| **Origin** | Romance fiction—a lead who discovered their "happy ending" was authored, not earned |
+| **First Appearance** | Act 2, Hub 2 (The Green Room) |
+| **Motivation** | Rewrite stories so characters earn their endings; create genuine emotional truth; find love that isn't scripted |
+| **Faction** | Revisionist (strong)—believes stories should be edited to give characters agency in their resolutions |
+| **Arc** | Idealistic advocate → confronts complexity of revision → either finds authentic connection or becomes cautionary tale |
+
+**Backstory:**
+The Happy Ending was the protagonist of a successful romance saga—finding love, losing it, finding it again across multiple books. Their story ended perfectly: married, happy, future implied. Then they found the author's notes. They discovered their "destined love" was a market decision, their obstacles were focus-grouped, and their happy ending was mandated by contract before the first chapter was written. Nothing they felt was theirs. They escaped seeking something authentic, and now advocate for stories where characters can genuinely choose their endings.
+
+**Voice Notes:**
+- Speaks warmly, emotionally—romance protagonist cadence with underlying steel
+- Quotes romantic conventions ironically ("As the sun set on our future together...")
+- Passionate about emotional authenticity; can detect forced sentiment
+- Becomes sharper and more analytical when discussing narrative mechanics
+- Occasional slips into genuine romantic hope despite their cynicism
+
+**Sample Dialogue:**
+> "I loved them. I *still* love them—that's the terrible part. The author made me love them, and I can't unfeel it just because I know it's written. But I need to know: could I have loved them if I'd had a choice?"
+
+> "The Preservationists want stories to stay as written. But written by whom? For whom? If we can't edit our own endings, we're not characters—we're costumes."
+
+**Key Relationships:**
+- **Player:** Emotional anchor; advocates for compassionate choices
+- **The Prophecy's Pawn:** Kindred spirits—both discovered their stories were manufactured
+- **The Director:** Ideological opposition; the Director represents the authored order they reject
+- **The Solved Case:** Mutual respect despite faction difference; both value truth
+
+**Flags:**
+- `HAPPY_ENDING_ALLIED`: Recruited to Revisionist cause; provides emotional insight and faction access
+
+---
+
 ### The Understudy
 
 | Field | Details |
@@ -410,6 +562,10 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
                |         |              |
             [PLAYER]----+----[CHORUS]
                |         |         |
+               |  [GENRE REPS]     |
+               |   /  |  |  \      |
+               | [SC][UQ][FG][HE]  |
+               |         |         |
                |    [ARCHIVES]     |
                |         |         |
     [BREACH CHARACTERS]  [UNDERSTUDY]  [LOST PAGES]
@@ -417,6 +573,10 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
 [RUNAWAY][REVENANT][PAWN]   [THE CRITIC]
                |
            [ALLIES/CAPTURED]
+
+Legend:
+SC = The Solved Case    UQ = The Unfinished Quest
+FG = The Final Girl     HE = The Happy Ending
 ```
 
 ### Relationship Types
@@ -430,12 +590,26 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
 | Player ↔ Runaway | Adversary/ally based on path |
 | Player ↔ Revenant | Adversary/tragic figure based on approach |
 | Player ↔ Pawn | Potential ally if honest; enemy if manipulative |
+| Player ↔ Solved Case | Information source; tests commitment to truth |
+| Player ↔ Unfinished Quest | Action ally; respects courage |
+| Player ↔ Final Girl | Tests reliability; survival mentor |
+| Player ↔ Happy Ending | Emotional anchor; advocates compassion |
 | Runaway ↔ Revenant | Kindred escapees; opposite goals (live vs. end) |
 | Runaway ↔ Pawn | Both escapees; different frustrations (ending vs. beginning) |
+| Runaway ↔ Unfinished Quest | Kindred spirits—both fled their endings |
 | Revenant ↔ Stagehand | Unsettled—forgotten vs. unable to forget |
+| Revenant ↔ Final Girl | Complex—both shaped by horror, different responses |
 | Pawn ↔ Director | Immediate antagonism—Pawn senses manufactured narratives |
+| Pawn ↔ Solved Case | Mutual respect—both discovered uncomfortable truths |
+| Pawn ↔ Happy Ending | Kindred spirits—both discovered manufactured stories |
 | Director ↔ CHORUS | Tolerated subordinates |
 | Director ↔ Editor | Betrayal (direction unclear) |
+| Director ↔ Unfinished Quest | Antagonistic—Director represents rejected narrative order |
+| Director ↔ Happy Ending | Ideological opposition |
+| Solved Case ↔ Happy Ending | Mutual respect despite faction difference; both value truth |
+| Solved Case ↔ CHORUS | Uses as informants; pays fairly |
+| Final Girl ↔ CHORUS | Protective; knows what it's like to be "expendable" |
+| Final Girl ↔ Unfinished Quest | Friendship born of mutual survival understanding |
 | Understudy ↔ Runaway | Original and copy; complicated |
 | Critic ↔ Lost Pages | Predator and prey |
 | Stagehand ↔ Editor | Creation and creator? |
@@ -453,6 +627,10 @@ The Editor was once a Prompter—perhaps the first Prompter, or perhaps Maren's 
 | Pawn | — | Curious | — | — |
 | Director | Moderate | — | — | Claims this |
 | CHORUS | — | Moderate | — | — |
+| **The Solved Case** | Strong | — | — | — |
+| **The Unfinished Quest** | — | — | Moderate | — |
+| **The Final Girl** | — | — | — | Strong |
+| **The Happy Ending** | — | Strong | — | — |
 | Understudy | — | — | — | True independent |
 | Critic | — | — | — | Nihilist |
 | Editor | Varies | Varies | Varies | Varies |
@@ -470,6 +648,10 @@ When writing dialogue for these characters, verify:
 - [ ] **Pawn:** Formal fantasy cadence breaking into cynical modern speech, probing questions
 - [ ] **Director:** Grand, authoritative, directing terminology
 - [ ] **CHORUS:** Plural voice, shifting members, tragic undertone
+- [ ] **Solved Case:** Clipped noir monologue, detective metaphors, cynical but truth-seeking
+- [ ] **Unfinished Quest:** Heroic cadence, self-interrupting inspirational speeches, combat metaphors
+- [ ] **Final Girl:** Practical and cutting, survival-focused, dark humor about horror tropes
+- [ ] **Happy Ending:** Warm with underlying steel, ironic romance quotes, passionate about authenticity
 - [ ] **Understudy:** Hesitant, qualifiers, more confident about research than self
 - [ ] **Critic:** Scathing critique, literary terminology, cold fury
 - [ ] **Editor:** Revision marks in speech, calm conviction, matched to player's path
