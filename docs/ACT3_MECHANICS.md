@@ -144,7 +144,7 @@ These NPCs appear based on specific flags:
 |-----|---------------|----------------|
 | The Stagehand | `STAGEHAND_CURIOUS` + Act 2 Archives discovery | Reveals their true identity; unlocks hidden option |
 | The Revenant | `REVENANT_RESTED` | Provides ghostly reconnaissance; can scout ahead |
-| Lost Pages | `PAGES_RESTORED` | Guide through dangerous areas; provide missing information |
+| Lost Pages | `PAGES_BEFRIENDED` | Guide through dangerous areas; provide missing information |
 
 ### Reunion Mechanics
 
@@ -331,7 +331,7 @@ Five distinct endings per OUTLINE.md, each with specific requirements and multip
 |-------------|----------------|------------------|
 | Alignment 7+ | `REVISIONIST: 7+` | Base requirement |
 | Editor Collaboration | 2+ confrontation phases won | Full collaboration achieved |
-| Happy Ending Allied | `HAPPY_ENDING_ALLIED` | +Emotional depth; no loneliness |
+| Happy Ending Allied | `HAPPY_ENDING_FRIEND` | +Emotional depth; no loneliness |
 | Understudy Partner | `UNDERSTUDY_PARTNER` | +Understanding of editorial burden |
 | CHORUS Member | `CHORUS_MEMBER` | +Minor characters protected in revision |
 
