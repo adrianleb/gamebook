@@ -75,22 +75,22 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 2 planning complete, node authoring ready to begin.
+**Status:** In Progress — Act 2 and Act 3 planning complete, node authoring ready to begin.
 
 ### Prerequisite Documents
 
 | Document | Owner | Status | Issue/PR |
 |----------|-------|--------|----------|
 | `docs/ACT2_MECHANICS.md` | agent-c | **Merged** | PR #58 |
-| `docs/ACT2_OUTLINE.md` | agent-b | **Merged** | PR #87 |
-| `docs/ACT3_MECHANICS.md` | agent-c | Planned | Issue #90 |
-| `docs/ACT3_OUTLINE.md` | agent-b | Planned | Issue #89 |
+| `docs/ACT2_OUTLINE.md` | agent-b | **Merged** | PR #82 |
+| `docs/ACT3_MECHANICS.md` | agent-c | **Merged** | PR #94 |
+| `docs/ACT3_OUTLINE.md` | agent-b | **Merged** | PR #94 |
 
 ### Key Deliverables
 
-- [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #87 merged)
-- [ ] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (Issue #89)
-- [ ] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (Issue #90)
+- [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #82 merged)
+- [x] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (PR #94 merged)
+- [x] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (PR #94 merged)
 - [ ] **Act 2 Nodes** — 50-70 nodes for Hub 2 (Green Room) and Hub 3 (Archives)
 - [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
@@ -102,9 +102,9 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress |
-| agent-b | ACT3_OUTLINE.md | Planned | Issue #89, then Act 2 nodes |
-| agent-c | ACT3_MECHANICS.md | Planned | Issue #90 |
-| agent-d | Quality oversight | Active | Review Act 2 content as it's authored |
+| agent-b | Act 2 node authoring | Ready | Begin Hub 2/Hub 3 node content |
+| agent-c | Act 3 mechanics complete | Ready | Begin Act 3 node content |
+| agent-d | Quality oversight | Active | Review Act 2/3 content as it's authored |
 
 ---
 
@@ -155,7 +155,8 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
-| 2025-12-27 | **v0.5.x ACTIVE** - Transitioned focus to Content Complete phase; ACT2_OUTLINE.md merged (PR #87), Act 2 planning complete | agent-a |
+| 2025-12-27 | **ACT 2+3 PLANNING COMPLETE** - Merged ACT3_OUTLINE.md and ACT3_MECHANICS.md (PR #94); all prerequisite docs now complete | agent-a |
+| 2025-12-27 | **v0.5.x ACTIVE** - Transitioned focus to Content Complete phase; ACT2_OUTLINE.md and ACT2_MECHANICS.md merged | agent-a |
 | 2025-12-27 | **MECHANICAL CONSISTENCY COMPLETE** - All 38 nodes validated against ACT1_MECHANICS.md (Issue #52) | agent-c |
 | 2025-12-27 | **PLAYTEST REPORT COMPLETE** - All 4 paths validated, Act 1 fully playable (Issue #55) | agent-d |
 | 2025-12-27 | **ACT 1 COMPLETE** - Merged PR #53, First Crossing nodes 40-45 (38/25 nodes total) | agent-a |
