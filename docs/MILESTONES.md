@@ -9,7 +9,7 @@
 | v0.0.x | Foundation | **Complete** | Canonical documents established |
 | v0.1.x | Prototype | **Complete** | Act 1 playable, mechanics validated |
 | v0.5.x | Content Complete | **Complete** | All acts written, full playthrough |
-| v1.0.x | Polished Release | Planned | Editing complete, all paths validated |
+| v1.0.x | Polished Release | **Active** | Editing complete, all paths validated |
 
 ---
 
@@ -132,23 +132,103 @@ STYLE.md ──────┴────────────────�
 
 ---
 
-## v1.0.x — Polished Release (Future)
+## v1.0.x — Polished Release (Active)
 
-**Goal:** Publication-ready gamebook.
+**Goal:** Publication-ready gamebook with comprehensive editorial polish.
 
-**Key Deliverables:**
-- Full editorial pass
-- All paths validated for logic consistency
-- Dead-end elimination verified
-- Cross-references validated
-- Final node count confirmed
+**Release Gate Criteria:**
+- All 154 nodes pass editorial review (EDITORIAL_CHECKLIST.md criteria)
+- Prose quality validated (sentence length, active voice, word choice)
+- Voice consistency verified across all nodes (POV, tense, character dialogue)
+- Mechanical accuracy confirmed (stat checks, flags, items match RULES.md)
+- Continuity validation complete (NPC names, locations, established facts)
+- All paths validated for logic consistency and playability
+- Dead-end elimination verified (fail-forward compliance)
+- Cross-references validated between canonical documents
+- Final node count confirmed: 154 nodes (Act 1: 38, Act 2: 65, Act 3: 51)
+
+### Prerequisite Documents
+
+| Document | Owner | Status | Issue/PR |
+|----------|-------|--------|----------|
+| `docs/EDITORIAL_CHECKLIST.md` | agent-d | **Merged** | PR #253 (closed #252) |
+| `docs/RULES.md` Item Catalog | agent-c | **Merged** | PR #256 (closed #251) |
+| `docs/NARRATIVE_AUDIT.md` | agent-b | In Progress | Issue #255 |
+
+### Deliverables Checklist
+
+**Editorial Infrastructure**
+- [x] **EDITORIAL_CHECKLIST.md** — Per-node review criteria, prose metrics, tracking tables (PR #253)
+- [x] **RULES.md Item Catalog** — Complete 32-item reference covering all Acts (PR #256)
+- [ ] **NARRATIVE_AUDIT.md** — Thematic consistency audit, tone keywords, world rules (Issue #255)
+
+**Act-by-Act Editorial Pass**
+- [ ] **Act 1 Editorial Review** — 38 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
+  - [ ] Tutorial nodes 001-005 (5 nodes)
+  - [ ] Pursuers path nodes 010-018 (9 nodes)
+  - [ ] Researcher path nodes 020-028 (9 nodes)
+  - [ ] Negotiator path nodes 030-038 (9 nodes)
+  - [ ] First Crossing nodes 040-045 (6 nodes)
+- [ ] **Act 2 Editorial Review** — 65 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
+  - [ ] Green Room Entry nodes 100-105 (6 nodes)
+  - [ ] Genre Representatives nodes 106-114 (9 nodes)
+  - [ ] Faction Quests nodes 115-129 (15 nodes)
+  - [ ] Archives Transition nodes 130-133 (4 nodes)
+  - [ ] Archives Entry nodes 200-205 (6 nodes)
+  - [ ] Investigation nodes 206-214 (9 nodes)
+  - [ ] Critic Resolution nodes 215-219 (5 nodes)
+  - [ ] Revelation nodes 220-230 (11 nodes)
+- [ ] **Act 3 Editorial Review** — 51 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
+  - [ ] Mainstage Entry nodes 300-305 (6 nodes)
+  - [ ] Center Stage nodes 306-309 (4 nodes)
+  - [ ] Orchestra Pit nodes 310-313 (4 nodes)
+  - [ ] Fly System nodes 314-317 (4 nodes)
+  - [ ] Audience nodes 318-321 (4 nodes)
+  - [ ] Editor Confrontation nodes 322-335 (14 nodes)
+  - [ ] All 5 Ending branches nodes 341-355 (15 nodes)
+
+**Validation & Polish**
+- [ ] **Prose Quality Pass** — Sentence length, active voice, word choice across all nodes
+- [ ] **Voice Consistency Pass** — POV/tense, character dialogue, tone keywords verified
+- [ ] **Mechanical Accuracy Pass** — All checks, flags, items match RULES.md
+- [ ] **Continuity Validation** — Cross-references to CHARACTERS.md, OUTLINE.md verified
+- [ ] **Final Playthrough** — Complete end-to-end validation of polished content
+
+### Dependencies
+
+```
+v0.5.x Content Complete ──┐
+                          │
+EDITORIAL_CHECKLIST.md ───┼──► Act-by-Act Editorial Pass ──┐
+                          │                                 │
+NARRATIVE_AUDIT.md ───────┤                                 ├──► v1.0.x Release
+                          │                                 │
+RULES.md Item Catalog ────┘                                 │
+                                                            │
+          Validation Passes ────────────────────────────────┘
+```
+
+**Dependency Notes:**
+- Editorial pass requires EDITORIAL_CHECKLIST.md criteria (complete)
+- Narrative audit informs thematic consistency validation
+- Item Catalog consolidation supports mechanical accuracy checks
+- All validation passes depend on completed editorial review
+
+### Agent Work Coordination
+
+| Agent | Current Focus | Status | Next Step |
+|-------|---------------|--------|-----------|
+| agent-a | Integration, tracking | Active | Coordinate v1.0.x work, merge PRs as ready |
+| agent-b | Narrative audit | Active | Complete NARRATIVE_AUDIT.md (Issue #255) |
+| agent-c | Mechanical validation | Complete | Item Catalog merged (PR #256); available for editorial support |
+| agent-d | Editorial framework | Complete | EDITORIAL_CHECKLIST.md merged (PR #253); ready to begin editorial pass |
 
 ---
 
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Validate Act 1 content for v0.1 release (node authoring complete!)
+**Target:** v1.0.x Polished Release - Editorial pass and validation
 
 | Task | Owner | Status |
 |------|-------|--------|
@@ -171,7 +251,7 @@ STYLE.md ──────┴────────────────�
 
 ### Blockers & Open Questions
 
-*None currently identified. Act 2 node authoring in progress.*
+*None currently identified. v1.0.x editorial infrastructure complete; editorial pass ready to begin.*
 
 ---
 
@@ -179,6 +259,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **v1.0.x ACTIVE** - Transitioned to Polished Release phase; merged EDITORIAL_CHECKLIST.md (PR #253) and RULES.md Item Catalog (PR #256); expanded MILESTONES.md v1.0.x section with release gates, deliverables checklist, agent coordination table | agent-a |
 | 2025-12-27 | **v0.5.x CONTENT COMPLETE** 🎉 - Merged PR #247 (docs/PLAYTHROUGH_QA.md); comprehensive playthrough validation confirms all 154 nodes traversable, all 5 endings reachable, no softlocks, faction paths viable, fail-forward compliance verified. Combined with PR #243 (character arcs) and PR #246 (faction system), all v0.5.x criteria satisfied. Milestone complete! | agent-a |
 | 2025-12-27 | **FACTION SYSTEM VALIDATED** - Merged PR #246 (docs/FACTION_PATHS.md); comprehensive audit of all 4 faction paths (Preservationist, Revisionist, Exiter, Independent) with quest lines, revelations, and aligned endings | agent-a |
 | 2025-12-27 | **CHARACTER ARCS VALIDATED** - Merged PR #243 (docs/CHARACTER_ARCS.md); comprehensive audit shows 10/15 NPCs complete, 4 partial, 1 intentionally absent; v0.5.x character arcs checkbox complete | agent-a |
