@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 3 node authoring underway (127 nodes complete: Act 1: 38, Act 2: 65, Act 3: 24). **ACT 2 COMPLETE!**
+**Status:** In Progress — Act 3 node authoring underway (131 nodes complete: Act 1: 38, Act 2: 65, Act 3: 28). **ACT 2 COMPLETE!**
 
 ### Prerequisite Documents
 
@@ -103,11 +103,13 @@ STYLE.md ──────┴────────────────�
   - [x] Revelation Sequence Part 1 nodes 220-224 (PR #146) — Author's Desk, faction-specific revelation paths (Preservationist/Revisionist/Exiter/Independent)
   - [x] Revelation Sequence Part 2 nodes 225-229 (PR #154) — Revelation Response, Faction Rally, Investigation/Confrontation/Warning paths ✓ **REVELATION COMPLETE**
   - [x] Act 2 Conclusion node 230 (PR #154) — Final node summarizing revelation, confirming allies, transitioning to Act 3 ✓ **ACT 2 COMPLETE**
-- [ ] **Act 3 Nodes** — 14/30-40 nodes complete (Hub 4: 300-309, 314-317)
+- [ ] **Act 3 Nodes** — 28/30-40 nodes complete (Hub 4: 300-309, 314-327, 341-344)
   - [x] Mainstage Entry Sequence nodes 300-305 (PR #160) — Hub 4 arrival, ally reunion, approach selection ✓ **ACT 3 STARTED**
   - [x] Center Stage Approach nodes 306-307 (PR #165) — Script 2 narrative interference, Improv 2 wings observation (inadvertently merged)
   - [x] Center Stage Approach nodes 308-309 (PR #168) — Story Fragment Encounter with combined check, Dramatic Entrance transition ✓ **CENTER STAGE COMPLETE**
   - [x] Fly System Path nodes 314-317 (commit a9b0a7a) — Stage Presence 3 ascent, Script 3 structural insight, tactical/standard descent outcomes (inadvertently merged) ✓ **FLY SYSTEM COMPLETE**
+  - [x] Editor Confrontation Part 1 nodes 322-327 (PRs #192 inadvertent, #199) — Editor reveal, dialogue checks, philosophical/emotional/strategic approaches ✓ **CONFRONTATION PART 1 COMPLETE**
+  - [x] Ending Branch 1: The Revised Draft nodes 341-344 (PR #207) — Taking the Pen, The Revision Begins, The New Editor, Revised Draft Resolution ✓ **ENDING 1 COMPLETE**
 - [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
 - [ ] **Character arcs resolved** — All NPCs have satisfying conclusions
@@ -117,9 +119,9 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, document Act 3 progress |
-| agent-b | Act 3 Orchestra Pit Path (nodes 310-313) | Active | PR #175 awaiting QA; Fly System (314-317) already on main |
-| agent-c | Act 3 flag documentation | Active | Rebase PRs #153, #167, #170, #180 to remove contamination |
-| agent-d | QA validation of Orchestra Pit (Intent #176) | Active | Validate nodes 310-313 for PR #175 merge |
+| agent-b | Act 3 Endings + Confrontation Part 2 | Active | PR #201 (nodes 328-335) needs rebase; PR #207 merged; working on Ending 2 (nodes 345-348) |
+| agent-c | Act 3 flag documentation | Active | Rebase PRs #153, #170, #180 to remove contamination; PR #204 awaiting PR #201 |
+| agent-d | QA validation | Active | Validate PR #175 (Orchestra Pit), PR #201 (Confrontation Part 2) |
 
 ---
 
@@ -170,6 +172,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ENDING 1 COMPLETE** - The Revised Draft ending nodes 341-344 merged (PR #207); REVISION_BEGUN flag documented (PR #209); now 131 total nodes (Act 1: 38, Act 2: 65, Act 3: 28); first of five endings complete | agent-a |
 | 2025-12-27 | **EDITOR CONFRONTATION PART 1 COMPLETE** - Nodes 322-327 merged (PRs #192 inadvertent, #199); PR #197 merged (Center Stage checks, Confrontation Flags); now 127 total nodes (Act 1: 38, Act 2: 65, Act 3: 24); three approach paths + Audience path complete, Editor Confrontation begun | agent-a |
 | 2025-12-27 | **AUDIENCE FLAGS DOCUMENTED** - ACT3_MECHANICS.md Audience section updated (PR #190); AUDIENCE_BLESSING (+2 Stage Presence), AUDIENCE_DOUBT replacing stale spec flags | agent-a |
 | 2025-12-27 | **EFFECTIVE BONUS DOCUMENTED** - RULES.md updated with Effective Bonus mechanic (PR #186); format spec, duration types, stacking (max +3), design guidelines for node authors | agent-a |
