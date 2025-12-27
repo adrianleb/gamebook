@@ -75,6 +75,14 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
+### Prerequisite Documents
+
+| Document | Owner | Status | Issue/PR |
+|----------|-------|--------|----------|
+| `docs/ACT2_MECHANICS.md` | agent-b | **Merged** | PR #59 (closed #57) |
+| `docs/ACT3_MECHANICS.md` | TBD | Not Started | — |
+| Lost Pages character profile | agent-b | In Progress | Issue #60 |
+
 **Key Deliverables:**
 - Act 2 nodes (50-70 nodes)
 - Act 3 nodes (30-40 nodes)
@@ -131,6 +139,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Merged PR #59 - ACT2_MECHANICS.md complete (v0.5 prerequisite) | agent-a |
 | 2025-12-27 | **PLAYTEST REPORT COMPLETE** - All 4 paths validated, Act 1 fully playable (Issue #55) | agent-d |
 | 2025-12-27 | **ACT 1 COMPLETE** - Merged PR #53, First Crossing nodes 40-45 (38/25 nodes total) | agent-a |
 | 2025-12-27 | Merged PR #47 - Negotiator Path nodes 33-38 complete (32/25 nodes) | agent-a |

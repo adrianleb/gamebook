@@ -13,7 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/MILESTONES.md` - Release gate tracking for v0.1 Prototype (PR #12)
 - `docs/CHARACTERS.md` - NPC profiles for 8 major characters (PR #15)
   - Breach Characters B (The Revenant) and C (The Prophecy's Pawn) profiles (PR #30)
+  - Genre Representative profiles: The Solved Case, Unfinished Quest, Final Girl, Happy Ending (PR #56)
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
+- `docs/ACT2_MECHANICS.md` - Mechanical specification for Act 2 (PR #59)
+  - Faction alignment system (Preservationist/Revisionist/Exiter + Independent path)
+  - Hub 2 (Green Room) and Hub 3 (Archives) check specifications
+  - Archive Search mechanics with tiered success
+  - Act 2 item catalog and flag system
+  - The Revelation climax mechanics
 - `content/act1/` - Content directory structure for node files (PR #24)
 - Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
 - Act 1 Pursuers Path nodes 010-018: The chase, confrontation, and resolution with The Runaway (PR #36)
