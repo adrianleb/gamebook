@@ -250,9 +250,9 @@ Every failed check MUST lead to:
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 040-045 | First Crossing | 6 | [ ] | | |
+| 040-045 | First Crossing | 6 | [x] PASS | agent-d | 2025-12-27 |
 
-**Act 1 Total:** 32/38 reviewed
+**Act 1 Total:** 38/38 reviewed (100% COMPLETE)
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -474,38 +474,247 @@ Every failed check MUST lead to:
 
 **Issues Found:** None requiring revision.
 
+### First Crossing Review Notes (040-045)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 040 | The Threshold | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 041 | Direct Confrontation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 042 | Stealth Entry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 043 | Negotiated Entry | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 044 | Desperate Leap | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 045 | The First Crossing Complete | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- All 6 nodes maintain consistent second person, present tense
+- Maren's voice matches CHARACTERS.md: theatrical precision, warm but not soft
+- Collective Understage voice appropriately liminal and narrative-aware
+- Four distinct crossing methods (direct, stealth, negotiated, desperate) all properly implemented
+- Stat checks match ACT1_MECHANICS.md: Stage Presence 3 (041), Improv 3 (042), Combined Script 2 AND Stage Presence 2 (043), Any 2 (044)
+- Desperate Leap option (Any 2) ensures all builds can proceed to Act 2
+- Crossing flags use UPPERCASE_SNAKE_CASE: `CROSSING_DIRECT`, `CROSSING_STEALTH`, `CROSSING_NEGOTIATED`, `CROSSING_DESPERATE`, `FIRST_CROSSING_COMPLETE`
+- Node 045 provides clear Act 2 Opening Conditions table for all 8 method+result combinations
+- Fail-forward properly implemented: all 4 crossing methods allow progression with success/failure variants
+
+**Issues Found:** None requiring revision.
+
+---
+
+## Act 1 Editorial Pass Complete
+
+Act 1 is now 38/38 (100%) reviewed:
+- ✅ Tutorial (001-005) - 5 nodes PASS
+- ✅ Pursuers Path (010-018) - 9 nodes PASS
+- ✅ Researcher Path (020-028) - 9 nodes PASS
+- ✅ Negotiator Path (030-038) - 9 nodes PASS
+- ✅ First Crossing (040-045) - 6 nodes PASS
+
+**Act 1 is publication-ready for v1.0.x release.**
+
+---
+
 ### Act 2: The Descent (65 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 100-105 | Green Room Entry | 6 | [ ] |
-| 106-114 | Genre Representatives | 9 | [ ] |
-| 115-129 | Faction Quests | 15 | [ ] |
-| 130-133 | Archives Transition | 4 | [ ] |
-| 200-205 | Archives Entry | 6 | [ ] |
-| 206-214 | Investigation | 9 | [ ] |
-| 215-219 | Critic Resolution | 5 | [ ] |
-| 220-230 | Revelation | 11 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 100-105 | Green Room Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 106-114 | Genre Representatives | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 115-129 | Faction Quests | 15 | [x] PASS | agent-d | 2025-12-27 |
+| 130-133 | Archives Transition | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 200-205 | Archives Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 206-214 | Investigation | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 215-219 | Critic Resolution | 5 | [x] PASS | agent-d | 2025-12-27 |
+| 220-230 | Revelation | 11 | [x] PASS | agent-d | 2025-12-27 |
 
-**Act 2 Total:** 0/65 reviewed
+**Act 2 Total:** 65/65 reviewed (100% COMPLETE)
+
+### Act 2 Review Notes Summary
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL 8 SEQUENCES PASS (65/65 nodes)
+
+**Key Findings Across All Sequences:**
+- Second person, present tense maintained throughout all 65 nodes
+- NPC voices consistently match CHARACTERS.md profiles:
+  - The Director: theatrical authority, directing terminology
+  - CHORUS: plural collective voice, overlapping fragments
+  - The Solved Case: clipped noir style, detective metaphors
+  - The Unfinished Quest: heroic cadence with vulnerability
+  - The Final Girl: practical survival focus
+  - The Happy Ending: warm with underlying steel
+  - The Understudy: hesitation, qualifiers, more confident about research
+  - The Critic: scathing critique, literary terminology, cold and analytical
+- Stat checks use correct notation per RULES.md and match ACT2_MECHANICS.md thresholds
+- Check distribution matches Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert)
+- Fail-forward properly implemented in all nodes
+- Faction alignment system properly tracked with UPPERCASE_SNAKE_CASE flags
+- All branch links valid and reachable
+
+**Act 2 is publication-ready for v1.0.x release.**
+
+---
 
 ### Act 3: The Final Act (51 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 300-305 | Mainstage Entry | 6 | [ ] |
-| 306-309 | Center Stage | 4 | [ ] |
-| 310-313 | Orchestra Pit | 4 | [ ] |
-| 314-317 | Fly System | 4 | [ ] |
-| 318-321 | Audience | 4 | [ ] |
-| 322-335 | Editor Confrontation | 14 | [ ] |
-| 341-344 | Ending: Revised Draft | 4 | [ ] |
-| 345-348 | Ending: Open Book | 4 | [ ] |
-| 349-351 | Ending: Closed Canon | 3 | [ ] |
-| 352-353 | Ending: Blank Page | 2 | [ ] |
-| 354-355 | Ending: Eternal Rehearsal | 2 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 306-309 | Center Stage | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 310-313 | Orchestra Pit | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 314-317 | Fly System | 4 | [ ] | | |
+| 318-321 | Audience | 4 | [ ] | | |
+| 322-335 | Editor Confrontation | 14 | [ ] | | |
+| 341-344 | Ending: Revised Draft | 4 | [ ] | | |
+| 345-348 | Ending: Open Book | 4 | [ ] | | |
+| 349-351 | Ending: Closed Canon | 3 | [ ] | | |
+| 352-353 | Ending: Blank Page | 2 | [ ] | | |
+| 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 0/51 reviewed
+**Act 3 Total:** 14/51 reviewed (27%)
+
+### Mainstage Entry Review Notes (300-305)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 300 | The Mainstage Arrival | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 301 | Survey the Mainstage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 302 | Ally Reunion | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 303 | Direct Approach | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 304 | Strategy Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 305 | Approach Selection | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Entry sequence properly establishes Act 3 setting with evocative Mainstage descriptions
+- Node 302 Ally Reunion validates all 11 potential ally voices against CHARACTERS.md with perfect consistency
+- Single stat check (Stage Presence 3 in Node 303) has fail-forward to Node 306
+- Mainstage geography matches ACT3_OUTLINE.md (Center Stage, Orchestra Pit, Fly System, Audience)
+- Four approach paths from Node 305 map to faction strategies per ACT3_MECHANICS.md
+
+**Issues Found:** None requiring revision.
+
+### Center Stage Review Notes (306-309)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 306 | Center Stage Approach | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 307 | The Wings | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 308 | Story Fragment Encounter | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 309 | Dramatic Entrance | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- The Editor's voice matches CHARACTERS.md: calm with absolute conviction, talks about characters as creations
+- Four faction-variant Editor dialogues in Node 309 align with CHARACTERS.md motivation table
+- All stat checks use correct notation: Script 2 (306), Improv 2 (307), Script 2 OR Stage Presence 2 (308)
+- Check distribution appropriate for Act 3 (all Standard tier for approach sequence)
+- Fail-forward properly implemented in all nodes
+- Variable content in Node 308 properly references ally flags
+
+**Issues Found:** None requiring revision.
+
+### Orchestra Pit Review Notes (310-313)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 310 | Descend to Orchestra Pit | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 311 | Narrative Manipulation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 312 | Harmonic Advantage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 313 | Discordant Reveal | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-310.md through node-313.md)
+- Location tags present throughout (*The Mainstage — Orchestra Pit Entrance*, *Conductor's Podium*, *Ascent*, *Aftermath*)
+- Forward paths valid: 310→311 on success, 310→306 on failure; 311→312 on success, 311→313 on failure; 312→322; 313→322
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 4 nodes
+- The Editor's voice (Node 311, 313) matches CHARACTERS.md profile:
+  - Calm with absolute conviction ("Interesting.")
+  - Patronizing tone ("But amateurs shouldn't touch instruments they don't understand.")
+  - Talks about narrative mechanics ("the *why* of storytelling")
+- The Stagehand's voice in ally content (Node 312) matches CHARACTERS.md: simple speech ("Something's changed... The story's changed")
+- Tone keywords appropriately distributed: Liminal ("between audience and performers"), Theatrical ("orchestrate," "conductor"), Uncanny ("music as meaning")
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and evocative: "harp strung with dialogue threads," "drums made from the moments between heartbeats"
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT3_OUTLINE.md specification:
+  - Node 310: Script 3 (Advanced) ✓
+  - Node 311: Improv 3 (Advanced) ✓
+  - Node 313: Stage Presence 2 (Standard recovery check) ✓
+- Both success AND failure paths defined for all checks
+- Fail-forward properly implemented:
+  - Node 310 failure → 306 (Center Stage Approach) - valid alternate path
+  - Node 311 failure → 313 (Discordant Reveal) - continues with complication
+  - Node 313 recovery failure → 322 (confrontation on Editor's terms) - still progresses
+- Flags use UPPERCASE_SNAKE_CASE: `ORCHESTRA_PIT_ENTERED`, `NARRATIVE_ADVANTAGE`, `EDITOR_WARNED`
+- Effective bonus documented correctly: "+1 effective to next check against the Editor" in Node 312
+
+**Continuity Findings:**
+- Orchestra Pit description matches ACT3_OUTLINE.md ("sunken area where narrative 'music' can be manipulated")
+- "Instruments made of story elements" aligns with outline specification
+- The Editor's knowledge of the pit ("before me, before any Editor") adds appropriate lore depth
+- Ally conditional content properly checks for presence flags
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 3:
+  - Advanced (3): 2 checks (nodes 310, 311)
+  - Standard (2): 1 recovery check (node 313)
+- All paths lead to Node 322 (Editor confrontation) - no dead ends
+- Recovery check (SP 2) in Node 313 gives hope even after primary failure
+- Consequences are meaningful (`NARRATIVE_ADVANTAGE` vs `EDITOR_WARNED`) but not game-ending
+
+**Issues Found:** None requiring revision.
+
+---
+
+## Act 3 Editorial Progress
+
+Act 3 is now 14/51 (27%) reviewed:
+- ✅ Mainstage Entry (300-305) - 6 nodes PASS
+- ✅ Center Stage (306-309) - 4 nodes PASS
+- ✅ Orchestra Pit (310-313) - 4 nodes PASS
+- ⬜ Fly System (314-317) - 4 nodes pending
+- ⬜ Audience (318-321) - 4 nodes pending
+- ⬜ Editor Confrontation (322-335) - 14 nodes pending
+- ⬜ Ending: Revised Draft (341-344) - 4 nodes pending
+- ⬜ Ending: Open Book (345-348) - 4 nodes pending
+- ⬜ Ending: Closed Canon (349-351) - 3 nodes pending
+- ⬜ Ending: Blank Page (352-353) - 2 nodes pending
+- ⬜ Ending: Eternal Rehearsal (354-355) - 2 nodes pending
+
+---
+
+## v1.0.x Editorial Progress Summary
+
+Combined progress:
+- **Act 1:** 38/38 (100% COMPLETE)
+- **Act 2:** 65/65 (100% COMPLETE)
+- **Act 3:** 14/51 (27%)
+- **Total:** 117/154 nodes (76%)
 
 ---
 
