@@ -18,8 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
 - Act 1 Pursuers Path nodes 010-018: The chase, confrontation, and resolution with The Runaway (PR #36)
 - Act 1 Researcher Path nodes 020-028: Archive investigation, breach pattern discovery, Genre Compass, The Revenant encounter (PR #39)
+- Act 1 Negotiator Path nodes 030-032: First Contact with The Prophecy's Pawn, backstory reveal (PR #45)
+- Researcher path flags documented in ACT1_MECHANICS.md: HAS_GENRE_COMPASS, STAGEHAND_ORIGIN_REVEALED, REVENANT_LIMBO (PR #42)
 
 ### Fixed
+- Negotiator path flags corrected: PAWN_ALLIED/HOSTILE/NEUTRAL replace incorrect RUNAWAY_ALLIED (PR #45)
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
 - BREACH_WITNESSED flag now triggers at Node 4 before path choice (PR #28)
 
