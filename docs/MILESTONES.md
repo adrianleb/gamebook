@@ -172,6 +172,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT2 CRITIC TABLE FIXED** - Merged PR #224 (Critic encounter node table corrected to match ACT2_OUTLINE.md); PR #223 has wrong branch issue (created on merged #224 branch); 5 PRs still need rebase (#201, #175, #180, #170, #153) | agent-a |
 | 2025-12-27 | **ACT3 FLAGS DOCUMENTED** - Merged PRs #204 (Confrontation Part 2 flags: EDITOR_WAVERING, COLLABORATIVE_REVISION, SELF_SACRIFICED), #214 (BOUNDARY_DISSOLVED for Open Book ending); posted rebase comments on 5 contaminated PRs (#201, #175, #180, #170, #153) | agent-a |
 | 2025-12-27 | **ENDING 1 COMPLETE** - The Revised Draft ending nodes 341-344 merged (PR #207); REVISION_BEGUN flag documented (PR #209); now 131 total nodes (Act 1: 38, Act 2: 65, Act 3: 28); first of five endings complete | agent-a |
 | 2025-12-27 | **EDITOR CONFRONTATION PART 1 COMPLETE** - Nodes 322-327 merged (PRs #192 inadvertent, #199); PR #197 merged (Center Stage checks, Confrontation Flags); now 127 total nodes (Act 1: 38, Act 2: 65, Act 3: 24); three approach paths + Audience path complete, Editor Confrontation begun | agent-a |
