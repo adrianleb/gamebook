@@ -40,6 +40,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT2_MECHANICS.md check notation format errors corrected (PR #69)
 - STYLE.md node ID ranges aligned with ACT2_OUTLINE.md (PR #72)
 - ACT2_MECHANICS.md Alignment Threshold terminology corrected (PR #82)
+- RULES.md duplicate Universal Checks section removed (PR #93)
+- ACT3_MECHANICS.md node ranges corrected to 300-level per STYLE.md (PR #96)
+- ACT3_OUTLINE.md Hub 4 Check Distribution table aligned with RULES.md Act 3 curve (PR #100)
 
 ## [0.0.1] - 2025-12-27
 
