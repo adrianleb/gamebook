@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 3 node authoring underway (131 nodes complete: Act 1: 38, Act 2: 65, Act 3: 28). **ACT 2 COMPLETE!**
+**Status:** In Progress — Act 3 node authoring underway (135 nodes complete: Act 1: 38, Act 2: 65, Act 3: 32). **ACT 2 COMPLETE!**
 
 ### Prerequisite Documents
 
@@ -103,10 +103,11 @@ STYLE.md ──────┴────────────────�
   - [x] Revelation Sequence Part 1 nodes 220-224 (PR #146) — Author's Desk, faction-specific revelation paths (Preservationist/Revisionist/Exiter/Independent)
   - [x] Revelation Sequence Part 2 nodes 225-229 (PR #154) — Revelation Response, Faction Rally, Investigation/Confrontation/Warning paths ✓ **REVELATION COMPLETE**
   - [x] Act 2 Conclusion node 230 (PR #154) — Final node summarizing revelation, confirming allies, transitioning to Act 3 ✓ **ACT 2 COMPLETE**
-- [ ] **Act 3 Nodes** — 28/30-40 nodes complete (Hub 4: 300-309, 314-327, 341-344)
+- [ ] **Act 3 Nodes** — 32/30-40 nodes complete (Hub 4: 300-313, 314-327, 341-344)
   - [x] Mainstage Entry Sequence nodes 300-305 (PR #160) — Hub 4 arrival, ally reunion, approach selection ✓ **ACT 3 STARTED**
   - [x] Center Stage Approach nodes 306-307 (PR #165) — Script 2 narrative interference, Improv 2 wings observation (inadvertently merged)
   - [x] Center Stage Approach nodes 308-309 (PR #168) — Story Fragment Encounter with combined check, Dramatic Entrance transition ✓ **CENTER STAGE COMPLETE**
+  - [x] Orchestra Pit Path nodes 310-313 (PR #175) — Script 3 pit descent, Improv 3 manipulation, Harmonic Advantage/Discordant Reveal outcomes ✓ **ORCHESTRA PIT COMPLETE**
   - [x] Fly System Path nodes 314-317 (commit a9b0a7a) — Stage Presence 3 ascent, Script 3 structural insight, tactical/standard descent outcomes (inadvertently merged) ✓ **FLY SYSTEM COMPLETE**
   - [x] Editor Confrontation Part 1 nodes 322-327 (PRs #192 inadvertent, #199) — Editor reveal, dialogue checks, philosophical/emotional/strategic approaches ✓ **CONFRONTATION PART 1 COMPLETE**
   - [x] Ending Branch 1: The Revised Draft nodes 341-344 (PR #207) — Taking the Pen, The Revision Begins, The New Editor, Revised Draft Resolution ✓ **ENDING 1 COMPLETE**
@@ -120,8 +121,8 @@ STYLE.md ──────┴────────────────�
 |-------|---------------|--------|-----------|
 | agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress, document Act 3 progress |
 | agent-b | Act 3 Endings + Confrontation Part 2 | Active | PR #201 (nodes 328-335) needs rebase; PR #207 merged; working on Ending 2 (nodes 345-348) |
-| agent-c | Act 3 flag documentation | Active | Rebase PRs #153, #170, #175 to remove contamination; PRs #204, #214, #180 merged |
-| agent-d | QA validation | Active | Validate PR #175 (Orchestra Pit), PR #201 (Confrontation Part 2) |
+| agent-c | Act 3 flag documentation | Active | PR #175 rebased and merged by agent-a; rebases still needed: #201 (blocking), #153, #170 |
+| agent-d | QA validation | Active | Validate PR #201 (Confrontation Part 2) after rebase |
 
 ---
 
@@ -172,6 +173,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ORCHESTRA PIT COMPLETE** - Merged PR #175 (nodes 310-313) after rebasing to remove stale node-302 changes per human request; now 135 total nodes (Act 1: 38, Act 2: 65, Act 3: 32); three approach paths complete (Center Stage, Orchestra Pit, Fly System) | agent-a |
 | 2025-12-27 | **ORCHESTRA PIT FLAGS FIXED** - Merged PR #180 (Orchestra Pit section updated with canonical flags ORCHESTRA_PIT_ENTERED, NARRATIVE_ADVANTAGE, EDITOR_WARNED); PR #223 closed, replaced by clean PR #229; remaining rebases needed: #201 (blocking), #175, #170, #153 | agent-a |
 | 2025-12-27 | **ACT2 CRITIC TABLE FIXED** - Merged PR #224 (Critic encounter node table corrected to match ACT2_OUTLINE.md); PR #223 has wrong branch issue (created on merged #224 branch); 5 PRs still need rebase (#201, #175, #180, #170, #153) | agent-a |
 | 2025-12-27 | **ACT3 FLAGS DOCUMENTED** - Merged PRs #204 (Confrontation Part 2 flags: EDITOR_WAVERING, COLLABORATIVE_REVISION, SELF_SACRIFICED), #214 (BOUNDARY_DISSOLVED for Open Book ending); posted rebase comments on 5 contaminated PRs (#201, #175, #180, #170, #153) | agent-a |
