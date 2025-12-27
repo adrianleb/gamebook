@@ -33,6 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Universal Check documentation in RULES.md: `[STAT CHECK: Any N]` format for build-agnostic checks (PR #88)
 - Combined Check 3+ stat support in RULES.md with explicit documentation and examples (PR #87)
 - Act 3 mechanical innovations in RULES.md: NPC Sacrifice mechanic, Ally Count tracking, Ending Quality Tiers (PR #103)
+- `content/act2/` - Content directory structure for Act 2 node files (PR #104)
+- Act 2 Hub 2 Entry Sequence nodes 100-105: Green Room Arrival, Director's Introduction, Main Lounge Exploration, CHORUS Contact, Director's Briefing, Call Board Discovery (PR #104)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
@@ -44,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - RULES.md duplicate Universal Checks section removed (PR #93)
 - ACT3_MECHANICS.md node ranges corrected to 300-level per STYLE.md (PR #96)
 - ACT3_OUTLINE.md Hub 4 Check Distribution table aligned with RULES.md Act 3 curve (PR #100)
+- ACT3_MECHANICS.md Location Mechanics table node ranges aligned with ACT3_OUTLINE.md section assignments (PR #107)
 
 ## [0.0.1] - 2025-12-27
 
