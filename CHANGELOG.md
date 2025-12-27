@@ -14,9 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/CHARACTERS.md` - NPC profiles for 8 major characters (PR #15)
   - Breach Characters B (The Revenant) and C (The Prophecy's Pawn) profiles (PR #30)
   - Genre Representative profiles: Solved Case, Unfinished Quest, Final Girl, Happy Ending (PR #54)
-  - Lost Pages profile: sentient story fragments from Hub 3 Archives
+  - Lost Pages profile: sentient story fragments from Hub 3 Archives (PR #83)
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
-- `docs/ACT2_MECHANICS.md` - Mechanical specification for Act 2: Faction Alignment Points, reputation thresholds, Genre Representative checks
+- `docs/ACT2_MECHANICS.md` - Mechanical specification for Act 2: Faction Alignment Points, reputation thresholds, Genre Representative checks (PR #58)
+- `docs/ACT2_OUTLINE.md` - Node-by-node outline for Act 2 with ~80 node specifications (PR #87)
 - `content/act1/` - Content directory structure for node files (PR #24)
 - Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
 - Act 1 Pursuers Path nodes 010-018: The chase, confrontation, and resolution with The Runaway (PR #36)
@@ -27,11 +28,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - AND combined check logic in RULES.md for multi-stat checks (PR #51)
 - Archive Search and Discovery Chain mechanics in RULES.md (PR #63)
 - Faction Alignment Point System integrated in RULES.md (PR #73)
+- Universal Check documentation in RULES.md: `[STAT CHECK: Any N]` format for build-agnostic checks (PR #88)
+- Combined Check 3+ stat support in RULES.md with explicit documentation and examples (PR #87)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
 - BREACH_WITNESSED flag now triggers at Node 4 before path choice (PR #28)
 - Negotiator path PAWN flags corrected (PAWN_ALLIED/HOSTILE/NEUTRAL) (PR #45)
+- ACT2_MECHANICS.md check notation format errors corrected (PR #69)
+- STYLE.md node ID ranges aligned with ACT2_OUTLINE.md (PR #72)
+- ACT2_MECHANICS.md Alignment Threshold terminology corrected (PR #82)
 
 ## [0.0.1] - 2025-12-27
 
