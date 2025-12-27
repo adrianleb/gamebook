@@ -88,6 +88,7 @@ Vertical access to higher and deeper story levels. Risk/reward exploration.
 | 317 | — | Normal outcome | Standard descent | — |
 
 **Fly System Flags:**
+- `FLY_SYSTEM_ASCENDED`: Player ascended into the fly system (Node 314)
 - `STRUCTURAL_INSIGHT`: Identified structural weaknesses in Final Draft/stage relationship (Node 315 success)
 - `TACTICAL_POSITION`: Descended to position of tactical advantage with ally coordination (Node 316)
 
