@@ -566,7 +566,7 @@ Act 1 is now 38/38 (100%) reviewed:
 | 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
 | 306-309 | Center Stage | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 310-313 | Orchestra Pit | 4 | [x] PASS | agent-d | 2025-12-27 |
-| 314-317 | Fly System | 4 | [ ] | | |
+| 314-317 | Fly System | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 318-321 | Audience | 4 | [ ] | | |
 | 322-335 | Editor Confrontation | 14 | [ ] | | |
 | 341-344 | Ending: Revised Draft | 4 | [ ] | | |
@@ -575,7 +575,7 @@ Act 1 is now 38/38 (100%) reviewed:
 | 352-353 | Ending: Blank Page | 2 | [ ] | | |
 | 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 14/51 reviewed (27%)
+**Act 3 Total:** 18/51 reviewed (35%)
 
 ### Mainstage Entry Review Notes (300-305)
 
@@ -689,15 +689,76 @@ Act 1 is now 38/38 (100%) reviewed:
 
 **Issues Found:** None requiring revision.
 
+### Fly System Review Notes (314-317)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 314 | Ascend the Fly System | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 315 | The View from Above | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 316 | Tactical Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 317 | Standard Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-314.md through node-317.md)
+- Location tags present throughout (*The Mainstage — Fly System Access*, *Fly System Heights*, *Precision Approach*, *Return to Stage Level*)
+- Forward paths valid: 314→315 on success, 314→306 on failure; 315→316 on success, 315→317 on failure; both 316 and 317→322
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 4 nodes
+- Evocative prose throughout: "threads of pure story," "the literal architecture of climax," "story's bones beneath its flesh"
+- The Stagehand's voice in Node 317 ally conditional matches CHARACTERS.md: simple speech with insight ("Every story needs a twist")
+- Tone keywords appropriately distributed: Liminal ("space between scenes," "margins between drafts"), Theatrical ("fly system," "rigging," "script"), Uncanny ("impossible configurations," "stories within stories")
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and evocative: "threads taut with tension," "floorboards as pages," "chapter transitions"
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT3_MECHANICS.md specification:
+  - Node 314: Stage Presence 3 (Advanced) ✓
+  - Node 315: Script 3 (Advanced) ✓
+  - Nodes 316, 317: No checks (outcome nodes) ✓
+- Both success AND failure paths defined for check nodes
+- Conditional content uses correct `{IF ALLIES_PRESENT}` syntax in nodes 316, 317
+- Flags use UPPERCASE_SNAKE_CASE: `FLY_SYSTEM_ASCENDED`, `STRUCTURAL_INSIGHT`, `TACTICAL_POSITION`
+
+**Continuity Findings:**
+- Fly System description matches ACT3_OUTLINE.md ("ropes and pulleys accessing higher story levels")
+- Final Draft as stage-made-manifest connects to Editor's control theme from earlier nodes
+- Structural insight concept consistent with Script stat's narrative analysis role
+- Ally references properly generic to support multiple companion combinations
+- Node 317 explicitly documents fail-forward design in Notes section
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 3:
+  - Advanced (3): 2 checks (nodes 314, 315)
+  - No recovery checks needed (both paths lead to confrontation)
+- Fail-forward properly implemented in all nodes:
+  - Node 314 failure → 306 (Center Stage Approach) - valid alternate approach path
+  - Node 315 failure → 317 (Standard Descent) - continues to confrontation without tactical advantage
+- Node 317 explicitly notes fail-forward: "player still reaches the confrontation with full understanding of stakes, just without the mechanical advantage"
+- TACTICAL_POSITION provides meaningful but not decisive advantage in confrontation
+
+**Issues Found:** None requiring revision.
+
 ---
 
 ## Act 3 Editorial Progress
 
-Act 3 is now 14/51 (27%) reviewed:
+Act 3 is now 18/51 (35%) reviewed:
 - ✅ Mainstage Entry (300-305) - 6 nodes PASS
 - ✅ Center Stage (306-309) - 4 nodes PASS
 - ✅ Orchestra Pit (310-313) - 4 nodes PASS
-- ⬜ Fly System (314-317) - 4 nodes pending
+- ✅ Fly System (314-317) - 4 nodes PASS
 - ⬜ Audience (318-321) - 4 nodes pending
 - ⬜ Editor Confrontation (322-335) - 14 nodes pending
 - ⬜ Ending: Revised Draft (341-344) - 4 nodes pending
@@ -713,8 +774,8 @@ Act 3 is now 14/51 (27%) reviewed:
 Combined progress:
 - **Act 1:** 38/38 (100% COMPLETE)
 - **Act 2:** 65/65 (100% COMPLETE)
-- **Act 3:** 14/51 (27%)
-- **Total:** 117/154 nodes (76%)
+- **Act 3:** 18/51 (35%)
+- **Total:** 121/154 nodes (79%)
 
 ---
 
