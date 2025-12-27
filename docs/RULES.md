@@ -407,7 +407,7 @@ Each ending has three quality tiers based on accumulated choices, relationship i
 
 | Tier | Conditions | Outcome |
 |------|------------|---------|
-| Perfect | REVISIONIST: 7+, 3/3 phases, HAPPY_ENDING_ALLIED, UNDERSTUDY_PARTNER | Become Editor with full support; burden shared |
+| Perfect | REVISIONIST: 7+, 3/3 phases, HAPPY_ENDING_FRIEND, UNDERSTUDY_PARTNER | Become Editor with full support; burden shared |
 | Good | REVISIONIST: 7+, 2/3 phases, some allies | Become Editor with advisors; manageable burden |
 | Bittersweet | REVISIONIST: 7+, core requirements only | Become Editor alone; heavy but bearable burden |
 
