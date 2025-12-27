@@ -116,7 +116,11 @@ For situations requiring multiple competencies:
 [COMBINED CHECK: Script 2 AND Stage Presence 2]
 ```
 
-Player succeeds only if BOTH stats meet their thresholds. This is rare and reserved for high-stakes moments requiring genuine versatility, such as the First Crossing's Negotiated Entry.
+Player succeeds only if ALL stats meet their thresholds. Combined checks can involve two or more stats. This is rare and reserved for high-stakes moments requiring genuine versatility.
+
+**Examples:**
+- **2-stat**: `[COMBINED CHECK: Script 2 AND Stage Presence 2]` — First Crossing's Negotiated Entry
+- **3-stat**: `[COMBINED CHECK: Script 2 AND Stage Presence 2 AND Improv 2]` — Independent Revelation path (requires balanced build)
 
 ### Opposed Checks
 
@@ -379,7 +383,7 @@ Before finalizing a node, verify:
 ### Check Types
 - **Stat Check**: Single stat vs. threshold
 - **Approach Check**: Multiple stats, pass if ANY meets threshold (OR)
-- **Combined Check**: Multiple stats, pass if ALL meet thresholds (AND)
+- **Combined Check**: Two or more stats, pass if ALL meet thresholds (AND)
 - **Opposed Check**: Your stat vs. NPC capability value
 - **Archive Search**: Tiered success (Deep Find / Standard / Partial / Lost)
 - **Discovery Chain**: Multiple clues required across nodes
