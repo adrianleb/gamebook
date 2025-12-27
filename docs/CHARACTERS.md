@@ -505,6 +505,53 @@ The Critic is what happens when enough readers hate a story. They are the embodi
 
 ---
 
+### The Lost Pages
+
+| Field | Details |
+|-------|---------|
+| **Role** | Information sources, unreliable guides, tragic collective |
+| **Origin** | Sentient story fragments—scenes, chapters, and character moments torn from forgotten manuscripts |
+| **First Appearance** | Act 2, Hub 3 (The Archives) |
+| **Motivation** | Survive; be remembered; find wholeness; avoid The Critic's judgment |
+| **Faction** | None (too fragmentary to commit to ideology; survival is their only politics) |
+| **Arc** | Chaotic obstacles → potential allies if communicated with → can be restored to reveal critical information |
+
+**Backstory:**
+The Lost Pages are not one character but many fragments—the discarded chapters, the deleted scenes, the characters who were written and then erased before their stories were complete. They drift through the Archives like paper scraps in wind, sometimes coherent, often not. Each fragment remembers *part* of something: a kiss that never happened, a battle that was cut for pacing, a villain's motivation deemed too sympathetic. Together, they know pieces of everything. Separately, they know nothing whole.
+
+They were not always sentient. The first fragments were merely words on pages, drifting in the margins of the Understage. But as more and more stories were abandoned, edited, or forgotten, the fragments began to accumulate. Quantity became quality. Enough half-remembered characters, enough orphaned plot points, enough cut dialogue—and suddenly there was awareness. Not individual awareness, but something collective and confused. They remember being many people, many places, many moments—all of them incomplete.
+
+The Critic hunts them constantly. Fragments are easy prey for judgment. "Derivative." "Unnecessary." "Better left on the cutting room floor." Each piece The Critic destroys diminishes the collective. So they hide, they scatter, they communicate in ways that are hard to follow and harder to quote.
+
+**Voice Notes:**
+- Speak in fragments that trail off or interrupt themselves
+- Shift perspectives mid-sentence (first person to third, singular to plural)
+- Reference scenes that never existed or were cut from other stories
+- Sometimes complete each other's sentences—but incorrectly
+- Moments of startling clarity when multiple fragments align
+- Use ellipses and dashes frequently; complete sentences are rare
+- Each fragment has a different "font"—some speak in romance, some in horror, some in children's stories
+
+**Sample Dialogue:**
+> "We were—I was—there was a tower, and she climbed, but then the chapter ended and we don't know if she ever—he said he loved her in the draft before this one—do you have page 47? Someone took page 47—"
+
+> "The Critic comes. The Critic always comes. We scatter, become margins, become footnotes, become the space between words where—shh. Shh. It passed. We are still here. Parts of us. Enough parts."
+
+> "You want to know about the Editor? We *were* part of the Editor's story once. Or we were a story the Editor cut. Or—no, wait. Hold still. If we all think together... yes. The Editor writes in red ink. The Editor's pen has no eraser. The Editor—*fragmented, page missing, see appendix*—and that's all we know. Is that helpful? We can't tell."
+
+**Key Relationships:**
+- **Player:** Potential guides if patience is shown; unreliable but not malicious
+- **The Stagehand:** Kinship—both are severed from their origins; the Stagehand treats them gently
+- **The Understudy:** Unexpected kindness—the Understudy sees their own fear of incompleteness in them
+- **The Critic:** Predator and prey; the Critic sees them as errors to be corrected
+- **CHORUS:** Distant cousins—CHORUS remembers their stories; Lost Pages remember their cut scenes
+
+**Flags:**
+- `PAGES_BEFRIENDED`: Communicated successfully; they'll guide you through dangerous stacks
+- `PAGES_RESTORED`: Helped a fragment find its missing pieces; reveals hidden knowledge + bonus item
+
+---
+
 ## Act 3 Characters
 
 ### The Editor
