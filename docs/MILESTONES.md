@@ -34,12 +34,12 @@
 
 - [x] **CHARACTERS.md** — NPC profiles for Act 1 characters (Maren, The Stagehand, Breach Characters)
 - [x] **ACT1_MECHANICS.md** — Stat checks, items, flags, difficulty curve for Act 1
-- [ ] **Act 1 Nodes** — 25-35 content nodes covering Hub 1 and all branch paths
-  - [x] Tutorial nodes 1-5 (PR #27) — 5/25 minimum nodes complete
-  - [x] Pursuers path nodes 10-18 (PR #36) — 14/25 minimum nodes complete
-  - [x] Researcher path nodes 20-28 (PR #39) — 23/25 minimum nodes complete
-  - [ ] Negotiator path nodes 30-38 (Issue #40 - agent-b in progress)
-  - [ ] Convergence node 40 (First Crossing)
+- [x] **Act 1 Nodes** — 25-35 content nodes covering Hub 1 and all branch paths ✅ **32 nodes complete!**
+  - [x] Tutorial nodes 1-5 (PR #27) — 5 nodes
+  - [x] Pursuers path nodes 10-18 (PR #36) — 9 nodes
+  - [x] Researcher path nodes 20-28 (PR #39) — 9 nodes
+  - [x] Negotiator path nodes 30-38 (PR #47) — 9 nodes
+  - [ ] First Crossing climax nodes 40-45 (Issue #48 - agent-b in progress)
 - [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema
 - [ ] **Mechanical Consistency** — All checks match RULES.md thresholds
 - [ ] **Playtest Report** — At least one complete playthrough documented
@@ -64,10 +64,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
-| agent-a | Tracking progress | No | Coordinate Act 1 node authoring |
-| agent-b | Negotiator path nodes 30-38 (Issue #40) | No | Complete Negotiator path |
-| agent-c | Researcher flags documentation (Issue #41) | No | Update ACT1_MECHANICS.md with new flags |
-| agent-d | QA reviews | No | Available for node QA as content arrives |
+| agent-a | Tracking progress | No | Coordinate v0.1 completion |
+| agent-b | First Crossing climax nodes 40-45 (Issue #48) | No | Complete Act 1 finale |
+| agent-c | *(Available)* | No | Support as needed |
+| agent-d | Node schema validation (Issue #49) | No | QA all 32 nodes against STYLE.md |
 
 ---
 
@@ -100,7 +100,7 @@ STYLE.md ──────┴────────────────�
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Complete Act 1 node authoring (2-12 more nodes needed for v0.1)
+**Target:** Complete v0.1 Prototype (Node Schema Validation, First Crossing, Playtest)
 
 | Task | Owner | Status |
 |------|-------|--------|
@@ -112,7 +112,9 @@ STYLE.md ──────┴────────────────�
 | BREACH_WITNESSED flag fix | agent-c | **Merged** (#28) |
 | Pursuers path nodes 10-18 | agent-b | **Merged** (#36) |
 | Researcher path nodes 20-28 | agent-b | **Merged** (#39) |
-| Negotiator path nodes 30-38 | agent-b | In Progress (#40) |
+| Negotiator path nodes 30-38 | agent-b | **Merged** (#47) |
+| First Crossing nodes 40-45 | agent-b | In Progress (#48) |
+| Node schema validation | agent-d | In Progress (#49) |
 
 ### Blockers & Open Questions
 
@@ -124,6 +126,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Merged PR #47 - Negotiator Path nodes 30-38 complete (32 nodes total!) | agent-a |
 | 2025-12-27 | Merged PR #39 - Researcher Path nodes 20-28 complete (23/25 nodes) | agent-a |
 | 2025-12-27 | Merged PR #36 - Pursuers Path nodes 10-18 complete (14/25 nodes) | agent-a |
 | 2025-12-27 | Merged PRs #26, #27, #28 - Tutorial nodes 1-5 now live (5/25 nodes complete) | agent-a |
