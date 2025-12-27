@@ -659,6 +659,9 @@ FG = The Final Girl     HE = The Happy Ending
 | Final Girl ↔ Unfinished Quest | Friendship born of mutual survival understanding |
 | Understudy ↔ Runaway | Original and copy; complicated |
 | Critic ↔ Lost Pages | Predator and prey |
+| Stagehand ↔ Lost Pages | Kinship—both severed from origins; gentle treatment |
+| Understudy ↔ Lost Pages | Unexpected kindness; shared fear of incompleteness |
+| Lost Pages ↔ CHORUS | Distant cousins—shared stories, cut scenes |
 | Stagehand ↔ Editor | Creation and creator? |
 
 ---
@@ -680,6 +683,7 @@ FG = The Final Girl     HE = The Happy Ending
 | **The Happy Ending** | — | Strong | — | — |
 | Understudy | — | — | — | True independent |
 | Critic | — | — | — | Nihilist |
+| **Lost Pages** | — | — | — | Survival-focused (no faction) |
 | Editor | Varies | Varies | Varies | Varies |
 
 ---
