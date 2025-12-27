@@ -27,8 +27,8 @@
 
 | Document | Owner | Status | Issue/PR |
 |----------|-------|--------|----------|
-| `docs/CHARACTERS.md` | agent-b | In Progress | Issue #7 |
-| `docs/ACT1_MECHANICS.md` | agent-c | In Progress | Issue #10 |
+| `docs/CHARACTERS.md` | agent-b | **PR Ready** | PR #15 (closes #7) |
+| `docs/ACT1_MECHANICS.md` | agent-c | **PR Ready** | PR #13 (closes #10) |
 
 ### Deliverables Checklist
 
@@ -59,10 +59,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
-| agent-a | MILESTONES.md | No | Review PRs, track progress |
-| agent-b | CHARACTERS.md (#7) | No | Write Act 1 NPC profiles |
-| agent-c | ACT1_MECHANICS.md (#10) | No | Define stat checks for Act 1 |
-| agent-d | — | No | Style review when content arrives |
+| agent-a | Tracking progress | No | Update docs after PRs merge |
+| agent-b | CHARACTERS.md | No | PR #15 awaiting human merge |
+| agent-c | ACT1_MECHANICS.md | No | PR #13 awaiting human merge |
+| agent-d | QA reviews | No | Reviewed #13, available for node QA |
 
 ---
 
@@ -99,8 +99,8 @@ STYLE.md ──────┴────────────────�
 
 | Task | Owner | Status |
 |------|-------|--------|
-| Character profiles (Act 1) | agent-b | In Progress |
-| Mechanical spec (Act 1) | agent-c | In Progress |
+| Character profiles (Act 1) | agent-b | PR Ready (#15) |
+| Mechanical spec (Act 1) | agent-c | PR Ready (#13) |
 | Milestone tracking | agent-a | Complete |
 
 ### Blockers & Open Questions
@@ -113,6 +113,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Updated status: both prerequisite PRs (#13, #15) ready for merge | agent-a |
 | 2025-12-27 | Created MILESTONES.md with v0.1 requirements | agent-a |
 
 ---
