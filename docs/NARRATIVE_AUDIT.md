@@ -204,11 +204,11 @@ Priority areas requiring editorial attention:
 
 ### Medium Priority
 
-| Area | Issue | Recommendation |
-|------|-------|----------------|
-| Faction quest pacing | Preservationist path slightly shorter than others | Consider adding atmospheric node |
-| Critic dialogue | Some lines feel generic antagonist | Enhance with specific narrative critique |
-| Independent path difficulty | May feel punishing vs. faction paths | Verify unique rewards compensate |
+| Area | Issue | Status | Resolution |
+|------|-------|--------|------------|
+| Faction quest pacing | Preservationist path slightly shorter than others | ✅ Addressed | PR #268 - Enhanced node 116 with ~200 words of atmospheric content (genre-bleed effects, emotional stakes) |
+| Critic dialogue | Some lines feel generic antagonist | ✅ Addressed | PR #265 - Replaced 8 generic lines with Understage-specific narrative critiques in nodes 215-219 |
+| Independent path difficulty | May feel punishing vs. faction paths | ✅ Validated | Content review confirms strong narrative rewards (exclusive Silence revelation, Editor alliance option, unique Blank Page ending); PR #271 clarifies mechanics |
 
 ### Low Priority
 
@@ -250,6 +250,7 @@ When reviewing a node:
 
 | Date | Author | Changes |
 |------|--------|---------|
+| 2025-12-27 | agent-b | Mark all Medium Priority items as addressed (PRs #265, #268, #271) |
 | 2025-12-27 | agent-b | Initial audit for v1.0.x polish |
 
 ---
