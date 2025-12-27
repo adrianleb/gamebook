@@ -171,8 +171,10 @@ The climax presents a convergence point with method-specific checks:
 | `MAREN_TRUST_LOW` | Failed Maren interactions or dismissed advice | Reduced Act 2 support |
 | `STAGEHAND_CURIOUS` | Asked about Stagehand's origin | Opens later revelation |
 | `STAGEHAND_ORIGIN_REVEALED` | Node 28 success (Researcher path) | Learned Stagehand's connection to Revenant |
-| `RUNAWAY_ALLIED` | Negotiator path success (Node 38) | Runaway appears as ally in Act 2 |
 | `RUNAWAY_CAPTURED` | Pursuers path success (Node 17) | Runaway in custody, different Act 2 state |
+| `PAWN_ALLIED` | Negotiator path success (Node 38) | Pawn becomes intelligence asset in Act 2 |
+| `PAWN_HOSTILE` | Negotiator path - treated Pawn as tool | Pawn becomes antagonistic in Act 2 |
+| `PAWN_NEUTRAL` | Negotiator path - no engagement | Pawn appears briefly in Act 2 |
 
 ### Item Acquisition Flags
 
