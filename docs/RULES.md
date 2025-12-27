@@ -128,6 +128,41 @@ When facing an NPC with their own capabilities:
 
 Your stat must exceed the opposition value. These are rare and always high-stakes.
 
+### Archive Search Checks
+
+A specialized check type for finding information in The Archives (Hub 3). Functions like a stat check but has multiple tiers of success:
+
+```
+[ARCHIVE SEARCH: Script 2]
+```
+
+| Result | Tier | Effect |
+|--------|------|--------|
+| Script 3+ | Deep Find | Complete information + bonus discovery |
+| Script 2 | Standard Find | Information sought |
+| Script 1 | Partial Find | Clue pointing to information |
+| Script 0 | Lost | Time passes; minor complication |
+
+Archive Searches always have at least a Partial Find outcome—even "Lost" results push the story forward with complications rather than dead ends, maintaining the fail-forward principle.
+
+### Discovery Chains
+
+For complex investigations requiring multiple discoveries across different nodes, Discovery Chains track prerequisite clues:
+
+```
+[DISCOVERY CHAIN: 3 clues required]
+- Clue A: Node 205 (Script 2)
+- Clue B: Node 208 (Improv 2)
+- Clue C: Node 211 (Stage Presence 2)
+→ All three unlock Node 215 (The Truth)
+```
+
+**Design Constraints:**
+- Each individual clue must be obtainable through fail-forward checks
+- Players should be able to discover what clues they're missing
+- At least one clue should have a Basic (threshold 1) path
+- Discovery Chains are primarily used in The Archives for major revelations
+
 ---
 
 ## Inventory System
@@ -311,6 +346,14 @@ Before finalizing a node, verify:
 - 2 = Standard (some investment)
 - 3 = Advanced (significant investment)
 - 4 = Expert (maximum investment)
+
+### Check Types
+- **Stat Check**: Single stat vs. threshold
+- **Approach Check**: Multiple stats, pass if ANY meets threshold (OR)
+- **Combined Check**: Multiple stats, pass if ALL meet thresholds (AND)
+- **Opposed Check**: Your stat vs. NPC capability value
+- **Archive Search**: Tiered success (Deep Find / Standard / Partial / Lost)
+- **Discovery Chain**: Multiple clues required across nodes
 
 ### Inventory Rules
 - Max 5 items
