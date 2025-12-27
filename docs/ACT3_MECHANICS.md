@@ -476,6 +476,10 @@ Certain item combinations unlock special options:
 | `ACT3_STARTED` | Enter The Mainstage | Marks Act 3 begin |
 | `IN_MAINSTAGE` | Enter The Mainstage (Node 300) | Marks current location for Hub 4 |
 | `DIRECT_APPROACH` | Choose bold approach to Center Stage (Node 303) | Editor remembers; affects confrontation dialogue |
+| `CENTER_STAGE_APPROACH` | Choose measured approach to Center Stage (Node 306) | Player took cautious path |
+| `WINGS_REACHED` | Reached the wings undetected (Node 307) | Observed Editor before confrontation |
+| `FRAGMENT_ENCOUNTERED` | Encountered edited story fragment (Node 308) | Fragment demanded acknowledgment |
+| `DRAMATIC_ENTRANCE` | Made theatrical entrance (Node 309) | Stylistic choice affects confrontation |
 | `MAINSTAGE_EXPLORED` | Visit all Mainstage locations | Hub 4 complete flag |
 | `ALLIES_ASSEMBLED` | Complete NPC reunion phase | Ready for confrontation |
 | `EDITOR_CONFRONTED` | Begin final confrontation | Climax in progress |
