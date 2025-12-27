@@ -60,10 +60,10 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 | Node | Check | Type | Success | Failure |
 |------|-------|------|---------|---------|
 | 1 | None | — | Establish setting | — |
-| 2 | [Script 1] | Basic | Recognize prompter's role | Maren explains role (same outcome, different flavor) |
-| 3 | [Stage Presence 1] | Basic | Project confidence | Stagehand assists (same outcome) |
-| 4 | [Improv 1] | Basic | React to breach calmly | Stumble but recover (same outcome) |
-| 5 | [Any 1] | Basic/Choice | All paths open | All paths open |
+| 2 | [STAT CHECK: Script 1] | Basic | Recognize prompter's role | Maren explains role (same outcome, different flavor) |
+| 3 | [STAT CHECK: Stage Presence 1] | Basic | Project confidence | Stagehand assists (same outcome) |
+| 4 | [STAT CHECK: Improv 1] | Basic | React to breach calmly | Stumble but recover (same outcome) |
+| 5 | [STAT CHECK: Any 1] | Basic/Choice | All paths open | All paths open |
 
 *Tutorial nodes use threshold 1 to teach mechanics without punishing new players.*
 
@@ -71,12 +71,12 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 
 | Node | Check | Type | Success | Failure |
 |------|-------|------|---------|---------|
-| 10 | [Improv 2] | Standard | Catch up to fleeing character | Character escapes to different location |
-| 12 | [Stage Presence 1] | Basic | Intimidate minor obstacle | Find alternate route |
-| 14 | [Improv 2] | Standard | Improvise trap | Character slows but not caught |
-| 15 | [Script 2] | Standard | Recognize character's story origin | Learn origin through confrontation |
-| 17 | [Improv 3] | Advanced | Capture without harm | Capture with complication |
-| 18 | [Stage Presence 2 OR Improv 2] | Combined | Gain character's trust | Character remains wary |
+| 10 | [STAT CHECK: Improv 2] | Standard | Catch up to fleeing character | Character escapes to different location |
+| 12 | [STAT CHECK: Stage Presence 1] | Basic | Intimidate minor obstacle | Find alternate route |
+| 14 | [STAT CHECK: Improv 2] | Standard | Improvise trap | Character slows but not caught |
+| 15 | [STAT CHECK: Script 2] | Standard | Recognize character's story origin | Learn origin through confrontation |
+| 17 | [STAT CHECK: Improv 3] | Advanced | Capture without harm | Capture with complication |
+| 18 | [APPROACH CHECK: Stage Presence 2 OR Improv 2] | Combined | Gain character's trust | Character remains wary |
 
 *Pursuers path emphasizes Improv but offers Stage Presence alternatives.*
 
@@ -84,12 +84,12 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 
 | Node | Check | Type | Success | Failure |
 |------|-------|------|---------|---------|
-| 20 | [Script 2] | Standard | Find relevant records quickly | Find records after delay |
-| 22 | [Script 1] | Basic | Understand archaic notation | Maren translates |
-| 24 | [Improv 2] | Standard | Connect disparate clues | Miss optional connection |
-| 25 | [Script 2] | Standard | Identify breach pattern | Pattern revealed later |
-| 26 | [Script 3] | Advanced | Predict next breach location | React to breach instead |
-| 28 | [Script 3 OR Stage Presence 2] | Combined | Gain Stagehand's secret | Stagehand hints cryptically |
+| 20 | [STAT CHECK: Script 2] | Standard | Find relevant records quickly | Find records after delay |
+| 22 | [STAT CHECK: Script 1] | Basic | Understand archaic notation | Maren translates |
+| 24 | [STAT CHECK: Improv 2] | Standard | Connect disparate clues | Miss optional connection |
+| 25 | [STAT CHECK: Script 2] | Standard | Identify breach pattern | Pattern revealed later |
+| 26 | [STAT CHECK: Script 3] | Advanced | Predict next breach location | React to breach instead |
+| 28 | [APPROACH CHECK: Script 3 OR Stage Presence 2] | Combined | Gain Stagehand's secret | Stagehand hints cryptically |
 
 *Researcher path emphasizes Script but offers dialogue alternatives.*
 
@@ -97,12 +97,12 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 
 | Node | Check | Type | Success | Failure |
 |------|-------|------|---------|---------|
-| 30 | [Stage Presence 2] | Standard | Open dialogue successfully | Character suspicious |
-| 32 | [Stage Presence 1] | Basic | Maintain non-threatening posture | Tension increases (manageable) |
-| 34 | [Script 2] | Standard | Reference character's story | Generic appeal (less effective) |
-| 35 | [Stage Presence 2] | Standard | Build genuine rapport | Transactional relationship |
-| 36 | [Stage Presence 3] | Advanced | Character reveals motive | Motive unclear until later |
-| 38 | [Stage Presence 3 OR Improv 2] | Combined | Character becomes ally | Character neutral |
+| 30 | [STAT CHECK: Stage Presence 2] | Standard | Open dialogue successfully | Character suspicious |
+| 32 | [STAT CHECK: Stage Presence 1] | Basic | Maintain non-threatening posture | Tension increases (manageable) |
+| 34 | [STAT CHECK: Script 2] | Standard | Reference character's story | Generic appeal (less effective) |
+| 35 | [STAT CHECK: Stage Presence 2] | Standard | Build genuine rapport | Transactional relationship |
+| 36 | [STAT CHECK: Stage Presence 3] | Advanced | Character reveals motive | Motive unclear until later |
+| 38 | [APPROACH CHECK: Stage Presence 3 OR Improv 2] | Combined | Character becomes ally | Character neutral |
 
 *Negotiator path emphasizes Stage Presence but offers Script knowledge options.*
 
@@ -112,10 +112,10 @@ The climax presents a convergence point with method-specific checks:
 
 | Approach | Check | Type | Success Outcome | Failure Outcome |
 |----------|-------|------|-----------------|-----------------|
-| Direct Confrontation | [Stage Presence 3] | Advanced | Enter on your terms | Enter at disadvantage |
-| Stealth Entry | [Improv 3] | Advanced | Enter unnoticed | Enter noticed but not stopped |
-| Negotiated Entry | [Script 2 AND Stage Presence 2] | Combined | Enter with guidance | Enter alone but permitted |
-| Desperate Leap | [Any 2] | Standard | Enter chaotically but safely | Enter with minor harm (1 inventory damage) |
+| Direct Confrontation | [STAT CHECK: Stage Presence 3] | Advanced | Enter on your terms | Enter at disadvantage |
+| Stealth Entry | [STAT CHECK: Improv 3] | Advanced | Enter unnoticed | Enter noticed but not stopped |
+| Negotiated Entry | [COMBINED CHECK: Script 2 AND Stage Presence 2] | Combined | Enter with guidance | Enter alone but permitted |
+| Desperate Leap | [STAT CHECK: Any 2] | Standard | Enter chaotically but safely | Enter with minor harm (1 inventory damage) |
 
 *The Desperate Leap option ensures all builds can proceed.*
 
