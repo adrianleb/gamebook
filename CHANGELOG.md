@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Faction Alignment Point System integrated in RULES.md (PR #73)
 - Universal Check documentation in RULES.md: `[STAT CHECK: Any N]` format for build-agnostic checks (PR #88)
 - Combined Check 3+ stat support in RULES.md with explicit documentation and examples (PR #87)
+- Act 3 mechanical innovations in RULES.md: NPC Sacrifice mechanic, Ally Count tracking, Ending Quality Tiers (PR #103)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
