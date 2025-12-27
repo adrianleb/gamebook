@@ -45,7 +45,7 @@ Faction alignment is the central mechanic of Act 2. Player choices accumulate al
 |--------|--------|--------|
 | 0-2 | Neutral | Standard NPC interactions |
 | 3-4 | Sympathetic | Faction members more helpful, minor information access |
-| 5-6 | Aligned | Faction quests available, +1 item access |
+| 5-6 | Aligned | Faction quests available, unique item access |
 | 7+ | Champion | Faction leader trusts you, exclusive Act 3 paths |
 
 **Maximum Points per Faction in Act 2:** 8 (requires near-exclusive alignment)
