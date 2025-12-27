@@ -76,7 +76,7 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 | 14 | [STAT CHECK: Improv 2] | Standard | Improvise trap | Character slows but not caught |
 | 15 | [STAT CHECK: Script 2] | Standard | Recognize character's story origin | Learn origin through confrontation |
 | 17 | [STAT CHECK: Improv 3] | Advanced | Capture without harm | Capture with complication |
-| 18 | [APPROACH CHECK: Stage Presence 2 OR Improv 2] | Combined | Gain character's trust | Character remains wary |
+| 18 | [APPROACH CHECK: Stage Presence 2 OR Improv 2] | Approach | Gain character's trust | Character remains wary |
 
 *Pursuers path emphasizes Improv but offers Stage Presence alternatives.*
 
@@ -89,7 +89,7 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 | 24 | [STAT CHECK: Improv 2] | Standard | Connect disparate clues | Miss optional connection |
 | 25 | [STAT CHECK: Script 2] | Standard | Identify breach pattern | Pattern revealed later |
 | 26 | [STAT CHECK: Script 3] | Advanced | Predict next breach location | React to breach instead |
-| 28 | [APPROACH CHECK: Script 3 OR Stage Presence 2] | Combined | Gain Stagehand's secret | Stagehand hints cryptically |
+| 28 | [APPROACH CHECK: Script 3 OR Stage Presence 2] | Approach | Gain Stagehand's secret | Stagehand hints cryptically |
 
 *Researcher path emphasizes Script but offers dialogue alternatives.*
 
@@ -102,7 +102,7 @@ Per RULES.md, Act 1 requires **80% Basic/Standard, 20% Advanced** checks.
 | 34 | [STAT CHECK: Script 2] | Standard | Reference character's story | Generic appeal (less effective) |
 | 35 | [STAT CHECK: Stage Presence 2] | Standard | Build genuine rapport | Transactional relationship |
 | 36 | [STAT CHECK: Stage Presence 3] | Advanced | Character reveals motive | Motive unclear until later |
-| 38 | [APPROACH CHECK: Stage Presence 3 OR Improv 2] | Combined | Character becomes ally | Character neutral |
+| 38 | [APPROACH CHECK: Stage Presence 3 OR Improv 2] | Approach | Character becomes ally | Character neutral |
 
 *Negotiator path emphasizes Stage Presence but offers Script knowledge options.*
 
