@@ -236,7 +236,36 @@ Three factions track player alignment through accumulated choices:
 
 **Alignment is not exclusive.** Players accumulate points with multiple factions. At key moments, highest alignment determines options.
 
-**Independent Path**: Low alignment with all factions opens unique "outsider" options.
+#### Alignment Points
+
+Points accumulate based on player actions:
+
+| Action Type | Points | Example |
+|-------------|--------|---------|
+| Dialogue choice | +1 | Agreeing with faction philosophy |
+| Quest completion | +1 to +2 | Helping a faction member |
+| Major decision | +2 to +3 | Siding with faction at critical moment |
+| Betrayal | -2 | Acting against sworn faction |
+
+#### Alignment Thresholds
+
+| Points | Status | Effect |
+|--------|--------|--------|
+| 0-2 | Neutral | Standard NPC interactions |
+| 3-4 | Sympathetic | Faction members more helpful, minor information access |
+| 5-6 | Aligned | Faction quests available, unique item access |
+| 7+ | Champion | Faction leader trusts you, exclusive Act 3 paths |
+
+**Note:** Becoming a Champion (7+) with one faction typically precludes high alignment with others due to conflicting choices.
+
+#### Independent Path
+
+Players who keep all factions at 3 or below unlock the Independent path:
+
+- Unique dialogue options with neutral characters
+- Access to "outsider perspective" information
+- Act 3 path requiring no faction backing
+- Harder social checks (+1 threshold) due to fewer allies
 
 ### Gating Logic
 
