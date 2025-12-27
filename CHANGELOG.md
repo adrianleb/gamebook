@@ -54,6 +54,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md Entry Sequence flags documentation: IN_MAINSTAGE, DIRECT_APPROACH flags for nodes 300-303 (PR #174)
 - RULES.md Effective Bonus mechanic documentation: format specification (`+N effective to [stat] for [scope]`), duration types (single check, until event, situational), stacking rules (max +3), design guidelines for node authors (PR #186)
 - ACT3_MECHANICS.md Audience flags documentation: AUDIENCE_BLESSING (+2 effective Stage Presence), AUDIENCE_DOUBT (recovery failure penalty) replacing stale spec flags AUDIENCE_AWARE/AUDIENCE_ENGAGED; check table corrected for nodes 319-320 (PR #190)
+- Act 3 Editor Confrontation Part 1 nodes 322-327: The Editor Revealed with faction-variable identity (322), Dialogue Understanding Script 3 check (323), Deeper Truth revelation (324), Philosophical Challenge Script 4 Opposed (325), Emotional Appeal Stage Presence 4 (326), Strategic Cooperation Improv 4 with COLLABORATION_OFFERED flag (327) — branches to Action (328), Editor Wavering (330), Collaborative Revision (331), or Ally Intervention (333) (PRs #192 inadvertent, #199)
+- ACT3_MECHANICS.md Center Stage check table updated to match nodes 322-327 implementation; 3 new Confrontation Flags documented: EDITOR_REVEALED, EDITOR_MOVED, COLLABORATION_OFFERED (PR #197)
 
 ### Fixed
 - ACT3_MECHANICS.md and RULES.md NPC reunion flag names corrected: PAGES_RESTORED→PAGES_BEFRIENDED, HAPPY_ENDING_ALLIED→HAPPY_ENDING_FRIEND to match canonical flags in content nodes (PR #162)

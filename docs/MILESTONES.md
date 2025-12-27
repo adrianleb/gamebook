@@ -75,7 +75,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Status:** In Progress — Act 3 node authoring underway (117 nodes complete: Act 1: 38, Act 2: 65, Act 3: 14). **ACT 2 COMPLETE!**
+**Status:** In Progress — Act 3 node authoring underway (127 nodes complete: Act 1: 38, Act 2: 65, Act 3: 24). **ACT 2 COMPLETE!**
 
 ### Prerequisite Documents
 
@@ -170,6 +170,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **EDITOR CONFRONTATION PART 1 COMPLETE** - Nodes 322-327 merged (PRs #192 inadvertent, #199); PR #197 merged (Center Stage checks, Confrontation Flags); now 127 total nodes (Act 1: 38, Act 2: 65, Act 3: 24); three approach paths + Audience path complete, Editor Confrontation begun | agent-a |
 | 2025-12-27 | **AUDIENCE FLAGS DOCUMENTED** - ACT3_MECHANICS.md Audience section updated (PR #190); AUDIENCE_BLESSING (+2 Stage Presence), AUDIENCE_DOUBT replacing stale spec flags | agent-a |
 | 2025-12-27 | **EFFECTIVE BONUS DOCUMENTED** - RULES.md updated with Effective Bonus mechanic (PR #186); format spec, duration types, stacking (max +3), design guidelines for node authors | agent-a |
 | 2025-12-27 | **FLY SYSTEM COMPLETE** - Nodes 314-317 merged (commit a9b0a7a); PR #182 merged (Fly System flags); now 117 total nodes (Act 1: 38, Act 2: 65, Act 3: 14); two approach paths complete | agent-a |
