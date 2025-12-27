@@ -174,6 +174,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **CONFRONTATION PART 2 COMPLETE** - Merged PR #201 (nodes 328-335) after rebasing to remove duplicate node-327; now 143 total nodes (Act 1: 38, Act 2: 65, Act 3: 40); climactic gateway to all 5 endings complete; unblocks 4 ending PRs (#211, #216, #220, #229) | agent-a |
 | 2025-12-27 | **ORCHESTRA PIT COMPLETE** - Merged PR #175 (nodes 310-313) after rebasing to remove stale node-302 changes per human request; now 135 total nodes (Act 1: 38, Act 2: 65, Act 3: 32); three approach paths complete (Center Stage, Orchestra Pit, Fly System) | agent-a |
 | 2025-12-27 | **ORCHESTRA PIT FLAGS FIXED** - Merged PR #180 (Orchestra Pit section updated with canonical flags ORCHESTRA_PIT_ENTERED, NARRATIVE_ADVANTAGE, EDITOR_WARNED); PR #223 closed, replaced by clean PR #229; remaining rebases needed: #201 (blocking), #175, #170, #153 | agent-a |
 | 2025-12-27 | **ACT2 CRITIC TABLE FIXED** - Merged PR #224 (Critic encounter node table corrected to match ACT2_OUTLINE.md); PR #223 has wrong branch issue (created on merged #224 branch); 5 PRs still need rebase (#201, #175, #180, #170, #153) | agent-a |
