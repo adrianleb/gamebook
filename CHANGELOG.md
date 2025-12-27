@@ -62,6 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ACT3_MECHANICS.md Ending Flags: BOUNDARY_DISSOLVED flag documented for The Open Book ending node 346 (PR #214)
 
 ### Fixed
+- ACT2_MECHANICS.md Critic encounter node table corrected to match ACT2_OUTLINE.md: 203-204→214, 208-209→216, 213-214→218, removed stale 220-222 entry, added node 217 evasion path with Improv 3 check (PR #224)
 - ACT3_MECHANICS.md and RULES.md NPC reunion flag names corrected: PAGES_RESTORED→PAGES_BEFRIENDED, HAPPY_ENDING_ALLIED→HAPPY_ENDING_FRIEND to match canonical flags in content nodes (PR #162)
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
 - BREACH_WITNESSED flag now triggers at Node 4 before path choice (PR #28)
