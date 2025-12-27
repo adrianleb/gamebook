@@ -82,13 +82,15 @@ Vertical access to higher and deeper story levels. Risk/reward exploration.
 
 | Node Range | Check | Type | Success | Failure |
 |------------|-------|------|---------|---------|
-| 314 | [STAT CHECK: Stage Presence 3] | Advanced | Gain elevated perspective | Tangled in narrative threads |
+| 314 | [STAT CHECK: Stage Presence 3] | Advanced | Gain elevated perspective | Tangled in narrative threads; fall back to 306 |
 | 315 | [STAT CHECK: Script 3] | Advanced | Identify structural weaknesses | Beautiful but incomprehensible |
-| 316-317 | [APPROACH CHECK: Improv 4 OR Stage Presence 4] | Expert | Reach the highest/deepest level | Blocked; must find alternative |
+| 316 | — | Success outcome | TACTICAL_POSITION granted | — |
+| 317 | — | Normal outcome | Standard descent | — |
 
 **Fly System Flags:**
-- `FLY_SYSTEM_EXPLORED`: Discovered hidden story layers
-- `STORY_DEPTH_REVEALED`: Understands the Understage's true architecture
+- `FLY_SYSTEM_ASCENDED`: Player ascended into the fly system (Node 314)
+- `STRUCTURAL_INSIGHT`: Identified structural weaknesses in Final Draft/stage relationship (Node 315 success)
+- `TACTICAL_POSITION`: Descended to position of tactical advantage with ally coordination (Node 316)
 
 #### The Audience
 
