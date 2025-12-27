@@ -42,6 +42,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 2 Investigation Sequence Part 1 nodes 206-210: Joint Investigation with Understudy (206), Understudy's Confession emotional beat (207), Lost Pages Encounter NPC introduction (208), Fragment Navigation shortcut path (209), The Trail Deepens investigation hub (210) (PR #130)
 - Act 2 Investigation Sequence Part 2 nodes 211-214: Clue A - The First Draft with Script 2 check (211), Clue B - The Margin Notes with Improv 2 check (212), Clue C - The Understudy's Mirror with Stage Presence 2 check (213), The Critic Emerges antagonist encounter (214) — reveals Editor's motivation, method, and nature (PR #133)
 - Act 2 Critic Resolution Sequence nodes 215-219: Author's Desk Approach climax gate (215), Critic Confrontation Script 3 boss encounter (216), Critic Evasion Improv 3 alternative (217), Critic's Judgment Script 4 opposed boss climax (218), Critic Resolution four-outcome consolidation (219) — completes Critic encounter before Revelation (PR #139)
+- Act 2 Revelation Sequence Part 1 nodes 220-224: The Author's Desk climax entry (220), Preservationist Revelation Script 3 (221), Revisionist Revelation Stage Presence 3 (222), Exiter Revelation Improv 3 (223), Independent Revelation Combined 2/2/2 (224) — four faction-specific truth interpretations revealing Editor's motivations (PR #146)
+- Critic Encounter Flags documentation in ACT2_MECHANICS.md: CRITIC_ENGAGED, CRITIC_DISMISSED, CRITIC_PURSUING, CRITIC_VERDICT_GUILTY with node references for all 7 Critic flags (PR #145)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
