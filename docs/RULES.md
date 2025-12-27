@@ -118,6 +118,24 @@ For situations requiring multiple competencies:
 
 Player succeeds only if BOTH stats meet their thresholds. This is rare and reserved for high-stakes moments requiring genuine versatility, such as the First Crossing's Negotiated Entry.
 
+### Universal Checks
+
+For situations that should be accessible to any character build:
+
+```
+[STAT CHECK: Any 2]
+```
+
+Player succeeds if ANY single stat meets the threshold. This is a "safety valve" mechanic ensuring no build is locked out of critical progression points.
+
+**Design Guidelines:**
+- Use sparingly—only for essential story gates that must be passable by all builds
+- Typically threshold 1-2 (Basic/Standard difficulty)
+- Most common in tutorial sections and climax "fallback" options
+- The Desperate Leap (First Crossing emergency option) uses `[STAT CHECK: Any 2]`
+
+Universal Checks should never replace stat-specific checks for content that rewards particular builds. They exist to ensure accessibility, not to flatten character differentiation.
+
 ### Opposed Checks
 
 When facing an NPC with their own capabilities:
@@ -380,6 +398,7 @@ Before finalizing a node, verify:
 - **Stat Check**: Single stat vs. threshold
 - **Approach Check**: Multiple stats, pass if ANY meets threshold (OR)
 - **Combined Check**: Multiple stats, pass if ALL meet thresholds (AND)
+- **Universal Check**: Any stat vs. threshold (safety valve for accessibility)
 - **Opposed Check**: Your stat vs. NPC capability value
 - **Archive Search**: Tiered success (Deep Find / Standard / Partial / Lost)
 - **Discovery Chain**: Multiple clues required across nodes
