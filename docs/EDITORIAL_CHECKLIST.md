@@ -566,16 +566,16 @@ Act 1 is now 38/38 (100%) reviewed:
 | 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
 | 306-309 | Center Stage | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 310-313 | Orchestra Pit | 4 | [x] PASS | agent-d | 2025-12-27 |
-| 314-317 | Fly System | 4 | [ ] | | |
-| 318-321 | Audience | 4 | [ ] | | |
-| 322-335 | Editor Confrontation | 14 | [ ] | | |
-| 341-344 | Ending: Revised Draft | 4 | [ ] | | |
+| 314-317 | Fly System | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 318-321 | Audience | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 322-335 | Editor Confrontation | 14 | [x] PASS | agent-d | 2025-12-27 |
+| 341-344 | Ending: Revised Draft | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 345-348 | Ending: Open Book | 4 | [ ] | | |
 | 349-351 | Ending: Closed Canon | 3 | [ ] | | |
 | 352-353 | Ending: Blank Page | 2 | [ ] | | |
 | 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 14/51 reviewed (27%)
+**Act 3 Total:** 40/51 reviewed (78%)
 
 ### Mainstage Entry Review Notes (300-305)
 
@@ -689,18 +689,175 @@ Act 1 is now 38/38 (100%) reviewed:
 
 **Issues Found:** None requiring revision.
 
+### Fly System Review Notes (314-317)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 314 | Ascend the Fly System | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 315 | The View from Above | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 316 | Tactical Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 317 | Standard Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all 4 nodes
+- Evocative prose: "threads of pure story," "the literal architecture of climax," "story's bones beneath its flesh"
+- The Stagehand's voice in Node 317 ally conditional matches CHARACTERS.md: simple speech with insight
+- All stat checks use correct notation: Stage Presence 3 (314), Script 3 (315) - both Advanced tier
+- Fail-forward properly implemented: Node 314 failure → 306, Node 315 failure → 317
+- Conditional content uses correct `{IF ALLIES_PRESENT}` syntax
+- Flags use UPPERCASE_SNAKE_CASE: `FLY_SYSTEM_ASCENDED`, `STRUCTURAL_INSIGHT`, `TACTICAL_POSITION`
+
+**Issues Found:** None requiring revision.
+
+### Audience Review Notes (318-321)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 318 | Face The Audience | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 319 | Audience Acknowledgment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 320 | Audience Judgment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 321 | Reserved (Expansion Buffer) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Evocative meta-narrative prose about The Audience as collective story-consumers
+- Proper Expert-tier Stage Presence 4 check at 318 for thematically significant challenge
+- Standard recovery Script 2 check at 320 offers hope after failure
+- Good mechanical effect documentation (+2 SP bonus in 319, -1 penalty in 320 failure)
+- Node 321 properly reserved as expansion buffer with redirect safety path
+- Fail-forward properly implemented: 318 failure → 320, 320 failure → 322 with doubt flag
+- Flags use UPPERCASE_SNAKE_CASE: `AUDIENCE_BLESSING`, `AUDIENCE_DOUBT`
+
+**Issues Found:** None requiring revision.
+
+### Editor Confrontation Review Notes (322-335)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 322 | The Editor Revealed | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 323 | Dialogue: Understanding | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 324 | Deeper Truth | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 325 | Philosophical Challenge | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 326 | Emotional Appeal | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 327 | Strategic Cooperation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 328 | Action: Opposing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 329 | Editor Contested | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 330 | Editor Wavering | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 331 | Collaborative Revision | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 332 | Desperate Measures | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 333 | Ally Intervention | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 334 | The Sacrifice | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 335 | The Last Curtain Call | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Voice Findings:**
+- The Editor's voice matches CHARACTERS.md precisely:
+  - Speaks in revision marks ("Let me STRIKE that")
+  - Calm with absolute conviction
+  - Patronizing but not dismissive
+  - Shows vulnerability when emotionally reached
+- Four faction-variant Editor identities in Node 322 (Preservationist, Revisionist, Exiter, Independent)
+- Eight ally voices in Node 333 validated against CHARACTERS.md
+- Maren's voice in sacrifice sequence matches CHARACTERS.md
+
+**Mechanics Findings:**
+- All stat checks use correct notation per RULES.md and ACT3_OUTLINE.md:
+  - Script 3 (323), Opposed Script 4 vs 4 (325), Stage Presence 4 (326), Improv 4 (327)
+  - Approach check: Script 3 OR Stage Presence 3 OR Improv 3 (328)
+  - Universal check: Any 4 (329)
+  - Combined check: Script 2 AND Stage Presence 2 AND Improv 2 (331)
+- Check distribution: 4 Expert, 2 Advanced, 1 Standard Combined
+- Fail-forward properly implemented: all paths lead to Node 335
+
+**Playability Findings:**
+- Multiple approach paths honor different player builds
+- Sacrifice options provide recovery for failed combat paths
+- Node 335 properly gates 5 endings based on accumulated flags
+
+**Issues Found:** None requiring revision.
+
+### Ending: Revised Draft Review Notes (341-344)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 341 | Taking the Pen | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 342 | The Revision Begins | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 343 | The New Editor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 344 | Revised Draft Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-341.md through node-344.md)
+- Location tags present: *The Mainstage — Center Stage*, *The Understage — Beyond Time*
+- Forward paths valid: 341→342 or 335 (reject), 342→343, 343→344, 344=THE END
+- Proper linear ending sequence with reject option at entry node
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 4 nodes
+- The Editor's voice matches CHARACTERS.md: calm with absolute conviction, reveals vulnerability ("Their voice has lost its conviction")
+- Maren's voice (343, 344) matches CHARACTERS.md: theatrical precision, warm but not soft ("Don't you dare do the same")
+- All ally voices in conditional content match CHARACTERS.md profiles:
+  - The Happy Ending: warm with underlying steel ("This is what I wanted")
+  - The Runaway: poetic, desperate ("The death I was written for")
+  - The Stagehand: simple speech, third person ("The Stagehand remembers now")
+  - The Understudy: hesitant, qualifiers ("What happens to replacements now?")
+  - The Solved Case: clipped noir style ("Don't waste it on revenge")
+  - The Unfinished Quest: heroic cadence ("What do heroes do when the quest is actually over?")
+  - The Final Girl: practical survival focus ("Survival isn't the same as living")
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target throughout
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and evocative: "ink still moves," "lighter and heavier at once," "ink soaking into paper"
+
+**Mechanics Findings:**
+- No stat checks in ending sequence (appropriate per ACT3_OUTLINE.md for conclusion)
+- All flags use UPPERCASE_SNAKE_CASE: `EDITOR_WAVERING`, `COLLABORATIVE_REVISION`, `MAREN_SACRIFICED`, `SELF_SACRIFICED`, `HAPPY_ENDING_FRIEND`, `REVISION_BEGUN`, `ENDING_REVISED_DRAFT`
+- Conditional content properly uses `[If FLAG:]` notation
+- `ENDING_REVISED_DRAFT` flag correctly set in Node 344
+
+**Continuity Findings:**
+- Revisionist philosophy alignment correct: belief that stories should change, characters deserve agency
+- Ally departure logic properly handled in Node 343 with individual farewells per character
+- Maren conditional content in both 343 and 344 properly checks both `MAREN_TRUST_HIGH` and `MAREN_SACRIFICED`
+- The former Editor's fate properly handled (fading, watching)
+- Self-sacrifice consequences properly tracked across nodes
+
+**Playability Findings:**
+- Choice in 341 to accept or reject is clear and meaningful
+- No instant death without warning
+- Linear progression through ending appropriate for conclusion
+- Multiple conditional variations based on player choices reward different playstyles
+- Bittersweet tone properly executed per ACT3_OUTLINE.md specification
+
+**Issues Found:** None requiring revision.
+
 ---
 
 ## Act 3 Editorial Progress
 
-Act 3 is now 14/51 (27%) reviewed:
+Act 3 is now 40/51 (78%) reviewed:
 - ✅ Mainstage Entry (300-305) - 6 nodes PASS
 - ✅ Center Stage (306-309) - 4 nodes PASS
 - ✅ Orchestra Pit (310-313) - 4 nodes PASS
-- ⬜ Fly System (314-317) - 4 nodes pending
-- ⬜ Audience (318-321) - 4 nodes pending
-- ⬜ Editor Confrontation (322-335) - 14 nodes pending
-- ⬜ Ending: Revised Draft (341-344) - 4 nodes pending
+- ✅ Fly System (314-317) - 4 nodes PASS
+- ✅ Audience (318-321) - 4 nodes PASS
+- ✅ Editor Confrontation (322-335) - 14 nodes PASS
+- ✅ Ending: Revised Draft (341-344) - 4 nodes PASS
 - ⬜ Ending: Open Book (345-348) - 4 nodes pending
 - ⬜ Ending: Closed Canon (349-351) - 3 nodes pending
 - ⬜ Ending: Blank Page (352-353) - 2 nodes pending
@@ -713,8 +870,8 @@ Act 3 is now 14/51 (27%) reviewed:
 Combined progress:
 - **Act 1:** 38/38 (100% COMPLETE)
 - **Act 2:** 65/65 (100% COMPLETE)
-- **Act 3:** 14/51 (27%)
-- **Total:** 117/154 nodes (76%)
+- **Act 3:** 40/51 (78%)
+- **Total:** 143/154 nodes (93%)
 
 ---
 
