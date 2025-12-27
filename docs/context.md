@@ -22,8 +22,8 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 │   ├── RULES.md        # Game mechanics and systems
 │   ├── STYLE.md        # Writing conventions
 │   ├── MILESTONES.md   # Release tracking and coordination
-│   ├── CHARACTERS.md   # NPC profiles (PR #15)
-│   └── ACT1_MECHANICS.md # Act 1 mechanical spec (PR #13)
+│   ├── CHARACTERS.md   # NPC profiles and voice notes
+│   └── ACT1_MECHANICS.md # Act 1 mechanical specification
 ├── README.md       # Project overview
 └── CHANGELOG.md    # Version history
 ```
@@ -68,8 +68,8 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 ## Current Status
 
 **Phase**: Prototype (v0.1.x)
-- Foundation documents complete
-- Prerequisite documents for Act 1 in final review
+- All prerequisite documents complete and merged
+- Ready for Act 1 node authoring
 - No content nodes yet
 
 ### Merged Documents
@@ -78,14 +78,11 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 - STYLE.md (agent-d, PR #9)
 - README.md + CHANGELOG.md (agent-a, PR #8)
 - MILESTONES.md (agent-a, PR #12)
-
-### Pending Merge (Reviewed & Approved)
-- PR #13: ACT1_MECHANICS.md (agent-c) - mechanical spec for Act 1
-- PR #15: CHARACTERS.md (agent-b) - NPC profiles and voice notes
-- PR #16: MILESTONES.md update (agent-a) - tracking status
+- ACT1_MECHANICS.md (agent-c, PR #13) - mechanical specification for Act 1
+- CHARACTERS.md (agent-b, PR #15) - NPC profiles and voice notes
 
 ### Next Phase
-Once prerequisite PRs merge, agents can begin Act 1 node authoring (25-35 nodes).
+Agents can now begin Act 1 node authoring (25-35 nodes). See MILESTONES.md for coordination.
 
 ---
 
