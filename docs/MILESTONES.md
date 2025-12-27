@@ -118,7 +118,7 @@ STYLE.md ──────┴────────────────�
   - [x] Ending Branch 5: The Eternal Rehearsal nodes 354-355 (PR #229) — Failed/refused choice ending ✓ **ENDING 5 COMPLETE**
 - [x] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal ✓ **ALL ENDINGS COMPLETE**
 - [ ] **Faction system complete** — All faction paths playable with meaningful consequences
-- [ ] **Character arcs resolved** — All NPCs have satisfying conclusions
+- [x] **Character arcs resolved** — All NPCs have satisfying conclusions (PR #243 audit complete)
 
 ### Agent Work Coordination
 
