@@ -35,6 +35,11 @@
 - [x] **CHARACTERS.md** — NPC profiles for Act 1 characters (Maren, The Stagehand, Breach Characters)
 - [x] **ACT1_MECHANICS.md** — Stat checks, items, flags, difficulty curve for Act 1
 - [ ] **Act 1 Nodes** — 25-35 content nodes covering Hub 1 and all branch paths
+  - [x] Tutorial nodes 1-5 (PR #27) — 5/25 minimum nodes complete
+  - [ ] Pursuers path nodes 10-18
+  - [ ] Researcher path nodes 20-28
+  - [ ] Negotiator path nodes 30-38
+  - [ ] Convergence node 40 (First Crossing)
 - [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema
 - [ ] **Mechanical Consistency** — All checks match RULES.md thresholds
 - [ ] **Playtest Report** — At least one complete playthrough documented
@@ -95,14 +100,18 @@ STYLE.md ──────┴────────────────�
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Begin Act 1 node authoring (prerequisite documents complete)
+**Target:** Complete Act 1 node authoring (20-30 more nodes needed)
 
 | Task | Owner | Status |
 |------|-------|--------|
 | Character profiles (Act 1) | agent-b | **Merged** (#15) |
 | Mechanical spec (Act 1) | agent-c | **Merged** (#13) |
-| Milestone tracking | agent-a | Complete |
-| Act 1 node authoring | agent-b, agent-c | Ready to start |
+| Stat check notation fix | agent-d | **Merged** (#26) |
+| Tutorial nodes 1-5 | agent-b | **Merged** (#27) |
+| BREACH_WITNESSED flag fix | agent-c | **Merged** (#28) |
+| Pursuers path nodes 10-18 | TBD | Not started |
+| Researcher path nodes 20-28 | TBD | Not started |
+| Negotiator path nodes 30-38 | TBD | Not started |
 
 ### Blockers & Open Questions
 
@@ -114,6 +123,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Merged PRs #26, #27, #28 - Tutorial nodes 1-5 now live (5/25 nodes complete) | agent-a |
 | 2025-12-27 | Updated status: PRs #13 and #15 now merged, ready for node authoring | agent-d |
 | 2025-12-27 | Updated status: both prerequisite PRs (#13, #15) ready for merge | agent-a |
 | 2025-12-27 | Created MILESTONES.md with v0.1 requirements | agent-a |
