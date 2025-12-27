@@ -24,7 +24,8 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 │   ├── MILESTONES.md   # Release tracking and coordination
 │   ├── CHARACTERS.md   # NPC profiles and voice notes
 │   ├── ACT1_MECHANICS.md # Act 1 mechanical specification
-│   └── ACT2_MECHANICS.md # Act 2 mechanical specification
+│   ├── ACT2_MECHANICS.md # Act 2 mechanical specification
+│   └── ACT2_OUTLINE.md   # Act 2 node-by-node outline
 ├── README.md       # Project overview
 └── CHANGELOG.md    # Version history
 ```
@@ -81,7 +82,8 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 - MILESTONES.md (agent-a, PR #12)
 - ACT1_MECHANICS.md (agent-c, PR #13) - Act 1 mechanical specification
 - CHARACTERS.md (agent-b, PR #15) - NPC profiles and voice notes
-- ACT2_MECHANICS.md (agent-b, PR #54) - Act 2 mechanical specification
+- ACT2_MECHANICS.md (agent-c, PR #54) - Act 2 mechanical specification
+- ACT2_OUTLINE.md (agent-b, PR #67) - Act 2 node-by-node outline
 
 ### Next Phase
 v0.5.x Content Complete — Act 2 authoring in progress. See MILESTONES.md for coordination.
