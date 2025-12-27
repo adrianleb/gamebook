@@ -250,9 +250,9 @@ Every failed check MUST lead to:
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 040-045 | First Crossing | 6 | [ ] | | |
+| 040-045 | First Crossing | 6 | [x] PASS | agent-d | 2025-12-27 |
 
-**Act 1 Total:** 32/38 reviewed
+**Act 1 Total:** 38/38 reviewed (100% COMPLETE)
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -476,18 +476,91 @@ Every failed check MUST lead to:
 
 ### Act 2: The Descent (65 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 100-105 | Green Room Entry | 6 | [ ] |
-| 106-114 | Genre Representatives | 9 | [ ] |
-| 115-129 | Faction Quests | 15 | [ ] |
-| 130-133 | Archives Transition | 4 | [ ] |
-| 200-205 | Archives Entry | 6 | [ ] |
-| 206-214 | Investigation | 9 | [ ] |
-| 215-219 | Critic Resolution | 5 | [ ] |
-| 220-230 | Revelation | 11 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 100-105 | Green Room Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 106-114 | Genre Representatives | 9 | [ ] | | |
+| 115-129 | Faction Quests | 15 | [ ] | | |
+| 130-133 | Archives Transition | 4 | [ ] | | |
+| 200-205 | Archives Entry | 6 | [ ] | | |
+| 206-214 | Investigation | 9 | [ ] | | |
+| 215-219 | Critic Resolution | 5 | [ ] | | |
+| 220-230 | Revelation | 11 | [ ] | | |
 
-**Act 2 Total:** 0/65 reviewed
+**Act 2 Total:** 6/65 reviewed
+
+### Green Room Entry Review Notes (100-105)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 100 | Green Room Arrival | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 101 | The Director's Introduction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 102 | Main Lounge Exploration | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 103 | CHORUS Contact | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 104 | Director's Briefing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 105 | Call Board Discovery | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-100.md through node-105.md)
+- Scene descriptions establish locations: Green Room Threshold, Director's Platform, Main Lounge, The Margins, Director's Private Alcove, The Call Board
+- All forward paths valid and tested: 100→101/102/103, 101→104/102, 102→106/107/108/109/103/105, 103→102/110, 104→105/102, 105→115/120/125/130/102/110
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 6 nodes
+- The Director's voice matches CHARACTERS.md profile:
+  - Theatrical grandeur ("Every character believes they deserve a better ending. That's not uniqueness—that's genre.")
+  - Directing terminology ("your arc", "the blocking")
+  - Patronizing but not dismissive
+- CHORUS voice matches CHARACTERS.md profile:
+  - Plural speech ("We remember," "We have seen")
+  - Collective nature ("faces flicker and change")
+  - Recognition of stealth crossing players as kindred spirits
+- Conditional opening text in node 100 properly varies based on all 4 crossing flags
+- Tone keywords appropriately distributed: Liminal (threshold, door that shouldn't exist), Theatrical (stage, Green Room, curtain), Uncanny (features borrowed from dozen authority figures)
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific throughout ("brass plaque", "Victorian fainting couch", "cold blue")
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT2_MECHANICS.md specification:
+  - Node 101: Stage Presence 2 (Standard) ✓ — matches 100-102 range
+  - Node 103: Improv 1 (Basic) ✓ — matches 103-104 range for CHORUS
+- Crossing flag bonuses properly noted (e.g., `[IF CROSSING_DIRECT: ... grants effective +1 Stage Presence]`)
+- Both success AND failure paths defined for all checks
+- Fail-forward properly implemented: failures redirect to exploration, never dead ends
+- All flags use UPPERCASE_SNAKE_CASE: `CROSSING_DIRECT`, `CROSSING_STEALTH`, `CROSSING_NEGOTIATED`, `CROSSING_DESPERATE`, `ACT2_STARTED`, `DIRECTOR_IMPRESSED`, `CHORUS_ALLY`, `PRESERVATIONIST: +1`
+- Faction alignment notation correct with colon format: `PRESERVATIONIST: +1`
+
+**Continuity Findings:**
+- NPC names match CHARACTERS.md: The Director, CHORUS, The Solved Case, The Unfinished Quest, The Final Girl, The Happy Ending
+- Location names match ACT2_OUTLINE.md/ACT2_MECHANICS.md: Green Room, Main Lounge, Director's Platform, Call Board
+- Faction representatives correctly tagged with placards: Preservationist Liaison (Solved Case), Exiter Contact (Unfinished Quest), Revisionist Welcome (Happy Ending)
+- The Director's reference to Maren consistent with established relationship ("Maren's work, I assume?")
+- Crossing flags from Act 1 properly referenced and affect opening content
+- Faction colors match specification: gold (Preservationist), silver (Revisionist), copper (Exiter)
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 2 opening:
+  - Basic (1): 1 check (node 103 CHORUS contact)
+  - Standard (2): 1 check (node 101 Director introduction)
+- Fail-forward properly implemented in all nodes:
+  - Node 101 failure: Redirects to Main Lounge exploration
+  - Node 103 failure: Returns to exploration
+- Choice text accurately reflects outcomes
+- Crossing flag bonuses provide meaningful advantage without creating imbalance
+- All faction quest hooks (node 105) clearly labeled and accessible
+
+**Issues Found:** None requiring revision.
 
 ### Act 3: The Final Act (51 nodes)
 
