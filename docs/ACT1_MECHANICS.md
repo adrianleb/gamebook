@@ -156,7 +156,7 @@ The climax presents a convergence point with method-specific checks:
 | Flag | Trigger | Purpose |
 |------|---------|---------|
 | `ACT1_STARTED` | Node 1 complete | Marks tutorial begin |
-| `BREACH_WITNESSED` | Any path node 10/20/30 | Player has seen a breach |
+| `BREACH_WITNESSED` | Node 4 (The First Breach) | Player has seen a breach |
 | `PATH_PURSUERS` | Chose Pursuers at Node 5 | Track path choice |
 | `PATH_RESEARCHER` | Chose Researcher at Node 5 | Track path choice |
 | `PATH_NEGOTIATOR` | Chose Negotiator at Node 5 | Track path choice |
