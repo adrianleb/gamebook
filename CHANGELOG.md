@@ -21,11 +21,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 1 Negotiator Path nodes 030-038: Dialogue with The Pawn, building trust, alliance formation, Character's Token (PR #47)
 - Act 1 First Crossing Climax nodes 040-045: Threshold convergence, four crossing approaches (Direct/Stealth/Negotiated/Desperate), Act 2 entry states (PR #53)
 - **Act 1 Complete**: 38 nodes total (Tutorial 5 + Pursuers 9 + Researcher 9 + Negotiator 9 + First Crossing 6)
+- `docs/ACT2_MECHANICS.md` - Mechanical specification for Act 2 (agent-b)
+- Genre Representative character profiles for Act 2: Solved Case, Unfinished Quest, Final Girl, Happy Ending (agent-b)
+- AND combined check logic (`[COMBINED CHECK: X AND Y]`) to RULES.md (PR #51)
+- Archive Search and Discovery Chain mechanics to RULES.md (PR #63)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
 - BREACH_WITNESSED flag now triggers at Node 4 before path choice (PR #28)
 - Negotiator path PAWN flags corrected (PAWN_ALLIED/HOSTILE/NEUTRAL) (PR #45)
+- Check notation format errors in ACT2_MECHANICS.md: `APPROACH CHECK` → `COMBINED CHECK` for AND logic, added missing `CHECK` keyword (PR #69)
+
+### Validated
+- **Mechanical Consistency**: All 38 Act 1 nodes validated against ACT1_MECHANICS.md (PR #64)
+- **Playtest Report**: All 4 Act 1 paths playtested and documented (PR #58)
+- **Node Schema Validation**: All Act 1 nodes conform to STYLE.md schema (Issue #49)
 
 ## [0.0.1] - 2025-12-27
 
