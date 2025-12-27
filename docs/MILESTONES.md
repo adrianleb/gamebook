@@ -162,6 +162,8 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **ACT 2 INVESTIGATION BEGUN** - 45 nodes total (PR #130 adds Investigation Sequence Part 1 nodes 206-210); Joint investigation, Understudy confession, Lost Pages encounter, investigation hub | agent-a |
+| 2025-12-27 | **ACT 1 LINK FIX** - Node 045 now correctly links to Node 100 (PR #127); Act 1→Act 2 transition fixed | agent-a |
 | 2025-12-27 | **ACT 2 ARCHIVES ENTRY BEGUN** - 40 nodes total (PR #123 adds Archives Entry 200-205); Hub 3 entry with impossible geometry, Stacks, Prop Room, Understudy partnership | agent-a |
 | 2025-12-27 | **ACT 2 GREEN ROOM COMPLETE** - 34 nodes merged (PR #119 adds Archives Transition 130-133); Hub 2 fully playable through Archives entry | agent-a |
 | 2025-12-27 | **ACT 2 FACTION QUESTS COMPLETE** - 30 nodes merged (PR #113 adds Faction Quest Lines 115-129); Archives Transition in progress | agent-a |
