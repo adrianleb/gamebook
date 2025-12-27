@@ -10,11 +10,11 @@ The Critic stands taller now, drawing on something deeper. Their form solidifies
 
 They spread their arms. The shadows around them deepen.
 
-**The Critic:** "Every story must face this moment. The moment when theory becomes execution. When 'could be good' becomes 'is good' or 'isn't.'"
+**The Critic:** "Every story must face this moment. The moment when theory becomes execution. When 'could be good' becomes 'is good' or 'isn't.' You've been prompting from the wings, guiding characters through their scenes. But now the spotlight finds *you*."
 
 Their voice drops to something almost gentle.
 
-**The Critic:** "This is my judgment, Prompter. Not a conversation. Not an argument. A verdict."
+**The Critic:** "This is my judgment, Prompter. Not a conversation. Not an argument. A verdict on whether your story deserves to reach the Author's Desk—or whether it should have ended in the first draft."
 
 ---
 

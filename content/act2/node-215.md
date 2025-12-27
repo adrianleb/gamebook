@@ -30,7 +30,7 @@ The Critic waits.
 
 The Critic stands before the Author's Desk like a sentinel. Their form is sharper here, more defined—as if proximity to the source of stories gives them substance.
 
-**The Critic:** "So you've made it this far. I admit, I underestimated your persistence." Their voice carries the weight of a thousand disappointed reviews. "But persistence isn't quality. And quality is what matters here."
+**The Critic:** "So you've made it this far. A Prompter who can actually follow a narrative thread—how novel." Their voice carries the weight of a thousand disappointed reviews. "But following a thread isn't the same as *weaving* one. And in these Archives, only those who understand story deserve to approach the desk."
 
 They spread their arms, encompassing the desk behind them.
 
@@ -60,11 +60,11 @@ The path to the Author's Desk is clear.
 
 The Critic blocks the way. There is no slipping past them, no alternative route. This confrontation was always coming.
 
-**The Critic:** "Choose, little story. Face my judgment directly, or try to slip past in the margins where you think I can't see."
+**The Critic:** "Choose, Prompter. You've spent your time whispering stage directions to characters who can't hear you. Now *you* are the character. Face my judgment directly, or try to slip past in the margins where you think I can't see."
 
 Their smile is thin, knowing.
 
-**The Critic:** "Both paths have consequences. Neither is easy. But then, nothing worth reading ever is."
+**The Critic:** "Both paths have consequences. Neither is easy. But then—" they pause, savoring the words "—nothing worth reading ever survives its first critique."
 
 **Choices:**
 

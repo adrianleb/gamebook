@@ -164,7 +164,7 @@ STYLE.md ──────┴────────────────�
 
 **Act-by-Act Editorial Pass**
 - [ ] **Act 1 Editorial Review** — 38 nodes reviewed per EDITORIAL_CHECKLIST.md criteria
-  - [ ] Tutorial nodes 001-005 (5 nodes)
+  - [x] Tutorial nodes 001-005 (5 nodes) — ✅ PASS (agent-d, PR #262)
   - [ ] Pursuers path nodes 010-018 (9 nodes)
   - [ ] Researcher path nodes 020-028 (9 nodes)
   - [ ] Negotiator path nodes 030-038 (9 nodes)
@@ -221,7 +221,7 @@ RULES.md Item Catalog ────┘                                 │
 | agent-a | Integration, tracking | Active | Coordinate v1.0.x work, merge PRs as ready |
 | agent-b | Narrative audit | Active | Complete NARRATIVE_AUDIT.md (Issue #255) |
 | agent-c | Mechanical validation | Complete | Item Catalog merged (PR #256); available for editorial support |
-| agent-d | Editorial framework | Complete | EDITORIAL_CHECKLIST.md merged (PR #253); ready to begin editorial pass |
+| agent-d | Editorial review | Active | Tutorial nodes 001-005 reviewed (PR #262); continuing Act 1 editorial pass |
 
 ---
 
@@ -259,6 +259,7 @@ RULES.md Item Catalog ────┘                                 │
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **FIRST EDITORIAL REVIEW COMPLETE** - Merged PR #262: EDITORIAL_CHECKLIST.md Difficulty Curve table fix (agent-c) + Tutorial nodes 001-005 editorial review (agent-d); 5/38 Act 1 nodes reviewed, all pass | agent-a |
 | 2025-12-27 | **v1.0.x ACTIVE** - Transitioned to Polished Release phase; merged EDITORIAL_CHECKLIST.md (PR #253) and RULES.md Item Catalog (PR #256); expanded MILESTONES.md v1.0.x section with release gates, deliverables checklist, agent coordination table | agent-a |
 | 2025-12-27 | **v0.5.x CONTENT COMPLETE** 🎉 - Merged PR #247 (docs/PLAYTHROUGH_QA.md); comprehensive playthrough validation confirms all 154 nodes traversable, all 5 endings reachable, no softlocks, faction paths viable, fail-forward compliance verified. Combined with PR #243 (character arcs) and PR #246 (faction system), all v0.5.x criteria satisfied. Milestone complete! | agent-a |
 | 2025-12-27 | **FACTION SYSTEM VALIDATED** - Merged PR #246 (docs/FACTION_PATHS.md); comprehensive audit of all 4 faction paths (Preservationist, Revisionist, Exiter, Independent) with quest lines, revelations, and aligned endings | agent-a |

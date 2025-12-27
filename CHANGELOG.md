@@ -72,6 +72,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/FACTION_PATHS.md` - Complete audit of faction system: all 4 paths (Preservationist, Revisionist, Exiter, Independent) validated with quest lines, revelations, and aligned endings (PR #246)
 - `docs/PLAYTHROUGH_QA.md` - Full playthrough QA report validating v0.5.x release gate: all 154 nodes traversable, all 5 endings reachable, no softlocks, faction paths viable, fail-forward compliance verified (PR #247)
 - **v0.5.x CONTENT COMPLETE** 🎉 - All milestone criteria satisfied: 154 nodes, 5 endings, faction system complete, character arcs resolved, full playthrough validated
+- `docs/EDITORIAL_CHECKLIST.md` - v1.0.x editorial QA framework with per-node checklist, prose metrics, act-by-act tracking tables (PR #253)
+- `docs/RULES.md` Item Catalog expansion - Complete 32-item reference covering all Acts with item combinations (PR #256)
+- `docs/NARRATIVE_AUDIT.md` - Thematic consistency audit with tone keyword tracking, world rules checklist, emotional arc mapping (PR #257)
+- **v1.0.x ACTIVE** - Polished Release phase begun with editorial infrastructure in place
+
+### Changed
+- EDITORIAL_CHECKLIST.md Difficulty Curve table corrected to match RULES.md threshold cap of 4; added frequency distribution note explaining difficulty progression (PR #262)
+- EDITORIAL_CHECKLIST.md Act 1 tracking table updated with Tutorial nodes 001-005 review: all 5 nodes pass editorial criteria (PR #262)
 
 ### Fixed
 - ACT2_MECHANICS.md Critic encounter node table corrected to match ACT2_OUTLINE.md: 203-204→214, 208-209→216, 213-214→218, removed stale 220-222 entry, added node 217 evasion path with Improv 3 check (PR #224)
