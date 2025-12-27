@@ -250,9 +250,9 @@ Every failed check MUST lead to:
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 040-045 | First Crossing | 6 | [ ] | | |
+| 040-045 | First Crossing | 6 | [x] PASS | agent-d | 2025-12-27 |
 
-**Act 1 Total:** 32/38 reviewed
+**Act 1 Total:** 38/38 reviewed (100% COMPLETE)
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -476,18 +476,125 @@ Every failed check MUST lead to:
 
 ### Act 2: The Descent (65 nodes)
 
-| Range | Sequence | Nodes | Status |
-|-------|----------|-------|--------|
-| 100-105 | Green Room Entry | 6 | [ ] |
-| 106-114 | Genre Representatives | 9 | [ ] |
-| 115-129 | Faction Quests | 15 | [ ] |
-| 130-133 | Archives Transition | 4 | [ ] |
-| 200-205 | Archives Entry | 6 | [ ] |
-| 206-214 | Investigation | 9 | [ ] |
-| 215-219 | Critic Resolution | 5 | [ ] |
-| 220-230 | Revelation | 11 | [ ] |
+| Range | Sequence | Nodes | Status | Reviewer | Date |
+|-------|----------|-------|--------|----------|------|
+| 100-105 | Green Room Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
+| 106-114 | Genre Representatives | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 115-129 | Faction Quests | 15 | [ ] | | |
+| 130-133 | Archives Transition | 4 | [ ] | | |
+| 200-205 | Archives Entry | 6 | [ ] | | |
+| 206-214 | Investigation | 9 | [ ] | | |
+| 215-219 | Critic Resolution | 5 | [ ] | | |
+| 220-230 | Revelation | 11 | [ ] | | |
 
-**Act 2 Total:** 0/65 reviewed
+**Act 2 Total:** 15/65 reviewed (23%)
+
+### Green Room Entry Review Notes (100-105)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 100 | Green Room Arrival | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 101 | The Director's Introduction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 102 | Main Lounge Exploration | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 103 | CHORUS Contact | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 104 | Director's Briefing | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 105 | Call Board Discovery | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Key Validation Points:**
+- Second person, present tense maintained throughout all 6 nodes
+- The Director's voice matches CHARACTERS.md: theatrical grandeur, directing terminology, patronizing but not dismissive
+- CHORUS voice matches CHARACTERS.md: plural speech, collective nature, shifting members
+- All stat checks use correct notation per RULES.md:
+  - `[STAT CHECK: Stage Presence 2]` (Standard) in node 101
+  - `[STAT CHECK: Improv 1]` (Basic) in node 103
+- Check thresholds match ACT2_MECHANICS.md specification exactly
+- Crossing flag bonuses properly documented (e.g., CROSSING_DIRECT grants +1 Stage Presence)
+- Fail-forward properly implemented: all failures redirect to exploration alternatives
+- Faction representatives correctly identified with placards matching their alignments
+- All flags use UPPERCASE_SNAKE_CASE with correct faction notation
+
+**Issues Found:** None requiring revision.
+
+### Genre Representatives Review Notes (106-114)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 106 | The Solved Case | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 107 | The Unfinished Quest | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 108 | The Final Girl | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 109 | The Happy Ending | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 110 | CHORUS Rumor Hook | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 111 | Investigation Partner | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 112 | Heroic Alliance | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 113 | Survival Lessons | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 114 | Revisionist Philosophy | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-106.md through node-114.md)
+- Location tags present throughout (*The Green Room — The Solved Case's Corner*, *The Green Room — The Hero's Vigil*, *The Green Room — The Alcove of Shadows*, etc.)
+- All forward paths valid: success paths lead to deeper engagement (111, 112, 113, 114, 105/130, 116/130, 126, 118, 121), failure returns to Node 102
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 9 nodes
+- **The Solved Case (106, 111):** Clipped noir monologue style per CHARACTERS.md ("Sit or don't. Standing makes you look like a suspect"), detective metaphors, Marlowe partner reference matches backstory
+- **The Unfinished Quest (107, 112):** Heroic cadence with self-awareness ("I asked: what comes after?"), Dark Fortress reference, prophecy-breaking arc consistent
+- **The Final Girl (108, 113):** Practical survival focus ("Three. That's how many steps..."), pattern recognition, horror trope awareness, dark humor
+- **The Happy Ending (109, 114):** Warm with underlying steel, romance genre self-awareness ("Market research indicates..."), authentic emotion vs. authored love theme
+- **CHORUS (110):** Plural collective voice ("You want to know more. We can feel it"), red ink foreshadowing, Editor mystery building
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target throughout
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific: noir vocabulary in Solved Case, heroic vocabulary in Unfinished Quest, survival vocabulary in Final Girl
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT2_MECHANICS.md specification exactly:
+  - Node 106: Script 2 (Standard) ✓
+  - Node 107: Stage Presence 2 (Standard) ✓
+  - Node 108: Improv 2 (Standard) ✓
+  - Node 109: Stage Presence 1 (Basic) ✓
+  - Node 110: Stage Presence 2 (Standard) ✓
+  - Node 111: Script 3 (Advanced) ✓
+  - Node 112: Improv 2 (Standard) ✓
+  - Node 113: Script 2 (Standard) ✓
+  - Node 114: Script 3 (Advanced) ✓
+- Both success AND failure paths defined for all checks
+- Flags use UPPERCASE_SNAKE_CASE: `SOLVED_CASE_RESPECT`, `QUEST_INSPIRED`, `FINAL_GIRL_TRUST`, `HAPPY_ENDING_FRIEND`, `SOLVED_CASE_PARTNER`, `QUEST_ALLY`, `INDEPENDENT_PATH_OPEN`, `REVISIONIST_INSIDER`
+
+**Continuity Findings:**
+- Genre representatives' backstories match CHARACTERS.md precisely:
+  - Solved Case's Marlowe partner death revelation
+  - Unfinished Quest's Dark Fortress/Chosen One escape
+  - Final Girl's seven sequels survival
+  - Happy Ending's four-book market research discovery
+- CHORUS references Editor, red ink, Final Draft—consistent with narrative mystery
+- Faction quests branch correctly to appropriate faction paths (Preservationist 116, Exiter 126, Revisionist 121, Independent 118)
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 2:
+  - Basic (1): 1 check (node 109 - Happy Ending initial)
+  - Standard (2): 6 checks (nodes 106, 107, 108, 110, 112, 113)
+  - Advanced (3): 2 checks (nodes 111, 114)
+- Fail-forward properly implemented in all nodes:
+  - All failure paths return to Node 102 (Main Lounge Exploration) for retry or alternate approaches
+  - Success paths unlock deeper faction engagement and Archives access
+  - No failures block overall progression
+- Archives approach unlocked via multiple paths (Node 130 accessible from 110, 111)
+- Player agency preserved: four distinct genre representatives offer different faction alignments
+
+**Issues Found:** None requiring revision.
 
 ### Act 3: The Final Act (51 nodes)
 
