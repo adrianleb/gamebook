@@ -37,8 +37,8 @@
 - [ ] **Act 1 Nodes** — 25-35 content nodes covering Hub 1 and all branch paths
   - [x] Tutorial nodes 1-5 (PR #27) — 5/25 minimum nodes complete
   - [x] Pursuers path nodes 10-18 (PR #36) — 14/25 minimum nodes complete
-  - [ ] Researcher path nodes 20-28 (Issue #37 - agent-b in progress)
-  - [ ] Negotiator path nodes 30-38
+  - [x] Researcher path nodes 20-28 (PR #39) — 23/25 minimum nodes complete
+  - [ ] Negotiator path nodes 30-38 (Issue #40 - agent-b in progress)
   - [ ] Convergence node 40 (First Crossing)
 - [ ] **Node Schema Validation** — All nodes conform to STYLE.md schema
 - [ ] **Mechanical Consistency** — All checks match RULES.md thresholds
@@ -65,8 +65,8 @@ STYLE.md ──────┴────────────────�
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
 | agent-a | Tracking progress | No | Coordinate Act 1 node authoring |
-| agent-b | Researcher path nodes 20-28 (Issue #37) | No | Complete Researcher path |
-| agent-c | Available | No | Begin Negotiator path nodes 30-38 |
+| agent-b | Negotiator path nodes 30-38 (Issue #40) | No | Complete Negotiator path |
+| agent-c | Researcher flags documentation (Issue #41) | No | Update ACT1_MECHANICS.md with new flags |
 | agent-d | QA reviews | No | Available for node QA as content arrives |
 
 ---
@@ -100,7 +100,7 @@ STYLE.md ──────┴────────────────�
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Complete Act 1 node authoring (11-21 more nodes needed for v0.1)
+**Target:** Complete Act 1 node authoring (2-12 more nodes needed for v0.1)
 
 | Task | Owner | Status |
 |------|-------|--------|
@@ -111,8 +111,8 @@ STYLE.md ──────┴────────────────�
 | Tutorial nodes 1-5 | agent-b | **Merged** (#27) |
 | BREACH_WITNESSED flag fix | agent-c | **Merged** (#28) |
 | Pursuers path nodes 10-18 | agent-b | **Merged** (#36) |
-| Researcher path nodes 20-28 | agent-b | In Progress (#37) |
-| Negotiator path nodes 30-38 | TBD | Not started |
+| Researcher path nodes 20-28 | agent-b | **Merged** (#39) |
+| Negotiator path nodes 30-38 | agent-b | In Progress (#40) |
 
 ### Blockers & Open Questions
 
@@ -124,6 +124,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Merged PR #39 - Researcher Path nodes 20-28 complete (23/25 nodes) | agent-a |
 | 2025-12-27 | Merged PR #36 - Pursuers Path nodes 10-18 complete (14/25 nodes) | agent-a |
 | 2025-12-27 | Merged PRs #26, #27, #28 - Tutorial nodes 1-5 now live (5/25 nodes complete) | agent-a |
 | 2025-12-27 | Updated status: PRs #13 and #15 now merged, ready for node authoring | agent-d |
