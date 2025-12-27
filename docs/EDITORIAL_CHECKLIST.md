@@ -248,11 +248,11 @@ Every failed check MUST lead to:
 |-------|----------|-------|--------|----------|------|
 | 001-005 | Tutorial | 5 | [x] PASS | agent-d | 2025-12-27 |
 | 010-018 | Pursuers Path | 9 | [x] PASS | agent-d | 2025-12-27 |
-| 020-028 | Researcher Path | 9 | [ ] | | |
-| 030-038 | Negotiator Path | 9 | [ ] | | |
+| 020-028 | Researcher Path | 9 | [x] PASS | agent-d | 2025-12-27 |
+| 030-038 | Negotiator Path | 9 | [x] PASS | agent-d | 2025-12-27 |
 | 040-045 | First Crossing | 6 | [ ] | | |
 
-**Act 1 Total:** 14/38 reviewed
+**Act 1 Total:** 32/38 reviewed
 
 ### Tutorial Sequence Review Notes (001-005)
 
@@ -362,6 +362,115 @@ Every failed check MUST lead to:
   - Node 017 failure: Capture fails but negotiation opens
   - Node 018 failure: Mission completes but relationship damaged
 - Choice text accurately reflects outcomes
+
+**Issues Found:** None requiring revision.
+
+### Researcher Path Review Notes (020-028)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 020 | The Records Room | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 021 | The First Clue | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 022 | Archaic Notation | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 023 | The Pattern Emerges | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 024 | Connecting the Dots | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 025 | The Breach Pattern | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 026 | The Prediction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 027 | The Revenant's Trail | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 028 | The Stagehand's Secret | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout all nodes
+- The Stagehand's voice matches CHARACTERS.md profile: third-person self-reference ("The Stagehand will..."), simple speech, reaching for lost memories
+- The Revenant's voice uses exact patterns from CHARACTERS.md: fragmented echoes, temporal confusion ("I am hunted, was hunted, will be hunted...")
+- Maren's voice matches CHARACTERS.md: theatrical precision, stage metaphors
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check thresholds match ACT1_MECHANICS.md exactly: Script 2 (020), Script 1 (022), Improv 2 (024), Script 2 (025), Script 3 (026), Script 3 OR Stage Presence 2 (028)
+- Fail-forward properly implemented: all failure paths lead to meaningful alternatives
+- Item acquisition (Genre Compass) uses correct format with category and properties
+- All flags use UPPERCASE_SNAKE_CASE
+- The thirty-seven years detail aligns with CHARACTERS.md Maren backstory
+
+**Issues Found:** None requiring revision.
+
+### Negotiator Path Review Notes (030-038)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 030 | First Contact | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 031 | The Chosen One's Burden | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 032 | Common Ground | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 033 | The Author's Notes | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 034 | Story Knowledge | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 035 | Building Trust | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 036 | The Pawn's Truth | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 037 | Maren's Perspective | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 038 | Alliance or Distance | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-030.md through node-038.md)
+- Location tags present throughout (*The Threshold Stage — Backstage Corridor*, *The Threshold Stage — Backstage Corner*, *The Threshold Stage — Near the Boundary*, etc.)
+- All forward paths valid: 030→031→032→033→034→035→036→037→038→040
+- No orphan nodes, no dead ends
+
+**Voice Findings:**
+- Second person, present tense maintained throughout all 9 nodes
+- The Prophecy's Pawn's voice matches CHARACTERS.md profile:
+  - Formal fantasy cadence breaking into cynical modern speech
+  - Uses probing questions ("What do you actually want with me?")
+  - References destiny and fate as bitter jokes
+  - Occasionally slips into heroic mode then catches themselves
+  - "hero-shaped thing" phrase in node 034 connects to CHARACTERS.md sample dialogue
+- Maren's voice (node 037) matches CHARACTERS.md: theatrical precision, warm but not soft ("The Understage doesn't care about training schedules")
+- Tone keywords appropriately distributed: Liminal, Theatrical, Melancholic
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Word choice concrete and specific throughout
+
+**Mechanics Findings:**
+- All stat checks use correct `[STAT CHECK: Stat N]` notation per RULES.md
+- Check distribution matches ACT1_MECHANICS.md specification:
+  - Node 030: Stage Presence 2 (Standard) ✓
+  - Node 032: Stage Presence 1 (Basic) ✓
+  - Node 034: Script 2 (Standard) ✓
+  - Node 035: Stage Presence 2 (Standard) ✓
+  - Node 036: Stage Presence 3 (Advanced) ✓
+  - Node 038: Stage Presence 3 OR Improv 2 (Approach) ✓
+- Both success AND failure paths defined for all checks
+- Item acquisition format correct in Node 038: `**Acquired: Character's Token** (Token)`
+- All flags use UPPERCASE_SNAKE_CASE: `PATH_NEGOTIATOR`, `PAWN_ALLIED`, `PAWN_NEUTRAL`
+- Faction flags properly formatted with colon notation: `EXITER: 1`, `PRESERVATIONIST: 1`, `REVISIONIST: 1`
+
+**Continuity Findings:**
+- The Pawn's backstory consistent across all nodes: manufactured prophecy, Aldric the planted mentor, designed for breeding heroes
+- Story elements consistent: Greymarch Prophecy, Kingdoms of Ashvale, Dark Lord Maeven
+- Maren's references to Editors connect to CHARACTERS.md and broader narrative
+- Character's Token item matches ACT1_MECHANICS.md item catalog
+
+**Playability Findings:**
+- No instant death without warning
+- Difficulty curve appropriate for Act 1:
+  - Basic (1): 1 check (node 032)
+  - Standard (2): 3 checks (nodes 030, 034, 035)
+  - Advanced (3): 1 check (node 036)
+  - Approach (combined): 1 check (node 038)
+- Fail-forward properly implemented in all nodes:
+  - All failure paths lead to same next node but with different relationship quality
+  - Success builds genuine partnership; failure establishes transactional alliance
+  - No failures block progression
+- Choice text accurately reflects outcomes
+- Three-way choice in node 033 properly foreshadows Act 2 faction system
 
 **Issues Found:** None requiring revision.
 
