@@ -68,6 +68,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 3 Ending Branch 4: The Blank Page nodes 352-353: The Deeper Threat ending approach revealing the Silence (352), Blank Page Resolution conclusion with ENDING_BLANK_PAGE flag (353) — Independent-aligned ending complete (PR #220)
 - Act 3 Ending Branch 5: The Eternal Rehearsal nodes 354-355: No Ending ending approach (354), Eternal Rehearsal Resolution conclusion with ENDING_ETERNAL_REHEARSAL flag (355) — Failed/refused choice ending complete (PR #229)
 - **ALL 5 ENDINGS COMPLETE**: Revised Draft (341-344), Open Book (345-348), Closed Canon (349-351), Blank Page (352-353), Eternal Rehearsal (354-355) — 154 total nodes (Act 1: 38, Act 2: 65, Act 3: 51)
+- `docs/CHARACTER_ARCS.md` - Comprehensive audit of all 15 NPC character arc resolutions for v0.5.x validation: 10 complete, 4 partial, 1 intentionally absent (Critic as Hub 3 antagonist only) (PR #243)
+- `docs/FACTION_PATHS.md` - Complete audit of faction system: all 4 paths (Preservationist, Revisionist, Exiter, Independent) validated with quest lines, revelations, and aligned endings (PR #246)
+- `docs/PLAYTHROUGH_QA.md` - Full playthrough QA report validating v0.5.x release gate: all 154 nodes traversable, all 5 endings reachable, no softlocks, faction paths viable, fail-forward compliance verified (PR #247)
+- **v0.5.x CONTENT COMPLETE** 🎉 - All milestone criteria satisfied: 154 nodes, 5 endings, faction system complete, character arcs resolved, full playthrough validated
 
 ### Fixed
 - ACT2_MECHANICS.md Critic encounter node table corrected to match ACT2_OUTLINE.md: 203-204→214, 208-209→216, 213-214→218, removed stale 220-222 entry, added node 217 evasion path with Improv 3 check (PR #224)
