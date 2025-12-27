@@ -295,7 +295,9 @@ Some items have special properties:
 
 ### Item Catalog
 
-*This section will expand as nodes are written. Initial items:*
+The following items can be acquired throughout the game. Items are organized by Act and category for reference.
+
+#### Act 1: Starting & Tutorial Items
 
 | Item | Category | Property | Effect |
 |------|----------|----------|--------|
@@ -304,6 +306,69 @@ Some items have special properties:
 | Stagehand's Gloves | Prop | — | Handle props safely; +1 to prop-related actions |
 | Genre Compass | Script | — | Indicates dominant genre of current location |
 | Understudy's Mask | Token | — | Appear as a minor character briefly |
+
+#### Act 2: Faction Tokens
+
+| Item | Category | Source | Property | Effect |
+|------|----------|--------|----------|--------|
+| Director's Sigil | Token | Director relationship | — | Access to restricted Green Room areas |
+| CHORUS Membership Card | Token | CHORUS induction | — | Collective memory access; minor hints |
+| Preservationist Pin | Token | Faction alignment 5+ | — | +1 to checks with Preservationist NPCs |
+| Revisionist Pen | Token | Faction alignment 5+ | Consumable | One-time rewrite of a minor narrative element |
+| Exiter's Compass | Token | Faction alignment 5+ | — | Points toward the nearest exit from any story |
+| Independent's Blank | Token | Independent path | — | Appears as whatever token is needed (one use per hub) |
+
+#### Act 2: Archive Artifacts
+
+| Item | Category | Source | Property | Effect |
+|------|----------|--------|----------|--------|
+| First Draft Fragment | Artifact | Archive search success | Plot-Critical | Reveals part of the Editor's plan; +1 to Script checks during confrontation |
+| Author's Margin Notes | Script | Author's Desk (partial access) | — | Explains how the Understage was created |
+| Prop of Power | Artifact | Prop Room (guarded) | Variable | Effect depends on which prop (sword, crown, key, etc.) |
+| Understudy's Mirror | Artifact | Understudy gift | — | Reveals true nature of characters (once per hub); see Editor's true form |
+| Critic's Quill | Artifact | Critic defeat | Cursed | Powerful critique ability; may turn on user; can "critique" Editor once |
+| Lost Page | Script | Lost Pages restored | Consumable | Fills in one gap in any knowledge check |
+
+#### Act 2: Relationship-Gated Items
+
+| Item | Requirement | Effect |
+|------|-------------|--------|
+| Director's Trust Seal | `DIRECTOR_CONFIDANT` | Opens private Director areas; reveals faction history |
+| CHORUS Key | `CHORUS_MEMBER` | Access to CHORUS's hidden archives |
+| The Final Girl's Warning | `FINAL_GIRL_TRUST` | One-time warning before a deadly trap |
+| Solved Case's Casefile | `SOLVED_CASE_PARTNER` | +2 to one investigation check |
+| Understudy's Research | `UNDERSTUDY_PARTNER` | Three clues toward the Revelation |
+
+#### Act 3: Climax-Critical Items
+
+| Item | Category | Source | Requirement | Effect in Confrontation |
+|------|----------|--------|-------------|------------------------|
+| Maren's Signet | Token | Act 1 Maren relationship | `MAREN_TRUST_HIGH` | Absorb one failed check; grants `MAREN_SACRIFICE` option |
+| First Draft Fragment | Artifact | Act 2 Archives | `HAS_FIRST_DRAFT` | +1 to Script checks during confrontation |
+| Understudy's Mirror | Artifact | Act 2 Understudy gift | `UNDERSTUDY_PARTNER` | See Editor's true form; reveals weakness |
+| Critic's Quill | Artifact | Act 2 Critic defeat | `HAS_CRITIC_QUILL` | Can "critique" Editor once; risky but powerful |
+| Author's Margin Notes | Script | Act 2 Author's Desk | `HAS_MARGIN_NOTES` | Understand Final Draft's structure automatically |
+
+#### Act 3: Mainstage Items
+
+| Item | Category | Source | Property | Effect |
+|------|----------|--------|----------|--------|
+| Conductor's Baton | Prop | Orchestra Pit mastery | — | Control narrative threads; +1 to Improv in climax |
+| Audience Favor | Token | Audience engagement | Consumable | Call on Audience support once during confrontation |
+| Fly System Map | Script | Fly System exploration | — | Navigate vertical story layers; access hidden paths |
+| Echo of Applause | Token | Center Stage control | — | +1 Stage Presence during climax |
+| Editor's Original Pen | Artifact | Stagehand revelation | Plot-Critical | Alternative confrontation approach; rewrite vs. defeat |
+
+#### Item Combinations
+
+Certain item combinations unlock special options during the Act 3 confrontation:
+
+| Combination | Effect |
+|-------------|--------|
+| Maren's Signet + Understudy's Mirror | See the truth of Maren's relationship to Editor |
+| First Draft Fragment + Author's Margin Notes | Complete understanding of Understage creation |
+| Critic's Quill + Editor's Original Pen | Ultimate narrative control; dangerous power |
+| Conductor's Baton + Echo of Applause | Command both narrative and audience; overwhelming presence |
 
 ---
 
