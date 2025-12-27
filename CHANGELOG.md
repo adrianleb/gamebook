@@ -38,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 2 Genre Representative Encounter nodes 106-114: Solved Case (106), Unfinished Quest (107), Final Girl (108), Happy Ending (109), CHORUS Rumor Hook (110), plus quest advancement paths 111-114 (PR #109)
 - Act 2 Faction Quest Line nodes 115-129: Preservationist Quest (115-119) with Bleeding Fragment moral choice, Revisionist Quest (120-124) with Eternal Princess agency themes, Exiter Quest (125-129) with liminal freedom exploration, Independent path (118) via Final Girl (PR #113)
 - Act 2 Archives Transition nodes 130-133: Archives Approach hub (130), Official Access via Director (131), CHORUS Backdoor with Improv 2 check (132), Understudy's Invitation fallback (133) — completes Green Room, transitions to Hub 3 (PR #119)
+- Act 2 Archives Entry Sequence nodes 200-205: Hub 3 entry with impossible geometry (200), The Stacks with Archive Search tiered results (201), Prop Room with Script 2 safe/dangerous identification (202), Understudy Partnership confirmation (203), Stacks Discovery with faction-variable content (204), Prop Acquisition with narrative-weighted items (205) (PR #123)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
