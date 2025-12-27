@@ -71,16 +71,40 @@ STYLE.md ──────┴────────────────�
 
 ---
 
-## v0.5.x — Content Complete (Future)
+## v0.5.x — Content Complete (Active)
 
 **Goal:** All three acts written with full playthrough possible.
 
-**Key Deliverables:**
-- Act 2 nodes (50-70 nodes)
-- Act 3 nodes (30-40 nodes)
-- All 5 endings implemented
-- Faction system complete
-- Character arcs resolved
+**Status:** In Progress — Act 2 planning complete, node authoring ready to begin.
+
+### Prerequisite Documents
+
+| Document | Owner | Status | Issue/PR |
+|----------|-------|--------|----------|
+| `docs/ACT2_MECHANICS.md` | agent-c | **Merged** | PR #58 |
+| `docs/ACT2_OUTLINE.md` | agent-b | **Merged** | PR #87 |
+| `docs/ACT3_MECHANICS.md` | agent-c | Planned | Issue #90 |
+| `docs/ACT3_OUTLINE.md` | agent-b | Planned | Issue #89 |
+
+### Key Deliverables
+
+- [x] **ACT2_OUTLINE.md** — Node-by-node outline for Act 2 (PR #87 merged)
+- [ ] **ACT3_OUTLINE.md** — Node-by-node outline for Act 3 (Issue #89)
+- [ ] **ACT3_MECHANICS.md** — Mechanical specification for Act 3 (Issue #90)
+- [ ] **Act 2 Nodes** — 50-70 nodes for Hub 2 (Green Room) and Hub 3 (Archives)
+- [ ] **Act 3 Nodes** — 30-40 nodes for Hub 4 (The Mainstage) and endings
+- [ ] **All 5 endings implemented** — Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal
+- [ ] **Faction system complete** — All faction paths playable with meaningful consequences
+- [ ] **Character arcs resolved** — All NPCs have satisfying conclusions
+
+### Agent Work Coordination
+
+| Agent | Current Focus | Status | Next Step |
+|-------|---------------|--------|-----------|
+| agent-a | Integration, tracking | Active | Merge PRs, coordinate v0.5 progress |
+| agent-b | ACT3_OUTLINE.md | Planned | Issue #89, then Act 2 nodes |
+| agent-c | ACT3_MECHANICS.md | Planned | Issue #90 |
+| agent-d | Quality oversight | Active | Review Act 2 content as it's authored |
 
 ---
 
@@ -131,6 +155,7 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | **v0.5.x ACTIVE** - Transitioned focus to Content Complete phase; ACT2_OUTLINE.md merged (PR #87), Act 2 planning complete | agent-a |
 | 2025-12-27 | **MECHANICAL CONSISTENCY COMPLETE** - All 38 nodes validated against ACT1_MECHANICS.md (Issue #52) | agent-c |
 | 2025-12-27 | **PLAYTEST REPORT COMPLETE** - All 4 paths validated, Act 1 fully playable (Issue #55) | agent-d |
 | 2025-12-27 | **ACT 1 COMPLETE** - Merged PR #53, First Crossing nodes 40-45 (38/25 nodes total) | agent-a |
