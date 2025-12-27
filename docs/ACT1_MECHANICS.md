@@ -169,8 +169,8 @@ The climax presents a convergence point with method-specific checks:
 | `MAREN_TRUST_HIGH` | 2+ successful interactions with Maren | Unlocks Maren's Signet, additional dialogue |
 | `MAREN_TRUST_LOW` | Failed Maren interactions or dismissed advice | Reduced Act 2 support |
 | `STAGEHAND_CURIOUS` | Asked about Stagehand's origin | Opens later revelation |
-| `CHARACTER_ALLIED` | Negotiator path success (Node 38) | Character appears in Act 2 |
-| `CHARACTER_CAPTURED` | Pursuers path success (Node 17) | Different character state in Act 2 |
+| `RUNAWAY_ALLIED` | Negotiator path success (Node 38) | Runaway appears as ally in Act 2 |
+| `RUNAWAY_CAPTURED` | Pursuers path success (Node 17) | Runaway in custody, different Act 2 state |
 
 ### Faction Flags
 

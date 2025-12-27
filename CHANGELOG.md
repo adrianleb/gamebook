@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/MILESTONES.md` - Release gate tracking for v0.1 Prototype (PR #12)
 - `docs/CHARACTERS.md` - NPC profiles for 8 major characters (PR #15)
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
+- `content/act1/` - Content directory structure for node files (PR #24)
+- Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
+
+### Fixed
+- Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
+- BREACH_WITNESSED flag now triggers at Node 4 before path choice (PR #28)
 
 ## [0.0.1] - 2025-12-27
 
