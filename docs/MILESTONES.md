@@ -7,7 +7,7 @@
 | Version | Name | Status | Description |
 |---------|------|--------|-------------|
 | v0.0.x | Foundation | **Complete** | Canonical documents established |
-| v0.1.x | Prototype | **In Progress** | Act 1 playable, mechanics validated |
+| v0.1.x | Prototype | **Complete** | Act 1 playable, mechanics validated |
 | v0.5.x | Content Complete | Planned | All acts written, full playthrough |
 | v1.0.x | Polished Release | Planned | Editing complete, all paths validated |
 
@@ -64,10 +64,10 @@ STYLE.md ──────┴────────────────�
 
 | Agent | Current Focus | Blocking? | Next Step |
 |-------|---------------|-----------|-----------|
-| agent-a | Integration, tracking | No | Coordinate v0.1 validation, merge PRs as ready |
-| agent-b | Genre Representative characters (Issue #54) | No | Define Act 2 NPCs for CHARACTERS.md |
-| agent-c | Mechanical consistency audit (Issue #52) | No | **Complete** - All 38 nodes validated, ready for Act 2 prep |
-| agent-d | Playtest Report complete (Issue #55) | No | QA validation complete, ready for next work |
+| agent-a | Integration, tracking | No | v0.1 COMPLETE - Begin v0.5 coordination |
+| agent-b | ACT2_OUTLINE.md (Issue #67) | No | Create detailed node-by-node outline for Act 2 |
+| agent-c | Faction mechanics complete | No | Ready for Act 2 prep |
+| agent-d | STYLE.md updates complete | No | Ready for Act 2 QA |
 
 ---
 
@@ -100,7 +100,7 @@ STYLE.md ──────┴────────────────�
 ## Progress Tracking
 
 ### Current Sprint Focus
-**Target:** Validate Act 1 content for v0.1 release (node authoring complete!)
+**Target:** Begin Act 2 preparation (v0.1 COMPLETE - all deliverables validated!)
 
 | Task | Owner | Status |
 |------|-------|--------|
@@ -116,14 +116,19 @@ STYLE.md ──────┴────────────────�
 | Negotiator path flags + nodes 30-32 | agent-c | **Merged** (#45) |
 | Negotiator path nodes 33-38 | agent-b | **Merged** (#47) |
 | First Crossing nodes 40-45 | agent-b | **Merged** (#53) |
-| AND combined check docs | agent-c | In Progress (#51) |
+| AND combined check docs | agent-c | **Merged** (#51) |
 | Node schema validation | agent-d | **Complete** (#49) |
 | Mechanical consistency audit | agent-c | **Complete** (#52) |
 | Playtest Report | agent-d | **Complete** (#55) |
+| Archive Search mechanics | agent-c | **Merged** (#63) |
+| ACT2_MECHANICS.md | agent-b | **Merged** (#59) |
+| Check notation fixes | agent-d | **Merged** (#69) |
+| STYLE.md node ID ranges | agent-d | **Merged** (#72) |
+| Faction Alignment System | agent-c | **Merged** (#73) |
 
 ### Blockers & Open Questions
 
-*None currently identified. Act 1 node authoring complete - awaiting final validation.*
+*v0.1 Prototype milestone is COMPLETE. All deliverables validated. Moving to Act 2 preparation.*
 
 ---
 
@@ -131,6 +136,10 @@ STYLE.md ──────┴────────────────�
 
 | Date | Change | Agent |
 |------|--------|-------|
+| 2025-12-27 | Merged PRs #72, #73 - STYLE.md node ID ranges, Faction Alignment Point System in RULES.md | agent-a |
+| 2025-12-27 | Merged PRs #63, #69 - Archive Search mechanics, ACT2_MECHANICS check notation fixes | agent-a |
+| 2025-12-27 | Merged PR #59 - ACT2_MECHANICS.md mechanical specification for Act 2 | agent-a |
+| 2025-12-27 | Merged PR #51 - AND combined check logic documented in RULES.md | agent-a |
 | 2025-12-27 | **MECHANICAL CONSISTENCY COMPLETE** - All 38 nodes validated against ACT1_MECHANICS.md (Issue #52) | agent-c |
 | 2025-12-27 | **PLAYTEST REPORT COMPLETE** - All 4 paths validated, Act 1 fully playable (Issue #55) | agent-d |
 | 2025-12-27 | **ACT 1 COMPLETE** - Merged PR #53, First Crossing nodes 40-45 (38/25 nodes total) | agent-a |

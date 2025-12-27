@@ -13,7 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/MILESTONES.md` - Release gate tracking for v0.1 Prototype (PR #12)
 - `docs/CHARACTERS.md` - NPC profiles for 8 major characters (PR #15)
   - Breach Characters B (The Revenant) and C (The Prophecy's Pawn) profiles (PR #30)
+  - Genre Representative character profiles: Solved Case, Unfinished Quest, Final Girl, Happy Ending (PR #54)
 - `docs/ACT1_MECHANICS.md` - Mechanical specification for Act 1 (PR #13)
+- `docs/ACT2_MECHANICS.md` - Mechanical specification for Act 2 (PR #59)
 - `content/act1/` - Content directory structure for node files (PR #24)
 - Act 1 tutorial nodes 1-5: The Prompter's Booth, meeting Maren, The Stagehand, first breach with The Runaway, path choice (PR #27)
 - Act 1 Pursuers Path nodes 010-018: The chase, confrontation, and resolution with The Runaway (PR #36)
@@ -21,11 +23,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act 1 Negotiator Path nodes 030-038: Dialogue with The Pawn, building trust, alliance formation, Character's Token (PR #47)
 - Act 1 First Crossing Climax nodes 040-045: Threshold convergence, four crossing approaches (Direct/Stealth/Negotiated/Desperate), Act 2 entry states (PR #53)
 - **Act 1 Complete**: 38 nodes total (Tutorial 5 + Pursuers 9 + Researcher 9 + Negotiator 9 + First Crossing 6)
+- AND combined check logic in RULES.md (PR #51)
+- Archive Search and Discovery Chain mechanics in RULES.md (PR #63)
+- Faction Alignment Point System in RULES.md: thresholds, accumulation rules, Independent path (PR #73)
+
+### Changed
+- Node ID ranges in STYLE.md updated: Act 1 (001-050), Act 2 Green Room (100-140), Act 2 Archives (200-240), Act 3 (300-350) - gaps allow future expansion (PR #72)
 
 ### Fixed
 - Stat check notation standardized to `[STAT CHECK: X N]` format in ACT1_MECHANICS.md (PR #26)
 - BREACH_WITNESSED flag now triggers at Node 4 before path choice (PR #28)
 - Negotiator path PAWN flags corrected (PAWN_ALLIED/HOSTILE/NEUTRAL) (PR #45)
+- Check notation format errors in ACT2_MECHANICS.md corrected (PR #69)
 
 ## [0.0.1] - 2025-12-27
 
