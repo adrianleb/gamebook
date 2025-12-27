@@ -462,6 +462,18 @@ Based on Revelation outcome:
 | `REVELATION_COMPLETE` | Full truth accessed | Strongest Act 3 position |
 | `REVELATION_PARTIAL` | Partial truth only | Must investigate in Act 3 |
 
+### Revelation Sequence Flags
+
+| Flag | Trigger | Effect |
+|------|---------|--------|
+| `AUTHOR_DESK_REACHED` | Arrive at Author's Desk (Node 220) | Revelation sequence begins |
+| `EDITOR_EVIDENCE_FOUND` | Discover Editor's documents (Node 220) | Unlocks faction-specific interpretations |
+| `EDITOR_MOTIVE_UNDERSTOOD` | Preservationist revelation success (Node 221) | Understand Editor's ideological motivation |
+| `EDITOR_ORIGIN_KNOWN` | Revisionist revelation success (Node 222) | Understand Editor's personal history |
+| `EDITOR_ENDGAME_KNOWN` | Exiter revelation success (Node 223) | Understand Editor's ultimate plan |
+| `EXTERNAL_THREAT_KNOWN` | Independent revelation success (Node 224) | Discover external threat to Understage |
+| `EDITOR_ALLY_POSSIBLE` | Independent revelation success (Node 224) | Unlock cooperation path with Editor in Act 3 |
+
 ---
 
 ## Balance Verification Checklist
