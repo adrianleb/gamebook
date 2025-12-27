@@ -461,6 +461,38 @@ Based on Revelation outcome:
 | `REVELATION_INDEPENDENT` | No dominant faction | Independent Act 3 truth |
 | `REVELATION_COMPLETE` | Full truth accessed | Strongest Act 3 position |
 | `REVELATION_PARTIAL` | Partial truth only | Must investigate in Act 3 |
+| `AUTHOR_DESK_REACHED` | Node 220 entry | Entry marker for Revelation sequence |
+| `EDITOR_EVIDENCE_FOUND` | Node 220 discovery | Final Draft discovery marker |
+| `EDITOR_MOTIVE_UNDERSTOOD` | Node 221 Script 3 success | Preservationist revelation depth |
+| `EDITOR_ORIGIN_KNOWN` | Node 222 Stage Presence 3 success | Revisionist revelation depth |
+| `EDITOR_ENDGAME_KNOWN` | Node 223 Improv 3 success | Exiter revelation depth |
+| `EXTERNAL_THREAT_KNOWN` | Node 224 combined check success | Independent revelation - Blank Page threat |
+| `EDITOR_ALLY_POSSIBLE` | Node 224 combined check success | Unlocks Editor cooperation in Act 3 |
+| `REVELATION_RESPONSE_REACHED` | Node 225 choice | Player chose response to revelation |
+| `FACTION_RALLIED` | Node 226 return | Returned to faction with knowledge |
+| `PRESERVATIONIST_CHAMPION` | Node 226 faction | Champion status with Preservationists |
+| `REVISIONIST_CHAMPION` | Node 226 faction | Champion status with Revisionists |
+| `EXITER_CHAMPION` | Node 226 faction | Champion status with Exiters |
+| `INDEPENDENT_CHAMPION` | Node 226 self-reliant | Self-reliant champion status |
+| `DEEPER_INVESTIGATION_ATTEMPTED` | Node 227 choice | Chose to investigate further |
+| `EDITOR_IDENTITY_KNOWN` | Node 227 Script 4 success | Editor's true identity discovered |
+| `EDITOR_IDENTITY_UNKNOWN` | Node 227 Script 4 failure | Proceeded with partial knowledge |
+| `DIRECT_CONFRONTATION_ATTEMPTED` | Node 228 choice | Chose direct confrontation |
+| `EDITOR_DISRUPTED` | Node 228 Stage Presence 4 success | Final Draft delayed |
+| `EDITOR_MARKED_TARGET` | Node 228 Stage Presence 4 success | Editor aware of threat |
+| `EDITOR_MARKED_FOR_EDITING` | Node 228 Stage Presence 4 failure | Priority target in Act 3 |
+| `WARNING_ATTEMPTED` | Node 229 choice | Chose to warn others |
+| `COALITION_FORMED` | Node 229 Improv 3 success | Cross-faction alliance created |
+| `CROSS_FACTION_ALLIANCE` | Node 229 Improv 3 success | Multiple factions unified |
+| `WARNING_FAILED` | Node 229 Improv 3 failure | Warning attempt unsuccessful |
+| `PANIC_SPREADING` | Node 229 Improv 3 failure | Fear without unity |
+| `ACT2_COMPLETE` | Node 230 transition | Act 2 finished |
+| `TRUE_STAKES_UNDERSTOOD` | Node 230 knowledge | Full grasp of situation |
+| `ACT3_ALLIES_STRONG` | Node 230 strong position | Strong Act 3 position |
+| `ACT3_ALLIES_SCATTERED` | Node 230 weak position | Weaker Act 3 position |
+| `FACTION_CHAMPION` | Node 230 champion | Champion for Act 3 |
+| `ACT3_EDITOR_TARGET` | Node 230 targeted | Disadvantage in Act 3 |
+| `ACT3_EDITOR_DELAYED` | Node 230 delayed | Advantage in Act 3 |
 
 ---
 
