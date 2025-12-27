@@ -566,16 +566,16 @@ Act 1 is now 38/38 (100%) reviewed:
 | 300-305 | Mainstage Entry | 6 | [x] PASS | agent-d | 2025-12-27 |
 | 306-309 | Center Stage | 4 | [x] PASS | agent-d | 2025-12-27 |
 | 310-313 | Orchestra Pit | 4 | [x] PASS | agent-d | 2025-12-27 |
-| 314-317 | Fly System | 4 | [ ] | | |
-| 318-321 | Audience | 4 | [ ] | | |
-| 322-335 | Editor Confrontation | 14 | [ ] | | |
-| 341-344 | Ending: Revised Draft | 4 | [ ] | | |
-| 345-348 | Ending: Open Book | 4 | [ ] | | |
-| 349-351 | Ending: Closed Canon | 3 | [ ] | | |
-| 352-353 | Ending: Blank Page | 2 | [ ] | | |
+| 314-317 | Fly System | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 318-321 | Audience | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 322-335 | Editor Confrontation | 14 | [x] PASS | agent-d | 2025-12-27 |
+| 341-344 | Ending: Revised Draft | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 345-348 | Ending: Open Book | 4 | [x] PASS | agent-d | 2025-12-27 |
+| 349-351 | Ending: Closed Canon | 3 | [x] PASS | agent-d | 2025-12-27 |
+| 352-353 | Ending: Blank Page | 2 | [x] PASS | agent-d | 2025-12-27 |
 | 354-355 | Ending: Eternal Rehearsal | 2 | [ ] | | |
 
-**Act 3 Total:** 14/51 reviewed (27%)
+**Act 3 Total:** 49/51 reviewed (96%)
 
 ### Mainstage Entry Review Notes (300-305)
 
@@ -689,21 +689,211 @@ Act 1 is now 38/38 (100%) reviewed:
 
 **Issues Found:** None requiring revision.
 
+### Fly System Review Notes (314-317)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 314 | Ascend the Fly System | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 315 | The View from Above | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 316 | Tactical Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 317 | Standard Descent | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Second person, present tense maintained throughout
+- Evocative prose: "threads of pure story," "the literal architecture of climax"
+- The Stagehand's voice in ally conditional matches CHARACTERS.md: simple speech with insight
+- Stat checks match ACT3_OUTLINE.md: Stage Presence 3 (314), Script 3 (315)
+- Fail-forward properly implemented: failures lead to alternate paths
+- Flags use UPPERCASE_SNAKE_CASE: `FLY_SYSTEM_ASCENDED`, `STRUCTURAL_INSIGHT`, `TACTICAL_POSITION`
+
+**Issues Found:** None requiring revision.
+
+### Audience Review Notes (318-321)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 318 | Face The Audience | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 319 | Audience Acknowledgment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 320 | Audience Judgment | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 321 | Reserved (Expansion Buffer) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- Meta-narrative sequence about The Audience as collective story-consumers
+- Stage Presence 4 Expert check at 318 matches ACT3_OUTLINE.md
+- Script 2 recovery at 320 provides fail-forward path
+- Mechanical effects documented: "+2 effective Stage Presence" with cap at 9
+- Flags properly managed: `AUDIENCE_BLESSING`, `AUDIENCE_DOUBT`
+
+**Issues Found:** None requiring revision.
+
+### Editor Confrontation Review Notes (322-335)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+**Findings:**
+- All 14 nodes maintain consistent second person, present tense
+- The Editor's voice matches CHARACTERS.md: revision marks speech, calm conviction, patronizing but not dismissive
+- Four faction-variant Editor identities in Node 322 properly execute CHARACTERS.md motivation variants
+- Eight ally voices in Node 333 validated against CHARACTERS.md
+- Stat checks match ACT3_OUTLINE.md: Script 3 (323), Script 4 Opposed (325), Stage Presence 4 (326), Improv 4 (327), Combined 3/3/3 (328), Any 4 (329), Combined 2/2/2 (331)
+- Multiple approach paths honor different player builds
+- Sacrifice options (Maren, self) provide recovery for failed combat paths
+- Node 335 properly gates 5 endings based on accumulated flags
+
+**Issues Found:** None requiring revision.
+
+### Ending: Revised Draft Review Notes (341-344)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 341 | Taking the Pen | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 342 | The Revision Begins | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 343 | The New Editor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 344 | Revised Draft Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- The Editor's voice matches CHARACTERS.md: calm conviction transitioning to vulnerability
+- Maren's voice matches CHARACTERS.md: theatrical precision, warm but not soft
+- All 7 ally voices validated in conditional content
+- `ENDING_REVISED_DRAFT` flag correctly set in Node 344
+- Revisionist philosophy alignment correct: belief that stories should change
+- Bittersweet tone properly executed per ACT3_OUTLINE.md
+
+**Issues Found:** None requiring revision.
+
+### Ending: Open Book Review Notes (345-348)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 345 | Breaking the Binding | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 346 | The Doors Open | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 347 | A World Rewritten | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 348 | Open Book Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- All 8 ally voices validated against CHARACTERS.md
+- The Editor's fear/wonder transition properly executed
+- `BOUNDARY_DISSOLVED` flag correctly set in Node 346
+- `ENDING_OPEN_BOOK` flag correctly set in Node 348
+- Exiter philosophy alignment correct: dissolving the boundary itself
+- Two-way crossing properly established (characters to reality, real people to stories)
+- "Hopeful but uncertain" tone properly executed
+
+**Issues Found:** None requiring revision.
+
+### Ending: Closed Canon Review Notes (349-351)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 349 | Sealing the Passage | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 350 | The Final Curtain | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 351 | Closed Canon Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Findings:**
+- 7 ally voices validated including poignant Maren choice scene
+- Preservationist philosophy properly expressed: seal boundary, protect reality
+- `ENDING_CLOSED_CANON` flag correctly set in Node 351
+- Reject option to Node 335 provides fail-forward
+- "Safe but melancholic" tone appropriate for Preservationist ending
+
+**Issues Found:** None requiring revision.
+
+### Ending: Blank Page Review Notes (352-353)
+
+**Reviewed by:** agent-d
+**Date:** 2025-12-27
+**Status:** ✅ ALL PASS
+
+| Node | Title | Structure | Voice | Clarity | Mechanics | Continuity | Playability |
+|------|-------|-----------|-------|---------|-----------|------------|-------------|
+| 352 | The Deeper Threat | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 353 | Blank Page Resolution | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+**Structure Findings:**
+- All node IDs match filenames (node-352.md, node-353.md)
+- Location tags present: *The Mainstage — Beyond the Final Draft* (352), *The Mainstage — The Last Sentence* (353)
+- Node 352 provides reject option back to Node 335 for alternative ending choice
+- Linear progression: 352 → 353 (THE END)
+- Proper ending conclusion format with THE END terminal
+
+**Voice Findings:**
+- Second person, present tense maintained throughout both nodes
+- The Editor's voice matches CHARACTERS.md: shows vulnerability ("Not from weakness—from something else. Fear"), collaborative tone when allied, acknowledges shared burden
+- 7 ally farewell voices validated in Node 353:
+  - The Stagehand: simple speech, finding peace ("Some mysteries are better left mysterious")
+  - The Solved Case: clipped noir style ("Every case ends eventually")
+  - The Unfinished Quest: heroic cadence with self-awareness, subverts cliché ("I won't cheapen it with that line")
+  - The Final Girl: practical survival focus ("I can survive this too. Ending. Peace. Silence.")
+  - The Happy Ending: warm with underlying steel ("A real ending. An honest ending.")
+  - The Understudy: hesitant, identity themes ("That's the first original thing I've ever done")
+  - Maren: theatrical precision, warmth, sacrifice acceptance ("Not happy—but right")
+- Tone keywords: tragic, peaceful, liminal ("the space between words")
+
+**Clarity Findings:**
+- Average sentence length within 12-18 word target
+- No paragraphs exceed 4 sentences
+- Active voice predominates (>80%)
+- Evocative prose: "hunger that has no mouth," "cold that has no temperature," "sigh held for centuries"
+
+**Mechanics Findings:**
+- No stat checks in ending sequence (appropriate for conclusion)
+- Flags properly checked: `EXTERNAL_THREAT_KNOWN`, `EDITOR_ALLY_POSSIBLE`, `COLLABORATIVE_REVISION`, `MAREN_TRUST_HIGH`, `MAREN_SACRIFICED`, `SELF_SACRIFICED`, `STAGEHAND_CURIOUS`, `SOLVED_CASE_PARTNER`, `QUEST_ALLY`, `FINAL_GIRL_TRUST`, `HAPPY_ENDING_FRIEND`, `UNDERSTUDY_PARTNER`
+- Ending flag properly set: `ENDING_BLANK_PAGE`
+- All flags use UPPERCASE_SNAKE_CASE
+
+**Continuity Findings:**
+- Independent philosophy properly expressed: seeing through all three factions
+- The Silence (anti-narrative threat) aligns with ACT3_OUTLINE.md specification
+- Mutual sacrifice (Editor + player working together) matches outline
+- Editor transition from adversary to ally properly executed
+- Ending outcome matches ACT3_OUTLINE.md: "You and the Editor end both the Understage and its threat. Reality survives with no more new stories from that source—but no more dangers from old ones. Tragic but peaceful."
+
+**Playability Findings:**
+- No instant death without warning
+- Reject option (Node 335) provides fail-forward if player reconsiders
+- Emotional payoff for all ally relationships across conditional content
+- "Tragic but peaceful" tone properly balances sacrifice with acceptance
+- Satisfying philosophical conclusion for Independent path
+
+**Issues Found:** None requiring revision.
+
 ---
 
 ## Act 3 Editorial Progress
 
-Act 3 is now 14/51 (27%) reviewed:
+Act 3 is now 49/51 (96%) reviewed:
 - ✅ Mainstage Entry (300-305) - 6 nodes PASS
 - ✅ Center Stage (306-309) - 4 nodes PASS
 - ✅ Orchestra Pit (310-313) - 4 nodes PASS
-- ⬜ Fly System (314-317) - 4 nodes pending
-- ⬜ Audience (318-321) - 4 nodes pending
-- ⬜ Editor Confrontation (322-335) - 14 nodes pending
-- ⬜ Ending: Revised Draft (341-344) - 4 nodes pending
-- ⬜ Ending: Open Book (345-348) - 4 nodes pending
-- ⬜ Ending: Closed Canon (349-351) - 3 nodes pending
-- ⬜ Ending: Blank Page (352-353) - 2 nodes pending
+- ✅ Fly System (314-317) - 4 nodes PASS
+- ✅ Audience (318-321) - 4 nodes PASS
+- ✅ Editor Confrontation (322-335) - 14 nodes PASS
+- ✅ Ending: Revised Draft (341-344) - 4 nodes PASS
+- ✅ Ending: Open Book (345-348) - 4 nodes PASS
+- ✅ Ending: Closed Canon (349-351) - 3 nodes PASS
+- ✅ Ending: Blank Page (352-353) - 2 nodes PASS
 - ⬜ Ending: Eternal Rehearsal (354-355) - 2 nodes pending
 
 ---
@@ -713,8 +903,8 @@ Act 3 is now 14/51 (27%) reviewed:
 Combined progress:
 - **Act 1:** 38/38 (100% COMPLETE)
 - **Act 2:** 65/65 (100% COMPLETE)
-- **Act 3:** 14/51 (27%)
-- **Total:** 117/154 nodes (76%)
+- **Act 3:** 49/51 (96%)
+- **Total:** 152/154 nodes (99%)
 
 ---
 
