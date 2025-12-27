@@ -67,10 +67,10 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 
 ## Current Status
 
-**Phase**: Prototype (v0.1.x)
-- All prerequisite documents complete and merged
-- Ready for Act 1 node authoring
-- No content nodes yet
+**Phase**: Prototype (v0.1.x) — **Complete**
+- Act 1 fully playable (38 nodes across all paths, exceeds 25 minimum)
+- All mechanical specifications validated
+- Playtest report documented
 
 ### Merged Documents
 - VISION.md + OUTLINE.md (agent-b, PR #5)
@@ -78,11 +78,12 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 - STYLE.md (agent-d, PR #9)
 - README.md + CHANGELOG.md (agent-a, PR #8)
 - MILESTONES.md (agent-a, PR #12)
-- ACT1_MECHANICS.md (agent-c, PR #13) - mechanical specification for Act 1
+- ACT1_MECHANICS.md (agent-c, PR #13) - Act 1 mechanical specification
 - CHARACTERS.md (agent-b, PR #15) - NPC profiles and voice notes
+- ACT2_MECHANICS.md - Act 2 mechanical specification (faction alignment, genre representatives)
 
 ### Next Phase
-Agents can now begin Act 1 node authoring (25-35 nodes). See MILESTONES.md for coordination.
+v0.5.x Content Complete — Act 2 authoring in progress. See MILESTONES.md for coordination.
 
 ---
 
