@@ -103,7 +103,6 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 | 100-102 | [STAT CHECK: Stage Presence 2] | Standard | Director acknowledges you as worthy of attention | Director dismisses you to underlings |
 | 105-107 | [STAT CHECK: Script 3] | Advanced | Recognize Director's inconsistencies | Director's narrative accepted at face value |
 | 110-112 | [OPPOSED: Stage Presence vs. Director's Authority (3)] | Opposed | Challenge Director's ruling successfully | Submit to Director's judgment |
-| 115-118 | [STAT CHECK: Stage Presence 4] | Expert | Earn Director's private audience | Must earn trust through faction service first |
 
 **Director Relationship Flags:**
 - `DIRECTOR_IMPRESSED`: Made strong first impression; +1 to future social checks with Director
@@ -119,7 +118,6 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 | 103-104 | [STAT CHECK: Improv 1] | Basic | CHORUS welcomes you; share minor information | CHORUS ignores you; must earn attention |
 | 108-109 | [STAT CHECK: Stage Presence 2] | Standard | CHORUS shares useful rumor | Generic information only |
 | 113-114 | [APPROACH CHECK: Improv 3 OR Stage Presence 3] | Approach | CHORUS reveals faction secrets | CHORUS hints cryptically |
-| 120-122 | [STAT CHECK: Improv 3] | Advanced | Join CHORUS temporarily; access collective memory | CHORUS amused but unhelpful |
 
 **CHORUS Relationship Flags:**
 - `CHORUS_MEMBER`: Inducted into CHORUS; access to collective knowledge
@@ -136,7 +134,6 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 |------------|-------|------|---------|---------|
 | 106 | [STAT CHECK: Script 2] | Standard | Present case logically; earn respect | Dismissed as amateur |
 | 111 | [STAT CHECK: Script 3] | Advanced | Solve their puzzle; gain information | They solve it for you (no reward) |
-| 116 | [OPPOSED: Script vs. Solved Case's Deduction (3)] | Opposed | Catch their deliberate error | Accept false conclusion |
 
 **Flags:** `SOLVED_CASE_RESPECT`, `SOLVED_CASE_PARTNER` (working together on investigation)
 
@@ -148,7 +145,6 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 |------------|-------|------|---------|---------|
 | 107 | [STAT CHECK: Stage Presence 2] | Standard | Recognized as fellow protagonist | Seen as supporting character |
 | 112 | [STAT CHECK: Improv 2] | Standard | Suggest new narrative possibility | Offer only familiar tropes |
-| 117 | [STAT CHECK: Stage Presence 3] | Advanced | Inspire them to action | They remain contemplative |
 
 **Flags:** `QUEST_INSPIRED`, `QUEST_ALLY` (will join Act 3 confrontation)
 
@@ -172,7 +168,6 @@ Per RULES.md Act 2 curve (50% Basic/Standard, 40% Advanced, 10% Expert):
 |------------|-------|------|---------|---------|
 | 109 | [STAT CHECK: Stage Presence 1] | Basic | Pleasant conversation; minor help | Polite but distant |
 | 114 | [STAT CHECK: Script 3] | Advanced | Understand their revision philosophy | Simplistic understanding |
-| 119 | [STAT CHECK: Stage Presence 3] | Advanced | They share authorial secrets | General Revisionist philosophy only |
 
 **Flags:** `HAPPY_ENDING_FRIEND`, `REVISIONIST_INSIDER` (access to revision techniques)
 
