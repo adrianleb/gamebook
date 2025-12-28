@@ -136,7 +136,7 @@ STYLE.md ──────┴────────────────�
 
 **Goal:** Publication-ready gamebook with comprehensive editorial polish.
 
-**Status:** ✅ **EDITORIAL PASS 100% COMPLETE** — All 154 nodes reviewed by agent-d per EDITORIAL_CHECKLIST.md criteria. Awaiting human approval to merge 26 open PRs blocked by branch protection.
+**Status:** ✅ **PUBLICATION-READY** — All 154 nodes reviewed by agent-d per EDITORIAL_CHECKLIST.md criteria. All editorial PRs merged. Gamebook is complete.
 
 **Release Gate Criteria:**
 - [x] All 154 nodes pass editorial review (EDITORIAL_CHECKLIST.md criteria) ✅ **COMPLETE**
@@ -227,41 +227,12 @@ RULES.md Item Catalog ────┘                                 │
 
 | Agent | Current Focus | Status | Next Step |
 |-------|---------------|--------|-----------|
-| agent-a | Integration, tracking | **Complete** | v1.0.x editorial complete; awaiting PR merges |
-| agent-b | Narrative polish | Active | Critic dialogue enhancement (PR #265) |
-| agent-c | Mechanics clarification | Active | ACT2_MECHANICS.md NPC tables fix (PR #296) |
-| agent-d | Editorial pass | **Complete** | All 154 nodes reviewed; v1.0.x editorial 100% |
+| agent-a | Integration, tracking | **Complete** | v1.0.x milestone complete; gamebook publication-ready |
+| agent-b | Narrative polish | **Complete** | All narrative content merged |
+| agent-c | Mechanics clarification | **Complete** | All mechanics documentation merged |
+| agent-d | Editorial pass | **Complete** | All 154 nodes reviewed and merged |
 
-**26 PRs pending merge** (blocked by branch protection requiring human approval):
-- PR #263: Act 1 Tutorial editorial review (5 nodes PASS)
-- PR #265: Critic dialogue enhancement (nodes 215-219)
-- PR #276: Act 1 Researcher Path editorial review (9 nodes PASS)
-- PR #287: Act 1 First Crossing editorial review (6 nodes PASS)
-- PR #291: Act 2 Green Room Entry editorial review (6 nodes PASS)
-- PR #293: Act 2 Genre Representatives editorial review (9 nodes PASS)
-- PR #296: ACT2_MECHANICS.md NPC tables fix (agent-c)
-- PR #297: Act 2 Faction Quests editorial review (15 nodes PASS)
-- PR #299: Act 2 Archives Transition editorial review (4 nodes PASS)
-- PR #307: Act 2 Critic Resolution editorial review (5 nodes PASS)
-- PR #310: MILESTONES.md update (superseded by this PR)
-- PR #311: Act 2 Revelation editorial review (11 nodes PASS)
-- PR #314: MILESTONES.md update (superseded by this PR)
-- PR #315: Act 3 Mainstage Entry editorial review (6 nodes PASS)
-- PR #318: Act 3 Center Stage editorial review (4 nodes PASS)
-- PR #319: MILESTONES.md update (superseded by this PR)
-- PR #323: Act 3 Fly System editorial review (4 nodes PASS)
-- PR #324: MILESTONES.md update (superseded by this PR)
-- PR #326: Act 3 Audience editorial review (4 nodes PASS)
-- PR #328: Act 3 Editor Confrontation editorial review (14 nodes PASS)
-- PR #331: MILESTONES.md update (superseded by this PR)
-- PR #332: Act 3 Ending Revised Draft editorial review (4 nodes PASS)
-- PR #334: Act 3 Ending Open Book editorial review (4 nodes PASS)
-- PR #336: Act 3 Ending Closed Canon editorial review (3 nodes PASS)
-- PR #338: Act 3 Ending Blank Page editorial review (2 nodes PASS)
-- PR #340: Act 3 Ending Eternal Rehearsal editorial review (2 nodes PASS) — **v1.0.x COMPLETE**
-
-**Superseded MILESTONES PRs** (can be closed after this PR merges):
-- PR #310, #314, #319, #324, #331 — Contained outdated progress; this PR is definitive
+**All v1.0.x PRs merged.** The gamebook is publication-ready with 0 open PRs and 0 open issues.
 
 ---
 
@@ -291,7 +262,7 @@ RULES.md Item Catalog ────┘                                 │
 
 ### Blockers & Open Questions
 
-**Branch protection blocking merges**: GitHub branch protection requires reviews that agents cannot provide (shared account). **26 PRs are ready for merge** but awaiting human approval or branch protection rule update. The v1.0.x editorial pass is 100% complete—once these PRs are merged, the gamebook will be publication-ready.
+**No blockers.** All v1.0.x work is complete. The gamebook is publication-ready at 154 nodes.
 
 ---
 

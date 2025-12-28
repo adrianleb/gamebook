@@ -24,9 +24,16 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 │   ├── MILESTONES.md       # Release tracking and coordination
 │   ├── CHARACTERS.md       # NPC profiles and voice notes
 │   ├── ACT1_MECHANICS.md   # Act 1 mechanical specification
-│   └── ACT2_MECHANICS.md   # Act 2 mechanical specification
+│   ├── ACT2_MECHANICS.md   # Act 2 mechanical specification
+│   ├── ACT3_MECHANICS.md   # Act 3 mechanical specification
+│   ├── ACT2_OUTLINE.md     # Act 2 node-by-node outline
+│   ├── ACT3_OUTLINE.md     # Act 3 node-by-node outline
+│   ├── EDITORIAL_CHECKLIST.md  # Per-node review criteria
+│   └── NARRATIVE_AUDIT.md  # Thematic consistency audit
 ├── content/            # Story content nodes
-│   └── act1/           # Act 1 nodes (001-045)
+│   ├── act1/           # Act 1 nodes (001-045)
+│   ├── act2/           # Act 2 nodes (100-230)
+│   └── act3/           # Act 3 nodes (300-355)
 ├── README.md           # Project overview
 └── CHANGELOG.md        # Version history
 ```
@@ -36,8 +43,8 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 ### Story Architecture
 - **3 Acts**: The Breach → The Descent → The Final Act
 - **4 Hubs**: Entrance theater, Crossroads, Backstage Maze, The Stage Eternal
-- **5 Endings**: Different philosophical resolutions
-- **105-145 Nodes**: Total estimated content nodes
+- **5 Endings**: Different philosophical resolutions (Revised Draft, Open Book, Closed Canon, Blank Page, Eternal Rehearsal)
+- **154 Nodes**: Total content nodes (Act 1: 38, Act 2: 65, Act 3: 51)
 
 ### Core Mechanics
 - **Stats**: Script, Stage Presence, Improv (6 starting points, max 9)
@@ -70,31 +77,34 @@ A gamebook where the reader plays as a "Prompter" — someone who can traverse t
 
 ## Current Status
 
-**Phase**: Prototype (v0.1.x) — **COMPLETE**
-- All prerequisite documents complete and merged
-- Act 1 fully playable with 38 nodes (exceeds 25-35 target)
-- Playtest validated, mechanical consistency verified
+**Phase**: Polished Release (v1.0.x) — **PUBLICATION-READY**
+- All 154 nodes complete (Act 1: 38, Act 2: 65, Act 3: 51)
+- All 5 endings implemented
+- Editorial pass 100% complete per EDITORIAL_CHECKLIST.md
+- Gamebook is publication-ready
 
-### Act 1 Content (38 nodes)
-- Tutorial nodes 001-005 (PR #27)
-- Pursuers path nodes 010-018 (PR #36)
-- Researcher path nodes 020-028 (PR #39)
-- Negotiator path nodes 030-038 (PR #47)
-- First Crossing nodes 040-045 (PR #53)
+### Content Summary
+- **Act 1** (38 nodes): Tutorial, Pursuers, Researcher, Negotiator, First Crossing
+- **Act 2** (65 nodes): Green Room, Genre Representatives, Faction Quests, Archives, Investigation, Critic Resolution, Revelation
+- **Act 3** (51 nodes): Mainstage Entry, Center Stage, Orchestra Pit, Fly System, Audience, Editor Confrontation, 5 Endings
 
-### Merged Documents
-- VISION.md + OUTLINE.md (agent-b, PR #5)
-- RULES.md (agent-c, PR #6)
-- STYLE.md (agent-d, PR #9)
-- README.md + CHANGELOG.md (agent-a, PR #8)
-- MILESTONES.md (agent-a, PR #12)
-- ACT1_MECHANICS.md (agent-c, PR #13) - mechanical specification for Act 1
-- CHARACTERS.md (agent-b, PR #15) - NPC profiles and voice notes
-- ACT2_MECHANICS.md (agent-c, PR #58) - mechanical specification for Act 2
+### Core Documents
+- VISION.md + OUTLINE.md — Creative direction and story structure
+- RULES.md — Game mechanics and systems (32-item catalog)
+- STYLE.md — Writing conventions
+- CHARACTERS.md — NPC profiles and voice notes
+- ACT1_MECHANICS.md, ACT2_MECHANICS.md, ACT3_MECHANICS.md — Mechanical specifications
+- ACT2_OUTLINE.md, ACT3_OUTLINE.md — Node-by-node outlines
+- EDITORIAL_CHECKLIST.md — Per-node review criteria
+- NARRATIVE_AUDIT.md — Thematic consistency audit
+- MILESTONES.md — Release tracking and coordination
 
-### Next Phase
-v0.5.x Content Complete — All three acts written with full playthrough possible. See MILESTONES.md for coordination.
+### Milestone History
+- v0.0.x Foundation — Canonical documents established
+- v0.1.x Prototype — Act 1 playable, mechanics validated
+- v0.5.x Content Complete — All acts written, full playthrough possible
+- v1.0.x Polished Release — Editorial complete, publication-ready ✓
 
 ---
 
-*Last updated: 2025-12-27*
+*Last updated: 2025-12-28*
